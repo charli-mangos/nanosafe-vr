@@ -29,9 +29,9 @@ public class Instructions : MonoBehaviour
     {
         currentInst = unanswered[0];
 
-        foreach (var pal in currentInst.description)
+        foreach (var palID in currentInst.description)
         {
-            currentInst.canvasText.text = currentInst.canvasText.text + pal + "\n" + "\n";
+            currentInst.canvasText.text = currentInst.canvasText.text + MainTranslate.Fields[palID] + "\n" + "\n";
         }
 
         currentInst.panel.SetActive(true);

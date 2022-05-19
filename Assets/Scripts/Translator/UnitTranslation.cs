@@ -9,6 +9,8 @@ public class UnitTranslation : MonoBehaviour
 
     public string extraText;
 
+    public bool nextLine = false;
+
     // Use this for initialization
     void Start()
     {
@@ -24,9 +26,13 @@ public class UnitTranslation : MonoBehaviour
                 text.text = MainTranslate.Fields[TextId];
             } 
 
-            if (extraText != null)
+            if (extraText != null && nextLine == false)
             {
                 text.text = text.text + " " + extraText;
+            }
+            else if(extraText != null && nextLine == true)
+            {
+                text.text = text.text + "\n" + "\n" + extraText;
             }
         }
     }

@@ -55,16 +55,16 @@ public class QuizController : MonoBehaviour
         currentQuest = unanswered[0];
 
         //Update text
-        factText.text = currentQuest.fact;
+        factText.text = MainTranslate.Fields[currentQuest.fact];
 
         //If there is extra data update it
         if (extraText)
         {
             extraText.text = "";
 
-            foreach (string data in currentQuest.extraData)
+            foreach (string dataID in currentQuest.extraData)
             {
-                extraText.text += "- " + data + Environment.NewLine;
+                extraText.text += "- " + MainTranslate.Fields[dataID] + Environment.NewLine;
             }
         }
 
@@ -88,7 +88,7 @@ public class QuizController : MonoBehaviour
             //Change option button content
             if (optionBtns[i].transform.Find("Text"))
             {
-                optionBtns[i].transform.Find("Text").GetComponent<Text>().text = but.fact;
+                optionBtns[i].transform.Find("Text").GetComponent<Text>().text = MainTranslate.Fields[but.fact];
             }
 
             //If there are images change the values
@@ -105,7 +105,10 @@ public class QuizController : MonoBehaviour
             //Change response text
             if (responsesText.Length > 0)
             {
-                responsesText[i].text = but.response;
+                if (MainTranslate.Fields[but.response] != null)
+                {
+                    responsesText[i].text = MainTranslate.Fields[but.response];
+                }
                 responsesText[i].gameObject.name = but.name;
             }
 

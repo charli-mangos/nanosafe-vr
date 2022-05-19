@@ -153,7 +153,7 @@ RectTransform:
   - {fileID: 1111689151}
   - {fileID: 1122469498}
   m_Father: {fileID: 1312989328}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1954,6 +1954,7 @@ GameObject:
   - component: {fileID: 174892392}
   - component: {fileID: 174892394}
   - component: {fileID: 174892393}
+  - component: {fileID: 174892395}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2021,6 +2022,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174892391}
   m_CullTransparentMesh: 0
+--- !u!114 &174892395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174892391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e2bbd15888a6040b1c5b04ea356fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextId: continue
+  extraText: 
+  nextLine: 0
 --- !u!1 &199618081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2721,22 +2737,22 @@ MonoBehaviour:
   inst:
   - panel: {fileID: 731262665}
     description:
-    - 'MISSION 1:'
-    - 'Select the security equipment for the task.  '
+    - sit9_mis1_1
+    - sit9_mis1_2
     canvasText: {fileID: 87067193}
     isCompleted: 0
     isTemporary: 0
   - panel: {fileID: 1699836342}
     description:
-    - 'To select an object:'
-    - Touch it with your hand.
-    - Pull the trigger of your middle finger.
+    - sit9_mis1_3
+    - sit9_mis1_4
+    - sit9_mis1_5
     canvasText: {fileID: 1977468851}
     isCompleted: 0
     isTemporary: 0
   - panel: {fileID: 1865474578}
     description:
-    - 'Select the objects and check if your selection is correct:'
+    - sit9_mis1_6
     canvasText: {fileID: 934432728}
     isCompleted: 0
     isTemporary: 0
@@ -4875,6 +4891,7 @@ GameObject:
   - component: {fileID: 595827881}
   - component: {fileID: 595827883}
   - component: {fileID: 595827882}
+  - component: {fileID: 595827884}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -4942,6 +4959,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595827880}
   m_CullTransparentMesh: 0
+--- !u!114 &595827884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595827880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e2bbd15888a6040b1c5b04ea356fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextId: continue
+  extraText: 
+  nextLine: 0
 --- !u!1 &599042620
 GameObject:
   m_ObjectHideFlags: 0
@@ -5087,24 +5119,21 @@ MonoBehaviour:
   inst:
   - panel: {fileID: 420511237}
     description:
-    - 'The  direct  sunlight  may  overheat  the  cans  and  they  could  become 
-      missiles  with  the possibility to harm you. '
-    - 'You must put them in the safety cage and carry it in the warehouse. '
+    - sit9_mis4_3
+    - sit9_mis4_4
     canvasText: {fileID: 2060582446}
     isCompleted: 0
     isTemporary: 0
   - panel: {fileID: 1937690558}
     description:
-    - Then trained personell waearing appropriate  personal  protective  equipemnt 
-      will  perfom  puncturing  in  a  designated  area  for  this  activity  and 
-      any  remaining content will be removed and then can be recycled.
+    - sit9_mis4_5
     canvasText: {fileID: 64998067}
     isCompleted: 0
     isTemporary: 0
   - panel: {fileID: 2070638930}
     description:
-    - Congratulation!
-    - 'You have completed the SITUATION 9. '
+    - congrats
+    - sit9_mis4_6
     canvasText: {fileID: 1325945164}
     isCompleted: 0
     isTemporary: 0
@@ -5521,21 +5550,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questions:
   - title: Dialogue_1
-    fact: Your action is not in accordance with good working paractices!
+    fact: sit9_mis4_quiz_fact
     extraData: []
     options:
     - name: Option_1
-      fact: No, it is ok, I can leave now.  I have finished with the application
-        of the product!
+      fact: sit9_mis4_quiz_option1
       image: {fileID: 0}
       highLightImage: {fileID: 0}
-      response: No, you are wrong!
+      response: sit9_mis4_quiz_res
       isCorrect: 0
     - name: Option_2
-      fact: 'Why, what I have done wrong? '
+      fact: sit9_mis4_quiz_option2
       image: {fileID: 0}
       highLightImage: {fileID: 0}
-      response: Yes, you are right
+      response: correct
       isCorrect: 1
   factText: {fileID: 1899284537}
   extraText: {fileID: 0}
@@ -5996,9 +6024,9 @@ MonoBehaviour:
   inst:
   - panel: {fileID: 671357769}
     description:
-    - 'MISSION 2:'
-    - Check the pool before applying the product.
-    - Take a look.
+    - sit9_mis2_1
+    - sit9_mis2_2
+    - sit9_mis2_3
     canvasText: {fileID: 2126988148}
     isCompleted: 0
     isTemporary: 0
@@ -6168,6 +6196,7 @@ GameObject:
   - component: {fileID: 735934882}
   - component: {fileID: 735934884}
   - component: {fileID: 735934883}
+  - component: {fileID: 735934885}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -6235,6 +6264,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735934881}
   m_CullTransparentMesh: 0
+--- !u!114 &735934885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735934881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e2bbd15888a6040b1c5b04ea356fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextId: restart
+  extraText: 
+  nextLine: 0
 --- !u!1 &739285260
 GameObject:
   m_ObjectHideFlags: 0
@@ -6398,6 +6442,7 @@ GameObject:
   - component: {fileID: 777464191}
   - component: {fileID: 777464190}
   - component: {fileID: 777464192}
+  - component: {fileID: 777464193}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -6447,6 +6492,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d62e6f3692ba1024bad4487b0126e719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &777464193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777464189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f28795b6e20cecf41984470f037aa8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &789922366
@@ -7136,6 +7193,7 @@ GameObject:
   - component: {fileID: 896094930}
   - component: {fileID: 896094932}
   - component: {fileID: 896094931}
+  - component: {fileID: 896094933}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -7194,10 +7252,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Congratulations!
-
-
-    You have successfully completed the mission.'
+  m_Text: 
 --- !u!222 &896094932
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7206,6 +7261,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896094929}
   m_CullTransparentMesh: 0
+--- !u!114 &896094933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896094929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e2bbd15888a6040b1c5b04ea356fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextId: congrats
+  extraText: You have failed the mission.
+  nextLine: 1
 --- !u!1 &911901038
 GameObject:
   m_ObjectHideFlags: 0
@@ -7757,8 +7827,8 @@ MonoBehaviour:
   inst:
   - panel: {fileID: 221121890}
     description:
-    - 'MISSION 3:'
-    - 'You must apply the product to enhance the anti-slip properties of the surface. '
+    - sit9_mis3_1
+    - sit9_mis3_2
     canvasText: {fileID: 1401117707}
     isCompleted: 0
     isTemporary: 0
@@ -8417,6 +8487,7 @@ GameObject:
   - component: {fileID: 1094925926}
   - component: {fileID: 1094925928}
   - component: {fileID: 1094925927}
+  - component: {fileID: 1094925929}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -8475,7 +8546,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: 
 --- !u!222 &1094925928
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8484,6 +8555,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094925925}
   m_CullTransparentMesh: 0
+--- !u!114 &1094925929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094925925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e2bbd15888a6040b1c5b04ea356fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextId: continue
+  extraText: 
+  nextLine: 0
 --- !u!1 &1097978498
 GameObject:
   m_ObjectHideFlags: 0
@@ -9265,21 +9351,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questions:
   - title: Dirt
-    fact: 'Can the anti-slip aerosol product  be applied with the dirt present on
-      the stone? '
+    fact: sit9_mis2_quiz_fact
     extraData: []
     options:
     - name: Yes
-      fact: Yes
+      fact: quiz_yes
       image: {fileID: 0}
       highLightImage: {fileID: 0}
-      response: Take a better look!
+      response: sit9_mis2_quiz_res
       isCorrect: 0
     - name: No
-      fact: No
+      fact: quiz_no
       image: {fileID: 0}
       highLightImage: {fileID: 0}
-      response: You are right!
+      response: correct
       isCorrect: 1
   factText: {fileID: 1961525407}
   extraText: {fileID: 0}
@@ -9897,7 +9982,7 @@ RectTransform:
   - {fileID: 747046485}
   - {fileID: 2015170703}
   m_Father: {fileID: 1312989328}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -10342,6 +10427,7 @@ GameObject:
   - component: {fileID: 1270006711}
   - component: {fileID: 1270006713}
   - component: {fileID: 1270006712}
+  - component: {fileID: 1270006714}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -10400,7 +10486,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You have failed the mission.
+  m_Text: 
 --- !u!222 &1270006713
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10409,6 +10495,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270006710}
   m_CullTransparentMesh: 0
+--- !u!114 &1270006714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270006710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e2bbd15888a6040b1c5b04ea356fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextId: fail
+  extraText: 
+  nextLine: 0
 --- !u!1 &1274448438 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 46d1aa64d4bfbac4aa1d66baae9d36ac,
@@ -10624,6 +10725,7 @@ GameObject:
   - component: {fileID: 1302135782}
   - component: {fileID: 1302135784}
   - component: {fileID: 1302135783}
+  - component: {fileID: 1302135785}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -10682,7 +10784,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: 
 --- !u!222 &1302135784
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10691,6 +10793,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302135781}
   m_CullTransparentMesh: 0
+--- !u!114 &1302135785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302135781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e2bbd15888a6040b1c5b04ea356fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextId: continue
+  extraText: 
+  nextLine: 0
 --- !u!1 &1304954011
 GameObject:
   m_ObjectHideFlags: 0
@@ -10890,8 +11007,8 @@ RectTransform:
   m_LocalScale: {x: 0.002000002, y: 0.002, z: 0.001000001}
   m_Children:
   - {fileID: 1251528034}
-  - {fileID: 1236398122}
   - {fileID: 8688191}
+  - {fileID: 1236398122}
   m_Father: {fileID: 1856024177}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10915,23 +11032,23 @@ MonoBehaviour:
   inst:
   - panel: {fileID: 1251528033}
     description:
-    - Welcome to SITUATION 9.
-    - In this scene you will have to fix the pool using spray.
-    - Try to perform the steps safely.
+    - sit9_intro1_1
+    - sit9_intro1_2
+    - sit9_intro1_3
     canvasText: {fileID: 1222805108}
     isCompleted: 0
     isTemporary: 0
   - panel: {fileID: 1236398121}
     description:
-    - You have to complete some missions.
-    - 'To find them look for the following sign:'
+    - sit9_intro2_1
+    - sit9_intro2_2
     canvasText: {fileID: 936872581}
     isCompleted: 0
     isTemporary: 0
   - panel: {fileID: 8688190}
     description:
-    - 'To move around the stage use the teleport tool.  '
-    - This is activated using the main button (A or X).
+    - sit9_intro3_1
+    - sit9_intro3_2
     canvasText: {fileID: 1111689152}
     isCompleted: 0
     isTemporary: 0
@@ -11424,6 +11541,7 @@ GameObject:
   - component: {fileID: 1436495924}
   - component: {fileID: 1436495926}
   - component: {fileID: 1436495925}
+  - component: {fileID: 1436495927}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -11482,7 +11600,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start
+  m_Text: 
 --- !u!222 &1436495926
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11491,6 +11609,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436495923}
   m_CullTransparentMesh: 0
+--- !u!114 &1436495927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436495923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e2bbd15888a6040b1c5b04ea356fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextId: start
+  extraText: 
+  nextLine: 0
 --- !u!1 &1437310481
 GameObject:
   m_ObjectHideFlags: 0
@@ -11988,21 +12121,21 @@ MonoBehaviour:
   inst:
   - panel: {fileID: 2115830178}
     description:
-    - Correct!
-    - The pool must be cleaned.
-    - 'Trigger the button to do it. '
+    - correct
+    - sit9_mis2_4
+    - sit9_mis2_5
     canvasText: {fileID: 1045445489}
     isCompleted: 0
     isTemporary: 0
   - panel: {fileID: 1304954011}
     description:
-    - Cleaning...
+    - sit9_mis2_6
     canvasText: {fileID: 171851616}
     isCompleted: 0
     isTemporary: 1
   - panel: {fileID: 48436240}
     description:
-    - The pool is clean and ready.
+    - sit9_mis2_7
     canvasText: {fileID: 926552367}
     isCompleted: 0
     isTemporary: 0
@@ -12450,7 +12583,7 @@ MonoBehaviour:
   - objSelectable: {fileID: 691911536}
     isNeeded: 0
   instrText: {fileID: 934432728}
-  checkPhrase: Checking your security equipment...
+  checkID: sit9_mis1_check
   checkPanel: {fileID: 1865474578}
   congratsPanel: {fileID: 1623406873}
   failPanel: {fileID: 1701026463}
@@ -12577,6 +12710,7 @@ GameObject:
   - component: {fileID: 1638551172}
   - component: {fileID: 1638551174}
   - component: {fileID: 1638551173}
+  - component: {fileID: 1638551175}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -12644,6 +12778,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638551171}
   m_CullTransparentMesh: 0
+--- !u!114 &1638551175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638551171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e2bbd15888a6040b1c5b04ea356fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextId: check
+  extraText: 
+  nextLine: 0
 --- !u!1 &1659420033
 GameObject:
   m_ObjectHideFlags: 0
@@ -13618,22 +13767,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questions:
-  - title: Dirt
-    fact: The application of the product must...
+  - title: Direction
+    fact: sit9_mis3_quiz_fact
     extraData: []
     options:
     - name: Option_1
-      fact: ...start from the perifery of the edge of the pool deck and then the
-        application should continie bakwards.
+      fact: sit9_mis3_quiz_option1
       image: {fileID: 0}
       highLightImage: {fileID: 0}
-      response: You are right
+      response: correct
       isCorrect: 1
     - name: Option_2
-      fact: ...must be done in a random way.
+      fact: sit9_mis3_quiz_option2
       image: {fileID: 0}
       highLightImage: {fileID: 0}
-      response: Are you sure?
+      response: sit9_mis3_quiz_res
       isCorrect: 0
   factText: {fileID: 1262187119}
   extraText: {fileID: 0}
@@ -15331,6 +15479,7 @@ GameObject:
   - component: {fileID: 1977179762}
   - component: {fileID: 1977179764}
   - component: {fileID: 1977179763}
+  - component: {fileID: 1977179765}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -15398,6 +15547,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977179761}
   m_CullTransparentMesh: 0
+--- !u!114 &1977179765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977179761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e2bbd15888a6040b1c5b04ea356fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextId: next
+  extraText: 
+  nextLine: 0
 --- !u!1 &1977468850
 GameObject:
   m_ObjectHideFlags: 0
@@ -16479,9 +16643,8 @@ MonoBehaviour:
   inst:
   - panel: {fileID: 462539795}
     description:
-    - Correct!
-    - Mission completed!
-    - 
+    - correct
+    - sit9_mis3_3
     canvasText: {fileID: 1190277795}
     isCompleted: 0
     isTemporary: 0
@@ -16968,8 +17131,8 @@ MonoBehaviour:
   inst:
   - panel: {fileID: 599042620}
     description:
-    - 'MISSION 4:'
-    - The product has already been applied.
+    - sit9_mis4_1
+    - sit9_mis4_2
     canvasText: {fileID: 483772439}
     isCompleted: 0
     isTemporary: 0

@@ -1,1 +1,5 @@
 sit=Lage
+
+sit9_intro1_1=Welcome to SITUATION 9.
+sit9_intro1_2=In this scene you will have to fix the pool using spray.
+sit9_intro1_3=Try to perform the steps safely.
