@@ -1,16 +1,22 @@
 //GENERAL
 sit=Situation
+
+//Buttons
 continue=Continue
 next=Next Mission
 clean=Clean
 check=Check
 start=Start
 restart=Restart
+menu=Main Menu
 quiz_yes=Yes
 quiz_no=No
+
+//Phrases
 correct=Correct!
 congrats=Congratulations!
 fail=You have failed the mission.
+completed=Mission completed!
 
 //SITUATION 9
 //Intro
@@ -48,9 +54,8 @@ sit9_mis3_1=MISSION 3:
 sit9_mis3_2=You must apply the product to enhance the anti-slip properties of the surface. 
 sit9_mis3_quiz_fact=The application of the product must...
 sit9_mis3_quiz_option1=...start from the perifery of the edge of the pool deck and then the application should continie bakwards.
-sit9_mis3_quiz_option2=...must be done in a random way.
+sit9_mis3_quiz_option2=...be done in a random way.
 sit9_mis3_quiz_res=Are you sure?
-sit9_mis3_3=Mission completed!
 
 //Mission 4
 sit9_mis4_1=MISSION 4:
@@ -62,4 +67,4 @@ sit9_mis4_quiz_res=No, you are wrong!
 sit9_mis4_3=The direct sunlight may overheat the cans and they could become missiles with the possibility to harm you. 
 sit9_mis4_4=You must put them in the safety cage and carry it in the warehouse. 
 sit9_mis4_5=Then trained personell waearing appropriate personal  protective equipemnt will perfom puncturing in a designated area for this activity and any remaining content will be removed and then can be recycled.
-sit9_mis4_6=You have completed the SITUATION 9. 
+sit9_mis4_6=You have completed the SITUATION 9!

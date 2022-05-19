@@ -1,65 +1,70 @@
 //GENERAL
-sit=Situation
-continue=Continue
-next=Next Mission
-clean=Clean
-check=Check
-start=Start
-restart=Restart
-quiz_yes=Yes
+sit=Situación
+
+//Buttons
+continue=Continuar
+next=Siguiente Misión
+clean=Limpiar
+check=Comprobar
+start=Empezar
+restart=Reiniciar
+menu=Menú Principal
+quiz_yes=Sí
 quiz_no=No
-correct=Correct!
-congrats=Congratulations!
-fail=You have failed the mission.
+
+//Phrases
+correct=¡Correcto!
+congrats=¡Felicidades!
+fail=Has fallado la misión. 
+completed=¡Misión completada!
 
 //SITUATION 9
 //Intro
-sit9_intro1_1=Welcome to SITUATION 9.
-sit9_intro1_2=In this scene you will have to fix the pool using spray.
-sit9_intro1_3=Try to perform the steps safely.
-sit9_intro2_1=You have to complete some missions.
-sit9_intro2_2=To find them look for the following sign:
-sit9_intro3_1=To move around the stage use the teleport tool. 
-sit9_intro3_2=This is activated using the main button (A or X).
+sit9_intro1_1=Bienvenido a la SITUACIÓN 9.
+sit9_intro1_2=En esta escena tendrás que arreglar la piscina usando un spray.
+sit9_intro1_3=Intenta realizar los pasos de manera segura.
+sit9_intro2_1=El objetivo es completar una serie de misiones.
+sit9_intro2_2=Para encontrarlas tendrás que buscar la señal:
+sit9_intro3_1=Para moverte por la escena puedes utilizar la herramienta de teletransporte. 
+sit9_intro3_2=Esta se activa mediante el botón principal (A o X).
 
 //Mission 1
-sit9_mis1_1=MISSION 1:
-sit9_mis1_2=Select the security equipment for the task.
-sit9_mis1_3=To select an object:
-sit9_mis1_4=Touch it with your hand.
-sit9_mis1_5=Pull the trigger of your middle finger.
-sit9_mis1_6=Select the objects and check if your selection is correct:
-sit9_mis1_check=Checking your security equipment...
+sit9_mis1_1=MISIÓN 1:
+sit9_mis1_2=Elige el equipo necesario para la siguiente misión.
+sit9_mis1_3=Para seleccionar un objeto:
+sit9_mis1_4=Tócalo con la mano.
+sit9_mis1_5=Pulsa el gatillo de tu dedo corazón.
+sit9_mis1_6=Selecciona los objetos que creas convenientes y comprueba que la selección es correcta mediante el siguiente botón:
+sit9_mis1_check=Comprobando su equipo de seguridad...
 
 //Mission 2
-sit9_mis2_1=MISSION 2:
-sit9_mis2_2=Check the pool before applying the product.
-sit9_mis2_quiz_fact=Can the anti-slip aerosol product  be applied with the dirt present on the stone?
-sit9_mis2_quiz_res=Take a better look!
-sit9_mis2_3=Take a look.
-sit9_mis2_4=The pool must be cleaned.
-sit9_mis2_5=Trigger the button to do it. 
-sit9_mis2_6=Cleaning...
-sit9_mis2_7=The pool is clean and ready.
+sit9_mis2_1=MISIÓN 2:
+sit9_mis2_2=Comprueba la piscina antes de aplicar el producto.
+sit9_mis2_quiz_fact=¿Se puede aplicar el producto antideslizante en aerosol con la suciedad presente en la piedra?
+sit9_mis2_quiz_res=¡Mira mejor!
+sit9_mis2_3=Echa un vistazo.
+sit9_mis2_4=La piscina tiene que ser limpiada previamente.
+sit9_mis2_5=Pulsa el botón para conseguirlo. 
+sit9_mis2_6=Limpiando...
+sit9_mis2_7=La piscina está limpia y preparada.
 
 
 //Mission 3
-sit9_mis3_1=MISSION 3:
-sit9_mis3_2=You must apply the product to enhance the anti-slip properties of the surface. 
-sit9_mis3_quiz_fact=The application of the product must...
-sit9_mis3_quiz_option1=...start from the perifery of the edge of the pool deck and then the application should continie bakwards.
-sit9_mis3_quiz_option2=...must be done in a random way.
-sit9_mis3_quiz_res=Are you sure?
-sit9_mis3_3=Mission completed!
+sit9_mis3_1=MISIÓN 3:
+sit9_mis3_2=Debe aplicar el producto para mejorar las propiedades antideslizantes de la superficie. 
+sit9_mis3_quiz_fact=La aplicación del producto debe...
+sit9_mis3_quiz_option1=...empezar desde la periferia del borde de la cubierta de la piscina y luego la aplicación debe continuar hacia arriba.
+sit9_mis3_quiz_option2=...hacerse de forma aleatoria.
+sit9_mis3_quiz_res=¿Estás seguro?
 
 //Mission 4
-sit9_mis4_1=MISSION 4:
-sit9_mis4_2=The product has already been applied.
-sit9_mis4_quiz_fact=Your action is not in accordance with good working paractices!
-sit9_mis4_quiz_option1=No, it is ok, I can leave now.  I have finished with the application of the product!
-sit9_mis4_quiz_option2=Why, what I have done wrong? 
-sit9_mis4_quiz_res=No, you are wrong!
-sit9_mis4_3=The direct sunlight may overheat the cans and they could become missiles with the possibility to harm you. 
-sit9_mis4_4=You must put them in the safety cage and carry it in the warehouse. 
-sit9_mis4_5=Then trained personell waearing appropriate personal  protective equipemnt will perfom puncturing in a designated area for this activity and any remaining content will be removed and then can be recycled.
-sit9_mis4_6=You have completed the SITUATION 9. 
+sit9_mis4_1=MISIÓN 4:
+sit9_mis4_2=El producto ha sido aplicado.
+sit9_mis4_quiz_fact=¡Su acción no se ajusta a las buenas prácticas de trabajo!
+sit9_mis4_quiz_option1=No, está bien, ya puedo irme. ¡He terminado con la aplicación del producto!
+sit9_mis4_quiz_option2=¿Por qué, qué he hecho mal? 
+sit9_mis4_quiz_res=No, te equivocas.
+sit9_mis4_3=La luz solar directa puede sobrecalentar las latas y éstas podrían convertirse en misiles con la posibilidad de hacerle daño. 
+sit9_mis4_4=Debe ponerlos en la jaula de seguridad y llevarla en el almacén. 
+sit9_mis4_5=A continuación, personal capacitado y con el equipo de protección personal adecuado realizará la punción en una zona designada para esta actividad y se retirará el contenido restante para que pueda ser reciclado.
+sit9_mis4_6=¡Has completado la SITUACIÓN 9!

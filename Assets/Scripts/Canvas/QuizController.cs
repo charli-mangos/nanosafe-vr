@@ -105,10 +105,7 @@ public class QuizController : MonoBehaviour
             //Change response text
             if (responsesText.Length > 0)
             {
-                if (MainTranslate.Fields[but.response] != null)
-                {
-                    responsesText[i].text = MainTranslate.Fields[but.response];
-                }
+                responsesText[i].text = MainTranslate.Fields[but.response];
                 responsesText[i].gameObject.name = but.name;
             }
 

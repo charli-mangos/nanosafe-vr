@@ -7,6 +7,8 @@ public class UnitTranslation : MonoBehaviour
 {
     public string TextId;
 
+    public string extraTextID;
+
     public string extraText;
 
     public bool nextLine = false;
@@ -24,15 +26,15 @@ public class UnitTranslation : MonoBehaviour
             else
             {
                 text.text = MainTranslate.Fields[TextId];
-            } 
+            }
 
             if (extraText != null && nextLine == false)
             {
                 text.text = text.text + " " + extraText;
             }
-            else if(extraText != null && nextLine == true)
+            else if(nextLine == true)
             {
-                text.text = text.text + "\n" + "\n" + extraText;
+                text.text = text.text + "\n" + "\n" + MainTranslate.Fields[extraTextID];
             }
         }
     }
