@@ -13,10 +13,23 @@ public class UnitTranslation : MonoBehaviour
 
     public bool nextLine = false;
 
+    private Text text;
+
     // Use this for initialization
     void Start()
     {
-        Text text = GetComponent<Text>();
+        text = GetComponent<Text>();
+        InitUnit();
+    }
+
+    public void ResetUnit()
+    {
+        text.text = "";
+        InitUnit();
+    }
+
+    public void InitUnit()
+    {
         if (text != null)
         {
             if (TextId == "ISOCode")
@@ -32,7 +45,7 @@ public class UnitTranslation : MonoBehaviour
             {
                 text.text = text.text + " " + extraText;
             }
-            else if(nextLine == true)
+            else if (nextLine == true)
             {
                 text.text = text.text + "\n" + "\n" + MainTranslate.Fields[extraTextID];
             }

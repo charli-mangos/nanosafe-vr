@@ -60,7 +60,7 @@ public class Instructions : MonoBehaviour
 
     IEnumerator DestroyInstruction()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(5f);
 
         finishInstruction();
     }

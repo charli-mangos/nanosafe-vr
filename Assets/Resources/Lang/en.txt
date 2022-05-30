@@ -1,5 +1,8 @@
 //GENERAL
 sit=Situation
+scene=Select one scenario:
+lang=Select a language:
+selected_lang=Selected language:
 
 //Buttons
 continue=Continue
@@ -66,5 +69,6 @@ sit9_mis4_quiz_option2=Why, what I have done wrong?
 sit9_mis4_quiz_res=No, you are wrong!
 sit9_mis4_3=The direct sunlight may overheat the cans and they could become missiles with the possibility to harm you. 
 sit9_mis4_4=You must put them in the safety cage and carry it in the warehouse. 
-sit9_mis4_5=Then trained personell waearing appropriate personal  protective equipemnt will perfom puncturing in a designated area for this activity and any remaining content will be removed and then can be recycled.
+sit9_mis4_5=Now, trained personell waearing appropriate personal protective equipemnt will perfom puncturing in a designated area for this activity and any remaining content will be removed and then can be recycled.
 sit9_mis4_6=You have completed the SITUATION 9!
+sit9_mis4_7=Grab with the trigger of your middle finger and release to place the cans in the basket.

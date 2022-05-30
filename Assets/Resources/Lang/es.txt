@@ -1,5 +1,8 @@
 //GENERAL
 sit=Situación
+scene=Selecciona un escenario:
+lang=Selecciona un idioma:
+selected_lang=Idioma seleccionado:
 
 //Buttons
 continue=Continuar
@@ -68,3 +71,4 @@ sit9_mis4_3=La luz solar directa puede sobrecalentar las latas y éstas podrían
 sit9_mis4_4=Debe ponerlos en la jaula de seguridad y llevarla en el almacén. 
 sit9_mis4_5=A continuación, personal capacitado y con el equipo de protección personal adecuado realizará la punción en una zona designada para esta actividad y se retirará el contenido restante para que pueda ser reciclado.
 sit9_mis4_6=¡Has completado la SITUACIÓN 9!
+sit9_mis4_7=Agarra con el gatillo de tu dedo corazón y suelta para dejar los productos en la cesta.
