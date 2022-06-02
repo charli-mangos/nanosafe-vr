@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MoveArea
   - Grab
+  - AnimationUnit
   layers:
   - Default
   - TransparentFX

@@ -8,6 +8,7 @@ selected_lang=Selected language:
 continue=Continue
 next=Next Mission
 clean=Clean
+move=Move
 check=Check
 start=Start
 restart=Restart
@@ -21,24 +22,64 @@ congrats=Congratulations!
 fail=You have failed the mission.
 completed=Mission completed!
 
+//Init Info
+intro1=Try to perform the steps safely.
+intro2=You have to complete some missions.
+intro3=To find them look for the following sign:
+intro4=To move around the stage use the teleport tool. 
+intro5=This is activated using the main button (A or X).
+
+//EPI Mission
+security1=MISSION 1:
+security2=Select the security equipment for the task.
+security3=To select an object:
+security4=Touch it with your hand.
+security5=Pull the trigger of your middle finger.
+security6=Select the objects and check if your selection is correct:
+security_check=Checking your security equipment...
+
+
+//SITUATION 4
+/Intro
+sit4_intro1=Welcome to SITUATION 4.
+sit4_intro2=Apply nanomaterial with a spray-gun on a stone surface.
+
+//Mission 2
+sit4_mis2_1=MISSION 2:
+sit4_mis2_2=Check the scene and weather conditions before applying the product.
+sit4_mis2_3=Take a look.
+sit4_mis2_quiz1_fact=What should you do next?
+sit4_mis2_quiz1_option1=Tell the attendant that he must remove the car to apply the product. 
+sit4_mis2_quiz1_option2=Apply the product. Nothing will happen if it falls on the car.
+sit4_mis2_quiz1_res=Take a better look!
+sit4_mis2_quiz2_fact=Why?
+sit4_mis2_quiz2_option1=The car is new and we don't want it to get dirty.  
+sit4_mis2_quiz2_option2=Small droplets of productcould adhere to the surface of the glass and not be removed later. 
+sit4_mis2_quiz2_option3=If the product comes into contact with the wheels of the car, they could explode due to the overpressure caused.
+sit4_mis2_quiz2_res=Think again!
+sit4_mis2_4=The car must be protected!
+sit4_mis2_5=Trigger the button to do it. 
+sit4_mis2_6=Moving the car...
+sit4_mis2_7=The car is moved.
+
+//Mission 3
+sit4_mis3_1=MISSION 3:
+sit4_mis3_2=You must apply the product. 
+sit4_mis3_3=Your partner has something to say to you. 
+sit4_mis3_quiz1_fact=Hey, did you see what glasses I bought last week?
+sit4_mis3_quiz1_option1=How cool are they!
+sit4_mis3_quiz1_option2=You shouldn't wear those. 
+sit4_mis3_quiz1_res=Really?
+sit4_mis3_quiz2_fact=Why? You should wear yours, then you won't be bothered by the sun. 
+sit4_mis3_quiz2_option1=Yes, you are right. I'll get them right away.
+sit4_mis3_quiz2_option2=We should wear the goggles, for our security. 
+sit4_mis3_quiz2_res=Nope, you are working!
+sit4_mis3_4=Nanoproducts can get into your eyes and damage them.
+
 //SITUATION 9
 //Intro
-sit9_intro1_1=Welcome to SITUATION 9.
-sit9_intro1_2=In this scene you will have to fix the pool using spray.
-sit9_intro1_3=Try to perform the steps safely.
-sit9_intro2_1=You have to complete some missions.
-sit9_intro2_2=To find them look for the following sign:
-sit9_intro3_1=To move around the stage use the teleport tool. 
-sit9_intro3_2=This is activated using the main button (A or X).
-
-//Mission 1
-sit9_mis1_1=MISSION 1:
-sit9_mis1_2=Select the security equipment for the task.
-sit9_mis1_3=To select an object:
-sit9_mis1_4=Touch it with your hand.
-sit9_mis1_5=Pull the trigger of your middle finger.
-sit9_mis1_6=Select the objects and check if your selection is correct:
-sit9_mis1_check=Checking your security equipment...
+sit9_intro1=Welcome to SITUATION 9.
+sit9_intro2=In this scene you will have to fix the pool using spray.
 
 //Mission 2
 sit9_mis2_1=MISSION 2:
@@ -50,7 +91,6 @@ sit9_mis2_4=The pool must be cleaned.
 sit9_mis2_5=Trigger the button to do it. 
 sit9_mis2_6=Cleaning...
 sit9_mis2_7=The pool is clean and ready.
-
 
 //Mission 3
 sit9_mis3_1=MISSION 3:

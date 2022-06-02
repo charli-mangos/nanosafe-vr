@@ -51,6 +51,7 @@ public class QuizController : MonoBehaviour
 
     void SetNextQuestion()
     {
+        
         //Update current quest with first option on unanswered list
         currentQuest = unanswered[0];
 
@@ -157,7 +158,7 @@ public class QuizController : MonoBehaviour
 
             if (unanswered.Count > 0)
             {
-                StartCoroutine(CorrectAnswer(button));
+                CorrectAnswer(button);
             }
             else
             {
@@ -189,14 +190,16 @@ public class QuizController : MonoBehaviour
         }*/
     }
 
-    IEnumerator CorrectAnswer(GameObject button)
+    void CorrectAnswer(GameObject button)
     {
-        yield return new WaitForSeconds(2f);
-
         EventSystem.current.SetSelectedGameObject(null);
 
         SetNextQuestion();
+
+        button.SetActive(true);
+        actualResponse.gameObject.SetActive(false);
     }
+
 
     void LastAnswer()
     {
