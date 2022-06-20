@@ -15,6 +15,7 @@ restart=Restart
 menu=Main Menu
 quiz_yes=Yes
 quiz_no=No
+eat=Eat
 
 //Phrases
 correct=Correct!
@@ -42,7 +43,7 @@ security_check=Checking your security equipment...
 //SITUATION 4
 /Intro
 sit4_intro1=Welcome to SITUATION 4.
-sit4_intro2=Apply nanomaterial with a spray-gun on a stone surface.
+sit4_intro2=Prepare the work area where the nanomaterials are to be applied to the stone surfaces with a spray gun.
 
 //Mission 2
 sit4_mis2_1=MISSION 2:
@@ -76,10 +77,29 @@ sit4_mis3_quiz2_option2=We should wear the goggles, for our security.
 sit4_mis3_quiz2_res=Nope, you are working!
 sit4_mis3_4=Nanoproducts can get into your eyes and damage them.
 
+//Mission 4
+sit4_mis4_1=MISSION 4:
+sit4_mis4_2=The product has already been applied.  
+sit4_mis4_3=It's time to eat something. 
+sit4_mis4_quiz1_fact=Cheers for a job well done! 
+sit4_mis4_quiz1_option1=Toast!
+sit4_mis4_quiz1_option2=You shouldn't eat with the gloves that have come into contact with the product. It's dangerous! 
+sit4_mis4_quiz1_res=That is not the way
+sit4_mis4_4=Now you can eat.
+sit4_mis4_5=Take something to eat... 
+sit4_mis4_6=It's time to get back to work.
+sit4_mis4_quiz2_fact=What should we do to get everything in order?
+sit4_mis4_quiz2_option1=Take off our mask. It is very hot and we could suffer from lipotimia.  
+sit4_mis4_quiz2_option2=You should wear a mask to protect yourself from the products being applied. And don't leave it on the floor, there could be insects or other substances on the floor. 
+sit4_mis4_quiz2_res=Not really!
+sit4_mis4_8=Mmmm... Yummy and safe!
+sit4_mis4_7=You have completed the SITUATION 4!
+
+
 //SITUATION 9
 //Intro
 sit9_intro1=Welcome to SITUATION 9.
-sit9_intro2=In this scene you will have to fix the pool using spray.
+sit9_intro2=In this scene you will have to fix the pool using aerosol.
 
 //Mission 2
 sit9_mis2_1=MISSION 2:
