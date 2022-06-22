@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 1157768}
   m_InteractionLayerMask:
@@ -630,6 +630,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84184e5bd1c6c714d9651262ea39c5ab, type: 3}
+--- !u!1 &69325681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 69325682}
+  m_Layer: 0
+  m_Name: Scenario
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &69325682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69325681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.16714, y: 2.8028073, z: -4.5488377}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 603626444}
+  - {fileID: 543450652883175602}
+  - {fileID: 380003442}
+  - {fileID: 709016938}
+  - {fileID: 4000014364840609}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &73182444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -782,7 +817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -812,7 +847,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1856024178}
+      - m_Target: {fileID: 0}
         m_MethodName: set_EnableRightTeleport
         m_Mode: 6
         m_Arguments:
@@ -823,7 +858,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1856024178}
+      - m_Target: {fileID: 0}
         m_MethodName: set_EnableLeftTeleport
         m_Mode: 6
         m_Arguments:
@@ -1275,7 +1310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1655,7 +1690,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 777464190}
+      - m_Target: {fileID: 0}
         m_MethodName: finishMission
         m_Mode: 1
         m_Arguments:
@@ -1970,7 +2005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -3178,7 +3213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -3398,7 +3433,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 51121047}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -4388,10 +4423,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380003440}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: -16.16714, y: 0.19719267, z: 4.5488377}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 69325682}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &384589410
@@ -4863,7 +4898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -5413,7 +5448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 552007431}
   m_InteractionLayerMask:
@@ -6107,7 +6142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -6137,7 +6172,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1856024178}
+      - m_Target: {fileID: 0}
         m_MethodName: set_EnableRightTeleport
         m_Mode: 6
         m_Arguments:
@@ -6148,7 +6183,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1856024178}
+      - m_Target: {fileID: 0}
         m_MethodName: set_EnableLeftTeleport
         m_Mode: 6
         m_Arguments:
@@ -6255,13 +6290,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603626443}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.405923, y: -5.742383, z: 11.341244}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -24.573063, y: -8.545191, z: 15.890081}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1886022648}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 69325682}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &603815890 stripped
 GameObject:
@@ -6316,7 +6351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -6346,7 +6381,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1856024178}
+      - m_Target: {fileID: 0}
         m_MethodName: set_EnableRightTeleport
         m_Mode: 6
         m_Arguments:
@@ -6357,7 +6392,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1856024178}
+      - m_Target: {fileID: 0}
         m_MethodName: set_EnableLeftTeleport
         m_Mode: 6
         m_Arguments:
@@ -6647,7 +6682,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 51121047}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -6846,7 +6881,7 @@ MonoBehaviour:
   rightAnswer: {r: 0.5188679, g: 0.012237449, b: 0.012237449, a: 0.5882353}
   wrongAnswer: {r: 0, g: 0.46226418, b: 0.09697278, a: 0.5882353}
   nextPanel: {fileID: 620316696}
-  gameController: {fileID: 777464190}
+  gameController: {fileID: 0}
 --- !u!114 &698721624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6915,7 +6950,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 51121047}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -6970,7 +7005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 700095606}
   m_InteractionLayerMask:
@@ -7197,11 +7232,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709016936}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 13.95, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.16714, y: 11.147192, z: 4.5488377}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 69325682}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &714830593
@@ -7344,7 +7379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 720574735}
   m_InteractionLayerMask:
@@ -7657,7 +7692,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 51121047}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -8138,8 +8173,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 4280809636915008991}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &777464192
 MonoBehaviour:
@@ -9121,75 +9156,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936872579}
   m_CullTransparentMesh: 0
---- !u!1001 &952647855
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 10.87
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.04708699
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.28531775
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8b97c58696779da4ca107691f8271be4,
-        type: 3}
-      propertyPath: m_Name
-      value: Car
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8b97c58696779da4ca107691f8271be4, type: 3}
 --- !u!1 &1001468811
 GameObject:
   m_ObjectHideFlags: 0
@@ -9476,7 +9442,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 51121047}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -9541,7 +9507,7 @@ Transform:
   - {fileID: 77786628}
   - {fileID: 1797673459}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &1014494471
 MonoBehaviour:
@@ -9650,7 +9616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -9875,7 +9841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 1023873301}
   m_InteractionLayerMask:
@@ -10002,7 +9968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 1025523546}
   - {fileID: 322400411}
@@ -11006,7 +10972,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 777464190}
+      - m_Target: {fileID: 0}
         m_MethodName: finishMission
         m_Mode: 1
         m_Arguments:
@@ -11229,7 +11195,7 @@ MonoBehaviour:
   rightAnswer: {r: 0.5188679, g: 0.012237449, b: 0.012237449, a: 0.5882353}
   wrongAnswer: {r: 0, g: 0.46226418, b: 0.09697278, a: 0.5882353}
   nextPanel: {fileID: 1484411209}
-  gameController: {fileID: 777464190}
+  gameController: {fileID: 0}
 --- !u!114 &1175161918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11298,7 +11264,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 51121047}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -12669,7 +12635,7 @@ Transform:
   - {fileID: 1484411216}
   - {fileID: 1436679630}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -5.274, z: 0}
 --- !u!1 &1302135781
 GameObject:
@@ -13280,7 +13246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 1337234342}
   m_InteractionLayerMask:
@@ -13392,7 +13358,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 69325682}
     m_Modifications:
     - target: {fileID: 1000012928738652, guid: 75e99e987b1c5aa48b7b9e465f768fa3, type: 3}
       propertyPath: m_Layer
@@ -13420,15 +13386,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013554313012, guid: 75e99e987b1c5aa48b7b9e465f768fa3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.94
+      value: 2.7728615
       objectReference: {fileID: 0}
     - target: {fileID: 4000013554313012, guid: 75e99e987b1c5aa48b7b9e465f768fa3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4690001
+      value: -1.3338072
       objectReference: {fileID: 0}
     - target: {fileID: 4000013554313012, guid: 75e99e987b1c5aa48b7b9e465f768fa3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.86
+      value: 18.408836
       objectReference: {fileID: 0}
     - target: {fileID: 4000013554313012, guid: 75e99e987b1c5aa48b7b9e465f768fa3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14186,7 +14152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -14623,7 +14589,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 51121047}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -15115,12 +15081,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574541411}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.796, y: 0, z: 9.11}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 4280809636915008991}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1581937618
 GameObject:
@@ -15402,7 +15368,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 777464190}
+      - m_Target: {fileID: 0}
         m_MethodName: finishMission
         m_Mode: 1
         m_Arguments:
@@ -15413,7 +15379,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 777464192}
+      - m_Target: {fileID: 0}
         m_MethodName: change
         m_Mode: 5
         m_Arguments:
@@ -15933,7 +15899,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 51121047}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -20598,7 +20564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -20859,7 +20825,7 @@ MonoBehaviour:
   rightAnswer: {r: 0.5188679, g: 0.012237449, b: 0.012237449, a: 0.5882353}
   wrongAnswer: {r: 0, g: 0.46226418, b: 0.09697278, a: 0.5882353}
   nextPanel: {fileID: 2091084549}
-  gameController: {fileID: 777464190}
+  gameController: {fileID: 0}
 --- !u!114 &1711278314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20928,7 +20894,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 51121047}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -21014,7 +20980,7 @@ Transform:
   - {fileID: 1711278318}
   - {fileID: 2091084556}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -31.199001, z: 0}
 --- !u!4 &1757615568 stripped
 Transform:
@@ -21154,7 +21120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -21184,7 +21150,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1856024178}
+      - m_Target: {fileID: 0}
         m_MethodName: set_EnableRightTeleport
         m_Mode: 6
         m_Arguments:
@@ -21195,7 +21161,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1856024178}
+      - m_Target: {fileID: 0}
         m_MethodName: set_EnableLeftTeleport
         m_Mode: 6
         m_Arguments:
@@ -21912,15 +21878,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856024175}
-  m_LocalRotation: {x: -0, y: 0.5436092, z: -0, w: -0.8393384}
-  m_LocalPosition: {x: 9.796, y: 0, z: 9.11}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1312989328}
   - {fileID: 1070245581}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: -425.859, z: 0}
+  m_Father: {fileID: 4280809636915008991}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1856024178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26959,7 +26925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 1977336402}
   m_InteractionLayerMask:
@@ -27690,12 +27656,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050544468}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.796, y: 0, z: 9.11}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 4280809636915008991}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2060582445
 GameObject:
@@ -27914,7 +27880,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 51121047}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -28074,7 +28040,7 @@ Transform:
   - {fileID: 1274448439}
   - {fileID: 543450651956317397}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 1.2030001, y: -246.18298, z: 0.42200002}
 --- !u!1 &2126241107
 GameObject:
@@ -28488,7 +28454,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 51121047}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -28612,7 +28578,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 777464190}
+      - m_Target: {fileID: 0}
         m_MethodName: finishMission
         m_Mode: 1
         m_Arguments:
@@ -28678,7 +28644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 2143414086}
   m_InteractionLayerMask:
@@ -28865,7 +28831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 2147322243}
   m_InteractionLayerMask:
@@ -29301,7 +29267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 148681213618805901}
   m_InteractionLayerMask:
@@ -29813,8 +29779,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148898599432}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.16714, y: -2.8028073, z: 4.5488377}
   m_LocalScale: {x: 1.2, y: 1.5, z: 1.2}
   m_Children:
   - {fileID: 8883171146732466125}
@@ -29890,8 +29856,8 @@ Transform:
   - {fileID: 1202121722}
   - {fileID: 1288128822}
   - {fileID: 1437310482}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_Father: {fileID: 69325682}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &548521495571103836
 MeshFilter:
@@ -30088,7 +30054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 628079418696021970}
   m_InteractionLayerMask:
@@ -30765,7 +30731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63f734d132b948f47b4f88fa1056ae3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 919132147686561398}
   - {fileID: 919132147686561397}
@@ -30794,7 +30760,7 @@ MonoBehaviour:
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1856024178}
+      - m_Target: {fileID: 0}
         m_MethodName: set_EnableLeftTeleport
         m_Mode: 6
         m_Arguments:
@@ -30805,7 +30771,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1856024178}
+      - m_Target: {fileID: 0}
         m_MethodName: set_EnableRightTeleport
         m_Mode: 6
         m_Arguments:
@@ -31030,7 +30996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -32040,7 +32006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 1898414897687816819}
   - {fileID: 717797693192492679}
@@ -33194,7 +33160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 2966843689686008666}
   - {fileID: 7291665319046294551}
@@ -35092,6 +35058,40 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &4280809636915008988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4280809636915008991}
+  m_Layer: 0
+  m_Name: VR_Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4280809636915008991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4280809636915008988}
+  m_LocalRotation: {x: -0, y: 0.5436092, z: -0, w: -0.8393384}
+  m_LocalPosition: {x: 9.796, y: 0, z: 9.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1574541413}
+  - {fileID: 2050544471}
+  - {fileID: 1856024177}
+  - {fileID: 777464191}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -425.859, z: 0}
 --- !u!1 &4281045951891391098
 GameObject:
   m_ObjectHideFlags: 0
@@ -37399,7 +37399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 6351492946403525762}
   m_InteractionLayerMask:
@@ -39380,7 +39380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 7799497803474340381}
   m_InteractionLayerMask:
@@ -40263,7 +40263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -40368,7 +40368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64733119e2d28014d9bd54cc0582727c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 8465800232890909036}
   m_InteractionLayerMask:
@@ -40561,7 +40561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 1574541412}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2

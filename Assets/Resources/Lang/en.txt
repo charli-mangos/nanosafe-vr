@@ -40,8 +40,19 @@ security6=Select the objects and check if your selection is correct:
 security_check=Checking your security equipment...
 
 
+//SITUATION 1
+//Intro
+sit1_intro1=Welcome to SITUATION 1.
+sit1_intro2=Use of sawing machine with water cooling to reduce dust. 
+
+//Mission 2
+sit1_mis2_1=MISSION 2:
+sit1_mis2_2=Prepare the sawing machine.
+sit1_mis2_3=Choose the right surface on which to place the machine.
+
+
 //SITUATION 4
-/Intro
+//Intro
 sit4_intro1=Welcome to SITUATION 4.
 sit4_intro2=Prepare the work area where the nanomaterials are to be applied to the stone surfaces with a spray gun.
 
