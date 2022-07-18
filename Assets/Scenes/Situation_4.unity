@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -4728,7 +4728,7 @@ Transform:
   - {fileID: 380003442}
   - {fileID: 709016938}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &379277177
 GameObject:
@@ -6464,7 +6464,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b97c58696779da4ca107691f8271be4,
         type: 3}
@@ -7123,6 +7123,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &552007431
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8660,6 +8662,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!54 &700095605
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12115,6 +12119,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!1 &1025523543
 GameObject:
   m_ObjectHideFlags: 0
@@ -12249,6 +12255,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &1025523546
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16703,6 +16711,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &1337234342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18699,7 +18709,6 @@ MonoBehaviour:
   checkPanel: {fileID: 1865474578}
   congratsPanel: {fileID: 1623406873}
   failPanel: {fileID: 1701026463}
-  mission: {fileID: 1014494471}
   workerAnimator: {fileID: 1485935215}
   loadingImg: {fileID: 1665521842}
 --- !u!1 &1589543641 stripped
@@ -25117,6 +25126,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &2143414086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25521,6 +25532,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!4 &176545276561860916
 Transform:
   m_ObjectHideFlags: 0
@@ -26125,6 +26138,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!33 &631023282958268956
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -26808,6 +26823,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!4 &979674469308885736
 Transform:
   m_ObjectHideFlags: 0
@@ -28160,6 +28177,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &1898414897687816819
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29520,6 +29539,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!54 &2966843689686008665
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31646,7 +31667,7 @@ Transform:
   - {fileID: 1856024177}
   - {fileID: 777464191}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -425.859, z: 0}
 --- !u!4 &4291641188483621155
 Transform:
@@ -33949,6 +33970,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!4 &6358186584181188662
 Transform:
   m_ObjectHideFlags: 0
@@ -36344,6 +36367,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!33 &7802989530540528487
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -37177,6 +37202,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &8465800232890909036
 BoxCollider:
   m_ObjectHideFlags: 0
