@@ -24,9 +24,9 @@ public class FinishAnimation : MonoBehaviour
 
             if (instrManager)
             {
-                if (instrManager.GetComponent<ChangeMaterial>())
+                if (instrManager.GetComponent<ChangeTexture>())
                 {
-                    instrManager.GetComponent<ChangeMaterial>().ChangeMat();
+                    instrManager.GetComponent<ChangeTexture>().ChangeMat();
                 }
 
                 instrManager.GetComponent<Instructions>().finishInstruction();

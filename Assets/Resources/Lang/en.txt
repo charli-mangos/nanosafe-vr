@@ -49,6 +49,40 @@ sit1_intro2=Use of sawing machine with water cooling to reduce dust.
 sit1_mis2_1=MISSION 2:
 sit1_mis2_2=Prepare the sawing machine.
 sit1_mis2_3=Choose the right surface on which to place the machine.
+sit1_mis2_4=Select the surface with the trigger and check your answer...
+sit1_check=Checking the surface...
+sit1_surface=That surface is not optimal for the sawing machine.
+
+//Mission 3
+sit1_mis3_1=MISSION 3:
+sit1_mis3_2=Choose the level of water the machine is using.
+sit1_mis3_quiz1_fact=Which level of water would you use to cut the stone?
+sit1_mis3_quiz1_option1=Low water quantity. 
+sit1_mis3_quiz1_option2=Medium water quantity.
+sit1_mis3_quiz1_option3=Large water quantity.
+sit1_mis3_quiz1_res=Are you sure?
+
+//Mission 4
+sit1_mis4_1=MISSION 4:
+sit1_mis4_2=The tank of water is full and it must be emptied.
+sit1_mis4_quiz1_fact=Where the water should be emptied?
+sit1_mis4_quiz1_option1=The floor. 
+sit1_mis4_quiz1_option2=Into a waste container.
+sit1_mis4_quiz1_res=That's not what you were taught.
+sit1_mis4_quiz2_fact=What do you do with the waste container?
+sit1_mis4_quiz2_option1=Run it through a filter system and dispose the grinding scrap. 
+sit1_mis4_quiz2_option2=Use it to water the lawn.
+sit1_mis4_quiz2_option3=Dump the water into the next canal.
+sit1_mis4_quiz2_res=That is bad practice.
+
+//Mission 5
+sit1_mis5_1=MISSION 5:
+sit1_mis5_2=The sawing task is finished and the machine has to be cleaned.
+sit1_mis5_quiz1_fact=How the machine should be cleaned?
+sit1_mis5_quiz1_option1=The saw machine is cleaned with the garden hose. 
+sit1_mis5_quiz1_option2=The saw machine is cleaned with a vacuum cleaner. 
+sit1_mis5_quiz1_option3=The saw machine is cleaned with a broom.
+sit1_mis5_quiz1_res=That's your answer, really?
 
 
 //SITUATION 4
