@@ -51,7 +51,6 @@ public class SelectObject : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(totalNeeded);
         //Update number of selections
         if (instrText.text.Contains(initPhrase) && totalNeeded > 1)
         {

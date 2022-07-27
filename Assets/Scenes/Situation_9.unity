@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3422,7 +3422,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 51121047}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -5515,8 +5515,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &552007431
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6673,7 +6673,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 51121047}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -6941,7 +6941,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 51121047}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -7074,8 +7074,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!54 &700095605
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7685,7 +7685,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 51121047}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -9435,7 +9435,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 51121047}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -9912,8 +9912,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!1 &1025523543
 GameObject:
   m_ObjectHideFlags: 0
@@ -10048,8 +10048,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &1025523546
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11261,7 +11261,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 51121047}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -13321,8 +13321,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &1337234342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14588,7 +14588,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 51121047}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -15897,7 +15897,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 51121047}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -20892,7 +20892,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 51121047}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -27878,7 +27878,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 51121047}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -28001,7 +28001,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2116895633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28452,7 +28452,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 51121047}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -28720,8 +28720,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &2143414086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29345,8 +29345,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!23 &195087697710378723
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30134,8 +30134,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!4 &635551753538357839
 Transform:
   m_ObjectHideFlags: 0
@@ -30721,7 +30721,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.015, y: 0.45, z: 0.57}
+  m_Size: {x: 0.02, y: 0.45, z: 0.57}
   m_Center: {x: 0.28, y: 0.23, z: 0.0000002371802}
 --- !u!114 &919132147686561395
 MonoBehaviour:
@@ -30883,7 +30883,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.015, y: 0.45, z: 0.57}
+  m_Size: {x: 0.02, y: 0.45, z: 0.57}
   m_Center: {x: -0.28, y: 0.23, z: 0.0000002371802}
 --- !u!65 &919132147686561397
 BoxCollider:
@@ -30896,7 +30896,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.57, y: 0.45, z: 0.015}
+  m_Size: {x: 0.57, y: 0.45, z: 0.02}
   m_Center: {x: 0.00000023718019, y: 0.23, z: 0.28}
 --- !u!65 &919132147686561398
 BoxCollider:
@@ -30909,7 +30909,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.57, y: 0.45, z: 0.015}
+  m_Size: {x: 0.57, y: 0.45, z: 0.02}
   m_Center: {x: 0.00000023718019, y: 0.23, z: -0.28}
 --- !u!54 &919132147686561399
 Rigidbody:
@@ -31077,8 +31077,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!1 &919132148898599432
 GameObject:
   m_ObjectHideFlags: 0
@@ -32098,8 +32098,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &1898414897687816819
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33287,8 +33287,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!54 &2966843689686008665
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37487,8 +37487,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!23 &6352186808515046315
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39470,8 +39470,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!33 &7802989530540528487
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -40460,8 +40460,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_Layer: 
-  m_LayerSelect: 
+  m_Layer: Highlight
+  m_LayerSelect: Selectable
 --- !u!65 &8465800232890909036
 BoxCollider:
   m_ObjectHideFlags: 0
