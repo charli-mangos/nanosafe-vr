@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 0f9937bbf27dd4608b2a06bf292d26d3
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminium
+    second: {fileID: 2100000, guid: 0422813c064e24530b19ff64f4daf790, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EUROPALETTE
+    second: {fileID: 2100000, guid: 85e1a5b70b84847998a209531bd7a560, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MARBLE 1
+    second: {fileID: 2100000, guid: 8b9c97f3d806a488aab1c61300ac5846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MARBLE 3
+    second: {fileID: 2100000, guid: 3d6de82c345a24942b0f3d0715030886, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MARBLE 4
+    second: {fileID: 2100000, guid: 4b28d1577c5254cc985509a5bd135eb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MARBLE 5
+    second: {fileID: 2100000, guid: 5c39fc9f3000946a9b194256ad5b27d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MARBLE 6
+    second: {fileID: 2100000, guid: f5a80769646064eac92f391a697c0ce1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 85444e98a5f6142f4bb292b692d1548c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: e02afee63f1d84d5fa098dfeb2e966c6, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Marble062_COL_2K
+    second: {fileID: 2800000, guid: 1675dec4efff14494bd7ceab65b64976, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Marble062_GLOSS_2K
+    second: {fileID: 2800000, guid: daf0bb8e1b1ec4fedbe8e2df15df6702, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Marble_SlabBrown_1K_albedo
+    second: {fileID: 2800000, guid: 57d320c56d0a44323aede027783b451f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Marble_SlabBrown_1K_roughness
+    second: {fileID: 2800000, guid: e98dbb9f0057e4fbfb1b0b2c652f1674, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Marble_TilesSquare3_1K_albedo
+    second: {fileID: 2800000, guid: 7b4504db7885a4516b93951f993ba6d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Marble_TilesSquare3_1K_roughness
+    second: {fileID: 2800000, guid: d95e8b7d678a945ec81b3d33a9014ee4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Marble_TilesSquare4_1K_albedo
+    second: {fileID: 2800000, guid: 9d53897cb54824476ad41faa9915eea1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Marble_TilesSquare4_1K_roughness
+    second: {fileID: 2800000, guid: 3068b2ae5fb6a4b9f8c47c552843e754, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_AluminumBrushed_1K_albedo
+    second: {fileID: 2800000, guid: cb09702ba334844a2bddeeaa4377fbfa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_AluminumBrushed_1K_metallic
+    second: {fileID: 2800000, guid: 225e7ea3e1223495288d49316f60868f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Metal_AluminumBrushed_1K_roughness
+    second: {fileID: 2800000, guid: b0c399c334e924d7ea9d10a0ce95f013, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Pavement_StoneMedallion2_1K_albedo
+    second: {fileID: 2800000, guid: e25beaf3477204195b6fea310f9a6803, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Pavement_StoneMedallion2_1K_roughness
+    second: {fileID: 2800000, guid: aff4608e059f34ed6930318fd520e255, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Pavement_StoneMedallion_1K_albedo
+    second: {fileID: 2800000, guid: e84abca70f7894f52b4d5ba123cbab3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Pavement_StoneMedallion_1K_roughness
+    second: {fileID: 2800000, guid: 8bb378756e0a04a62b781426fc710d61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_WoodOSB2_1K_albedo
+    second: {fileID: 2800000, guid: fff97c4890f2f4886884cdd9dc8e76e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_WoodOSB2_1K_roughness
+    second: {fileID: 2800000, guid: 124ce5d75a8d5425fa81a8f8f961a063, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
