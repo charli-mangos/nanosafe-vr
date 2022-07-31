@@ -13,6 +13,9 @@ public class FinishAnimation : MonoBehaviour
     //GameController element
     public GameController controller;
 
+    //Objects to hide
+    public GameObject[] extraOBJS;
+
     void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.GetComponent<Animator>())
@@ -35,6 +38,11 @@ public class FinishAnimation : MonoBehaviour
             if (controller)
             {
                 controller.finishMission();
+            }
+
+            foreach(GameObject obj in extraOBJS)
+            {
+                obj.SetActive(false);
             }
 
             Destroy(this);
