@@ -40,6 +40,9 @@ public class SelectObject : MonoBehaviour
     //Check bool
     private bool fail;
 
+    //Game Controller element
+    public GameController gameController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -166,6 +169,8 @@ public class SelectObject : MonoBehaviour
         {
             workerAnimator.Play("Shaking Head No");
         }
+
+        gameController.addMistake();
 
         checkPanel.SetActive(false);
         congratsPanel.SetActive(false);

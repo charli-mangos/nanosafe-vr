@@ -1,6 +1,6 @@
 //GENERAL
 sit=Situation
-scene=Select one scenario:
+scene=Select a situation:
 lang=Select a language:
 selected_lang=Selected language:
 
@@ -12,16 +12,20 @@ move=Move
 check=Check
 start=Start
 restart=Restart
+retry=Retry
 menu=Main Menu
 quiz_yes=Yes
 quiz_no=No
-eat=Eat
 
 //Phrases
 correct=Correct!
 congrats=Congratulations!
 fail=You have failed the mission.
 completed=Mission completed!
+
+//MistakePanel
+mistake1=You have failed too many times.
+mistake2=Please, check the manual or your teacher's info and try again.
 
 //Init Info
 intro1=Try to perform the steps safely.
@@ -38,6 +42,9 @@ security4=Touch it with your hand.
 security5=Pull the trigger of your middle finger.
 security6=Select the objects and check if your selection is correct:
 security_check=Checking your security equipment...
+
+
+------------------------------------------------------------------------
 
 
 //SITUATION 1
@@ -60,7 +67,6 @@ sit1_mis3_quiz1_fact=Which level of water would you use to cut the stone?
 sit1_mis3_quiz1_option1=Low water quantity. 
 sit1_mis3_quiz1_option2=Medium water quantity.
 sit1_mis3_quiz1_option3=Large water quantity.
-sit1_mis3_quiz1_res=Are you sure?
 
 //Mission 4
 sit1_mis4_1=MISSION 4:
@@ -68,27 +74,129 @@ sit1_mis4_2=The tank of water is full and it must be emptied.
 sit1_mis4_quiz1_fact=Where the water should be emptied?
 sit1_mis4_quiz1_option1=The floor. 
 sit1_mis4_quiz1_option2=Into a waste container.
-sit1_mis4_quiz1_res=That's not what you were taught.
+sit1_mis4_3=Take the bucket and put it in the right place to pour the water in it.
 sit1_mis4_quiz2_fact=What do you do with the waste container?
 sit1_mis4_quiz2_option1=Run it through a filter system and dispose the grinding scrap. 
 sit1_mis4_quiz2_option2=Use it to water the lawn.
 sit1_mis4_quiz2_option3=Dump the water into the next canal.
-sit1_mis4_quiz2_res=That is bad practice.
 
 //Mission 5
 sit1_mis5_1=MISSION 5:
 sit1_mis5_2=The sawing task is finished and the machine has to be cleaned.
-sit1_mis5_quiz1_fact=How the machine should be cleaned?
-sit1_mis5_quiz1_option1=The saw machine is cleaned with the garden hose. 
-sit1_mis5_quiz1_option2=The saw machine is cleaned with a vacuum cleaner. 
-sit1_mis5_quiz1_option3=The saw machine is cleaned with a broom.
-sit1_mis5_quiz1_res=That's your answer, really?
+sit1_mis5_3=How the machine should be cleaned?
+sit1_mis5_4=Select one of the clean instruments in the right.
+sit1_mis5_5=You have completed the SITUATION 1!
+
+
+------------------------------------------------------------------------------------
+
+
+//SITUATION 2
+//Intro
+sit2_intro1=Welcome to SITUATION 2.
+sit2_intro2= Application depending on the nanoproduct at a factory.
+
+//Mission 2
+sit2_mis2_1=MISSION 2:
+sit2_mis2_2=Keep chemical shelves tidy. 
+sit2_mis2_3=Look at the shelf on the left and place the jars in the same order on the right.
+sit2_mis2_4=To grab an object use the trigger in your middle finger.
+sit2_check=Checking the shelf...
+sit2_tidy=That's no way to tidy up a shelf of dangerous products. 
+sit2_correct=Now it's a pleasure to look at the shelf!
+sit2_mis2_quiz1_fact=Select the next steps to complete the task:
+sit2_mis2_quiz1_option1=Mop the floor and put some air freshener on it to make it smell nice.
+sit2_mis2_quiz1_option2=Place a dossier with the safety data sheets of the products in order.
+sit2_mis2_quiz1_option3=Put the products in alphabetical order to make it easier to find them.
+sit2_mis2_quiz1_option4=Throw away products that are in poor condition.
+sit2_mis2_quiz1_option5=Call the waste manager to remove products that are in bad condition.
+
+//Mission 3
+sit2_mis3_1=MISSION 3:
+sit2_mis3_2=Let's test your knowledge about the products to be used.
+sit2_mis3_quiz1_fact=Select the meaning of the photo: 
+sit2_mis3_quiz1_option1=Harmful/Irritant
+sit2_mis3_quiz1_option2=Flammable
+sit2_mis3_quiz1_option3=Compressed gas
+sit2_mis3_quiz1_option4=Toxic
+sit2_mis3_quiz1_option5=Health Hazard
+sit2_mis3_quiz1_option6=Corrosive
+sit2_mis3_quiz1_option7=Dangerous for enviroment
+sit2_mis3_quiz1_option8=Explosive
+sit2_mis3_quiz1_option9=Oxidizing
+
+//Mission 4
+sit2_mis4_1=MISSION 4:
+sit2_mis4_2=Check that your partner is making good use of the products. 
+sit2_mis4_3=What's up man, I just applied the water repellent. 
+sit2_mis4_4=Can you help me with the antifungal?
+sit2_mis4_5=Great! Just pour the product into the basin there.  
+sit2_mis4_6=It's the one I used before for the water repellent. 
+sit2_mis4_quiz1_fact=What is the next step you should take?
+sit2_mis4_quiz1_option1=Listen to the worker and start immediately with the application of the antifungal.  
+sit2_mis4_quiz1_option2=Clean the paint container and brush first so as not to mix products.
+sit2_mis4_quiz1_res=That's not a secure practice!
+sit2_mis4_7=It is important to clean beforehand so that nanoproduct residues do not get mixed up.
+sit2_mis4_quiz2_fact=Select the errors you observe in the scene:
+sit2_mis4_quiz2_option1=The product should not be poured on the ground.
+sit2_mis4_quiz2_option2=The partner should be eating at the same time as applying the product, to save time.
+sit2_mis4_quiz2_option3=Products should be applied mixed to be most effective. 
+sit2_mis4_quiz2_option4=The colleague should wear a mask and gloves.
+sit2_mis4_8=You have completed the SITUATION 2!
+
+
+----------------------------------------------------------------------------------------------
+
+
+//SITUATION 3
+//Intro
+sit3_intro1=Welcome to SITUATION 3.
+sit3_intro2=Pouring of nanomaterial powder into a liquid matrix to create a mixture.
+
+//Mission 2
+sit3_mis2_1=MISSION 2:
+sit3_mis2_2=Choose the placement of the mixing task.
+sit3_mis2_quiz1_fact=Check the weather and decide where the task should be performed:
+sit3_mis2_quiz1_option1=Right here is fine.
+sit3_mis2_quiz1_option2=It's windy, it's safer to do it indoors.
+
+//Mission 3
+sit3_mis3_1=MISSION 3:
+sit3_mis3_2=Mixing of the powder into the liquid matrix.
+sit3_mis3_quiz1_fact=Which product should be introduced first?
+sit3_mis3_quiz1_option1=Liquid matrix. 
+sit3_mis3_quiz1_option2=Powder.
+sit3_mis3_quiz2_fact=What is the proper movement of the stirring machine?
+sit3_mis3_quiz2_option1=Keep the stirrer at a constant spot inside the container.
+sit3_mis3_quiz2_option2=Move the stirrer at all heights in the container with a circular path, in order to effectively break aggregates.
+sit3_mis3_quiz2_option3=Move the stirrer in circles at a constant height in the container.
+sit3_mis3_quiz3_fact=When there are aggregates formed, which level of speed should be used?
+sit3_mis3_quiz3_option1=1
+sit3_mis3_quiz3_option2=2
+sit3_mis3_quiz3_option3=3
+sit3_mis3_quiz4_fact=And when the aggregates are broken and the mixture looks more homogenized?
+
+//Mission 4
+sit3_mis4_1=MISSION 4:
+sit3_mis4_2=Mixing has finished.
+sit3_mis4_quiz1_fact=What step should be done next?
+sit3_mis4_quiz1_option1=Leave the place and start another situation. 
+sit3_mis4_quiz1_option2=Clean the objects used for the mixing. 
+sit3_mis4_quiz2_fact=Which objects should be cleaned?
+sit3_mis4_quiz2_option1=Stirring device.
+sit3_mis4_quiz2_option2=Shelves. 
+sit3_mis4_quiz2_option3=The floor. 
+sit3_mis4_quiz2_option4=Weighter containers.
+sit3_mis4_quiz2_option5=The scale.
+
+
+----------------------------------------------------------------------------------------------
 
 
 //SITUATION 4
 //Intro
 sit4_intro1=Welcome to SITUATION 4.
-sit4_intro2=Prepare the work area where the nanomaterials are to be applied to the stone surfaces with a spray gun.
+sit4_intro2=Prepare an outdoor work area where the nanomaterials are to be applied to the stone surfaces with a spray gun.
 
 //Mission 2
 sit4_mis2_1=MISSION 2:
@@ -141,6 +249,59 @@ sit4_mis4_8=Mmmm... Yummy and safe!
 sit4_mis4_7=You have completed the SITUATION 4!
 
 
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 6
+/Intro
+sit6_intro1=Welcome to SITUATION 6.
+sit6_intro2=Prepare an indoor work area where the nanomaterials are to be applied to the stone surfaces with a spray gun.
+
+//Mission 2
+sit6_mis2_1=MISSION 2:
+sit6_mis2_2=Prepare the surface for the application of the product. 
+sit6_mis2_quiz1_fact=What is the first step in surface preparation?
+sit6_mis2_quiz2_fact=What to do next?
+sit6_mis2_quiz3_fact=And to finish the surface preparation?
+sit6_mis2_quiz_option1=Clear the surface with water or acetone.
+sit6_mis2_quiz_option2=Put the mask for the dust and nitrile or latex gloves.
+sit6_mis2_quiz_option3=Sandpaper the surface.
+
+//Mission 3
+sit6_mis3_1=MISSION 3:
+sit6_mis3_2=Check that the room has the necessary ventilation conditions.
+sit6_mis3_3=Find the ventilation system. 
+sit6_mis3_4=Select it with the trigger of your index finger to continue. 
+sit6_mis3_quiz1_fact=The system seems to be shut down, what should be the next step?
+sit6_mis3_quiz1_option1=Keep it switched off, to avoid polluting the environment. 
+sit6_mis3_quiz1_option2=Switch it on, exposure to nanomaterials can be hazardous to health. 
+
+//Mission 4
+sit6_mis4_1=MISSION 4:
+sit6_mis4_2=Management of the workspace after the task has been completed.
+sit6_mis4_quiz1_fact=The paint has already been applied, what needs to be done next?
+sit6_mis4_quiz1_option1=Clean and tidy the space and materials used.   
+sit6_mis4_quiz1_option2=Drop everything and go to lunch, it's getting late. 
+sit6_mis4_quiz2_fact=Where should such waste be deposited?
+sit6_mis4_quiz2_option1=In a trash bin or a container.
+sit6_mis4_quiz2_option2=Special container for used solvents. 
+sit6_mis4_3=You have completed the SITUATION 6!
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 8
+/Intro
+sit8_intro1=Welcome to SITUATION 8.
+sit8_intro2=Nano-waste management, enviromental protection. 
+
+
+
+
+-----------------------------------------------------------------------------------------
+
+
 //SITUATION 9
 //Intro
 sit9_intro1=Welcome to SITUATION 9.
@@ -174,6 +335,40 @@ sit9_mis4_quiz_option2=Why, what I have done wrong?
 sit9_mis4_quiz_res=No, you are wrong!
 sit9_mis4_3=The direct sunlight may overheat the cans and they could become missiles with the possibility to harm you. 
 sit9_mis4_4=You must put them in the safety cage and carry it in the warehouse. 
-sit9_mis4_5=Now, trained personell waearing appropriate personal protective equipemnt will perfom puncturing in a designated area for this activity and any remaining content will be removed and then can be recycled.
+sit9_mis4_5_1=All right!
+sit9_mis4_5_2=Now, trained personell wearing appropriate personal protective equipemnt will perfom puncturing in a designated area for this activity and any remaining content will be removed and then can be recycled.
 sit9_mis4_6=You have completed the SITUATION 9!
 sit9_mis4_7=Grab with the trigger of your middle finger and release to place the cans in the basket.
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 10
+//Intro
+sit10_intro1=Welcome to SITUATION 10.
+sit10_intro2=Waste cleaning or disposal after working hours
+
+//Mission 2
+sit10_mis2_1=MISSION 2:
+sit10_mis2_2=Select the correct way of disposing the dirty HEPA filters and the waste materials produced by the cleaning of the extraction and filter systems.
+sit10_mis2_3=Choose the correct waste bag that should be used in the right.
+sit10_mis2_4=Touch the bag and use the middle finger trigger to do it.
+sit10_mis2_5=Now, choose the correct waste container that should be used in the left.
+
+//Mission 3
+sit10_mis3_1=MISSION 3:
+sit10_mis3_2=Clean the water treatment and water purification system. 
+sit10_mis3_quiz_fact=What is the correct disposal site for sewage sludge?
+sit10_mis3_quiz_option1=Sewer drains.
+sit10_mis3_quiz_option2=Ordinary garbage can.
+sit10_mis3_quiz_option3=Hazardous liquid waste tank.
+
+//Mission 4
+sit10_mis4_1=MISSION 4:
+sit10_mis4_2=Select the correct treatment of used PPE.
+sit10_mis4_quiz_fact=Que debes hacer con ...?
+sit10_mis4_quiz_option1=Disposed off.
+sit10_mis4_quiz_option2=Cleaned by vacuum system.
+sit10_mis4_quiz_option3=Washed.
+sit10_mis4_quiz_option4=Cleaned by a damp cloth.

@@ -8,7 +8,7 @@ public class IntroMSG : MonoBehaviour
 {
     //Instructions panel
     public InstructionUnit[] inst;
-    private static List<InstructionUnit> unanswered;
+    private List<InstructionUnit> unanswered;
 
     //Current instruction active
     private InstructionUnit currentInst;

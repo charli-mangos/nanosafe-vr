@@ -7,7 +7,7 @@ public class TargetPos : MonoBehaviour
 {
     //Possible objs to select
     public GameObject[] targetObjects;
-    public static List<GameObject> targetList;
+    public List<GameObject> targetList;
 
     public Instructions instr;
 
@@ -42,10 +42,6 @@ public class TargetPos : MonoBehaviour
                     finishTask();
                 }
             }
-        }
-        else
-        {
-            InitList();
         }
     }
 

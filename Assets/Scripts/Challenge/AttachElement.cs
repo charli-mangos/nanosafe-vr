@@ -12,6 +12,8 @@ public class AttachElement : MonoBehaviour
         {
             FixedJoint joint = col.gameObject.AddComponent<FixedJoint>() as FixedJoint;
             joint.connectedBody = this.gameObject.GetComponent<Rigidbody>();
+
+            col.gameObject.transform.parent = this.transform;
         }
     }
 }

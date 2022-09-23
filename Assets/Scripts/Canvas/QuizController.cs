@@ -181,6 +181,8 @@ public class QuizController : MonoBehaviour
             button.SetActive(true);
         }
 
+        gameController.addMistake();
+
         /*if (this.transform.parent.name == "FinalTest")
         {
             EventSystem.current.SetSelectedGameObject(null);

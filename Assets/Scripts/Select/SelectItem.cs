@@ -12,7 +12,7 @@ public class SelectItem : MonoBehaviour
 {
     //Possible objs to select
     public Selectable[] selectObjs;
-    public static List<Selectable> totalSelectables;
+    private List<Selectable> totalSelectables;
 
     //List of selected objs
     private List<Selectable> selected;
@@ -31,11 +31,13 @@ public class SelectItem : MonoBehaviour
     //Check bool
     private bool fail;
 
+    //Game controller component
+    public GameController gameController;
+
     // Start is called before the first frame update
     void Start()
     {
         InitLists();
-        InitHighight();
     }
 
     void Update()
@@ -89,6 +91,7 @@ public class SelectItem : MonoBehaviour
         }
 
         selected = new List<Selectable>();
+        InitHighight();
     }
 
     public void selectObject(GameObject obj)
@@ -148,20 +151,28 @@ public class SelectItem : MonoBehaviour
 
     IEnumerator failedMission()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.5f);
 
-        loadingImg.SetActive(false);
+        if (loadingImg)
+        {
+            loadingImg.SetActive(false);
+        }
 
         checkPanel.SetActive(false);
         congratsPanel.SetActive(false);
         failPanel.SetActive(true);
+
+        gameController.addMistake();
     }
 
     IEnumerator completedMission()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.5f);
 
-        loadingImg.SetActive(false);
+        if (loadingImg)
+        {
+            loadingImg.SetActive(false);
+        }
 
         checkPanel.SetActive(false);
         congratsPanel.SetActive(true);

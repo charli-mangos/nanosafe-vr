@@ -11,7 +11,16 @@ public class GameController : MonoBehaviour
     //Current mission active
     private Mission currentMission;
 
+    //Check if scene has started
     public bool startScene = false;
+
+    //Failed panel
+    public GameObject mistakePanel;
+
+    //Move control
+    public LocomotionController moveControl;
+
+    private int mistakes;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +37,39 @@ public class GameController : MonoBehaviour
                 }
             }
         }
+
+        mistakes = 0;
+    }
+
+    void Update()
+    {
+        if(mistakes > 2)
+        {
+            GameObject[] objByLayer = FindInActiveObjectsByLayer(LayerMask.NameToLayer("UI"));
+
+            foreach (var obj in objByLayer)
+            {
+                if (obj.tag  != "MistakePanel")
+                {
+                    obj.SetActive(false);
+                }
+            }
+
+            if (!mistakePanel.activeSelf)
+            {
+                mistakePanel.SetActive(true);
+            }
+            
+            moveControl.EnableRightTeleport = false;
+            moveControl.EnableLeftTeleport = false;
+        }
+    }
+
+    public void addMistake()
+    {
+        mistakes += 1;
+
+        //Debug.Log(mistakes);
     }
 
     public void setNextMission()
@@ -52,6 +94,23 @@ public class GameController : MonoBehaviour
         {
             setNextMission();
         }
+    }
+
+    private GameObject[] FindInActiveObjectsByLayer(int layer)
+    {
+        List<GameObject> validTransforms = new List<GameObject>();
+        Transform[] objs = Resources.FindObjectsOfTypeAll<Transform>() as Transform[];
+        for (int i = 0; i < objs.Length; i++)
+        {
+            if (objs[i].hideFlags == HideFlags.None)
+            {
+                if (objs[i].gameObject.layer == layer)
+                {
+                    validTransforms.Add(objs[i].gameObject);
+                }
+            }
+        }
+        return validTransforms.ToArray();
     }
 
 }

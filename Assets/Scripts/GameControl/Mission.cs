@@ -28,7 +28,7 @@ public class Mission : MonoBehaviour
         //Instantiate warning signal
         if (signal == null)
         {
-            signal = Instantiate(prefabSignal, new Vector3(this.transform.position.x, highVal, this.transform.position.z), Quaternion.identity) as GameObject;
+            signal = Instantiate(prefabSignal, new Vector3(canvas.transform.position.x, highVal, canvas.transform.position.z), Quaternion.identity) as GameObject;
             signal.transform.parent = this.transform;
         }
 

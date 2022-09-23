@@ -16,14 +16,15 @@ public class FinishAnimation : MonoBehaviour
     //Objects to hide
     public GameObject[] extraOBJS;
 
+
     void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.GetComponent<Animator>())
         {
-            if (animationName != null)
+            /*if (animationName != null)
             {
                 col.gameObject.GetComponent<Animator>().Play(animationName);
-            }
+            }*/
 
             if (instrManager)
             {
@@ -48,6 +49,5 @@ public class FinishAnimation : MonoBehaviour
             Destroy(this);
         }
 
-        
     }
 }

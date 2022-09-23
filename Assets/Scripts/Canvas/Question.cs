@@ -11,6 +11,8 @@ public class Question
     public string title;
     public string fact;
 
+    public Sprite imageFact;
+
     public string[] extraData;
 
     public QuestionOption[] options;
