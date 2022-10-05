@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SlideController : MonoBehaviour
+[System.Serializable]
+public class SlideUnit 
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string tittle;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string changeScene;
+
+    public string[] description;
+
+    public Sprite image;
 }

@@ -48,6 +48,10 @@ security_check=Checking your security equipment...
 
 
 //SITUATION 1
+//Title and description
+sit1=1.	Use sawing machine with water cooling to reduce dust 
+sit1_desc=In this situation an area of a house is to be paved. For this purpose, a water-cooled saw is to be used to reduce dust. The player must perform the necessary steps to use this tool safely.
+
 //Intro
 sit1_intro1=Welcome to SITUATION 1.
 sit1_intro2=Use of sawing machine with water cooling to reduce dust. 
@@ -92,6 +96,10 @@ sit1_mis5_5=You have completed the SITUATION 1!
 
 
 //SITUATION 2
+//Title and description
+sit2=2.	Application of different products in a factory
+sit2_desc=In this situation, different products will be applied to the natural stone in the factory. The correct steps must be taken to avoid endangering the product and our health.
+
 //Intro
 sit2_intro1=Welcome to SITUATION 2.
 sit2_intro2= Application depending on the nanoproduct at a factory.
@@ -149,6 +157,10 @@ sit2_mis4_8=You have completed the SITUATION 2!
 
 
 //SITUATION 3
+//Title and description
+sit3=3.	Pouring of nanomaterial powder into a liquid matrix to create a mixture
+sit3_desc=In this situation, the user will have to make a mixture of powder into a liquid matrix to be applied in a construction environment.
+
 //Intro
 sit3_intro1=Welcome to SITUATION 3.
 sit3_intro2=Pouring of nanomaterial powder into a liquid matrix to create a mixture.
@@ -194,6 +206,10 @@ sit3_mis4_quiz2_option5=The scale.
 
 
 //SITUATION 4
+//Title and description
+sit4=4.	Nanomaterial applied with a spray-gun on a stone material surface
+sit4_desc=This situation aims to prepare an outdoor working area where the nanomaterials will be applied to the stone surfaces with a spray gun. The application will take place in a swimming pool and the environmental conditions will not be optimal.
+
 //Intro
 sit4_intro1=Welcome to SITUATION 4.
 sit4_intro2=Prepare an outdoor work area where the nanomaterials are to be applied to the stone surfaces with a spray gun.
@@ -252,7 +268,22 @@ sit4_mis4_7=You have completed the SITUATION 4!
 -----------------------------------------------------------------------------------------
 
 
+//SITUATION 5
+//Title and description
+sit5=5.	Nanomaterial fixed in a solid matrix which is being drilled
+sit5_desc=...
+
+
+
+-----------------------------------------------------------------------------------------
+
+
 //SITUATION 6
+//Title and description
+sit6=6.	Application of different products in factory (part II)
+sit6_desc=Prepare an indoor work area where the nanomaterials will be applied to the stone surfaces with a spray gun and paint roller. This will be done in the natural stone factory.
+
+
 /Intro
 sit6_intro1=Welcome to SITUATION 6.
 sit6_intro2=Prepare an indoor work area where the nanomaterials are to be applied to the stone surfaces with a spray gun.
@@ -291,18 +322,33 @@ sit6_mis4_3=You have completed the SITUATION 6!
 -----------------------------------------------------------------------------------------
 
 
+//SITUATION 7
+//Title and description
+sit7=7.	Dust-air mixtures in a factory  
+sit7_desc=...
+
+
+-----------------------------------------------------------------------------------------
+
+
 //SITUATION 8
+//Title and description
+sit8=8.	Nano-waste management environmental protection
+sit8_desc=...
+
 /Intro
 sit8_intro1=Welcome to SITUATION 8.
 sit8_intro2=Nano-waste management, enviromental protection. 
-
-
 
 
 -----------------------------------------------------------------------------------------
 
 
 //SITUATION 9
+//Title and description
+sit9=9.	Nanomaterial applied as an aerosol
+sit9_desc=In this scene the pool will have to be finished using anti-slip spray. This will be done in the scene where the construction of a house is being finished. We will have to perform the correct steps in order not to damage our health.
+
 //Intro
 sit9_intro1=Welcome to SITUATION 9.
 sit9_intro2=In this scene you will have to fix the pool using aerosol.
@@ -345,6 +391,10 @@ sit9_mis4_7=Grab with the trigger of your middle finger and release to place the
 
 
 //SITUATION 10
+//Title and description
+sit10=10. Waste cleaning or disposal after working hours
+sit10_desc=In this scene the user will have to make decisions about the waste generated in a natural stone factory.
+
 //Intro
 sit10_intro1=Welcome to SITUATION 10.
 sit10_intro2=Waste cleaning or disposal after working hours
