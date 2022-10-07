@@ -9,12 +9,14 @@ public class InstantiateObj : MonoBehaviour
     public GameObject instantiatePrefab;
     private GameObject instantiateOBJ;
 
+    public GameObject parentOBJ;
+
     public void AddObj(GameObject obj)
     {
         if(instantiateOBJ == null && instantiatePrefab != null)
         {
             instantiateOBJ = Instantiate(instantiatePrefab, obj.transform.position, Quaternion.identity) as GameObject;
-            instantiateOBJ.transform.parent = this.transform;
+            instantiateOBJ.transform.parent = parentOBJ.transform;
         }
     }
 
