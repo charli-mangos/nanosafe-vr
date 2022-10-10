@@ -29,7 +29,7 @@ public class IntroMSG : MonoBehaviour
 
     public void setNextInstructions()
     {
-        if(currentInst != null)
+        if (currentInst != null)
         {
             currentInst.panel.SetActive(false);
             unanswered.Remove(currentInst);
@@ -37,7 +37,7 @@ public class IntroMSG : MonoBehaviour
 
         currentInst = unanswered[0];
 
-        foreach(var palID in currentInst.description)
+        foreach (var palID in currentInst.description)
         {
             currentInst.canvasText.text = currentInst.canvasText.text + MainTranslate.Fields[palID] + "\n" + "\n";
         }
