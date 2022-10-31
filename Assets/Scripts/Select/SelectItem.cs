@@ -34,6 +34,8 @@ public class SelectItem : MonoBehaviour
     //Game controller component
     public GameController gameController;
 
+    public bool disapear = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -104,7 +106,10 @@ public class SelectItem : MonoBehaviour
                 {
                     selected.Add(element);
 
-                    obj.SetActive(false);
+                    if (disapear == true) 
+                    {
+                        obj.SetActive(false);
+                    }
 
                 }
 

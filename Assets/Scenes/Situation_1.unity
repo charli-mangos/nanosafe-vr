@@ -10164,6 +10164,7 @@ MonoBehaviour:
   congratsPanel: {fileID: 1933476686}
   failPanel: {fileID: 714284714}
   gameController: {fileID: 1452107572}
+  disapear: 1
 --- !u!114 &601762311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10176,7 +10177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96bdf8a211e479c4e9d5881c410c76bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instantiatePrefab: {fileID: 7357301189668881102, guid: 96f21299f98bc70498e3b6452d7426ae,
+  instantiatePrefab: {fileID: 2327848762141654092, guid: 81fe0223320381c428f8be12cec473b9,
     type: 3}
   parentOBJ: {fileID: 1289137053}
 --- !u!1001 &614941174
@@ -26985,6 +26986,7 @@ MonoBehaviour:
   congratsPanel: {fileID: 1749423657}
   failPanel: {fileID: 1371192457}
   gameController: {fileID: 0}
+  disapear: 1
 --- !u!1001 &1478466272
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27100,7 +27102,7 @@ PrefabInstance:
     - target: {fileID: 4097325055314495118, guid: 067177f88649d1645908e850f5290480,
         type: 3}
       propertyPath: selectObjs.Array.data[0].isNeeded
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4097325055314495118, guid: 067177f88649d1645908e850f5290480,
         type: 3}
@@ -27110,11 +27112,26 @@ PrefabInstance:
     - target: {fileID: 4097325055314495118, guid: 067177f88649d1645908e850f5290480,
         type: 3}
       propertyPath: selectObjs.Array.data[3].isNeeded
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097325055314495118, guid: 067177f88649d1645908e850f5290480,
+        type: 3}
+      propertyPath: selectObjs.Array.data[5].isNeeded
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4097325055314495118, guid: 067177f88649d1645908e850f5290480,
         type: 3}
       propertyPath: selectObjs.Array.data[6].isNeeded
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097325055314495118, guid: 067177f88649d1645908e850f5290480,
+        type: 3}
+      propertyPath: selectObjs.Array.data[7].isNeeded
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097325055314495118, guid: 067177f88649d1645908e850f5290480,
+        type: 3}
+      propertyPath: selectObjs.Array.data[9].isNeeded
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -31884,7 +31901,7 @@ MonoBehaviour:
   - panel: {fileID: 438347917}
     description:
     - sit1_intro1
-    - sit1_intro2
+    - sit1
     - intro1
     canvasText: {fileID: 977434260}
     isCompleted: 0

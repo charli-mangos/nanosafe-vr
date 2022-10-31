@@ -49,12 +49,11 @@ security_check=Checking your security equipment...
 
 //SITUATION 1
 //Title and description
-sit1=1.	Use sawing machine with water cooling to reduce dust 
+sit1=1.	Use of sawing machine with water cooling to reduce dust 
 sit1_desc=In this situation an area of a house is to be paved. For this purpose, a water-cooled saw is to be used to reduce dust. The player must perform the necessary steps to use this tool safely.
 
 //Intro
 sit1_intro1=Welcome to SITUATION 1.
-sit1_intro2=Use of sawing machine with water cooling to reduce dust. 
 
 //Mission 2
 sit1_mis2_1=MISSION 2:
@@ -97,17 +96,17 @@ sit1_mis5_5=You have completed the SITUATION 1!
 
 //SITUATION 2
 //Title and description
-sit2=2.	Application of different products in a factory
+sit2=2.	Application depending on the nanoproduct at a factory
 sit2_desc=In this situation, different products will be applied to the natural stone in the factory. The correct steps must be taken to avoid endangering the product and our health.
 
 //Intro
 sit2_intro1=Welcome to SITUATION 2.
-sit2_intro2= Application depending on the nanoproduct at a factory.
+sit2_intro2=Application depending on the nanoproduct at a factory
 
 //Mission 2
 sit2_mis2_1=MISSION 2:
 sit2_mis2_2=Keep chemical shelves tidy. 
-sit2_mis2_3=Look at the shelf on the left and place the jars in the same order on the right.
+sit2_mis2_3=Look at the shelf on the right and place the jars in the same order on the right.
 sit2_mis2_4=To grab an object use the trigger in your middle finger.
 sit2_check=Checking the shelf...
 sit2_tidy=That's no way to tidy up a shelf of dangerous products. 
@@ -136,14 +135,13 @@ sit2_mis3_quiz1_option9=Oxidizing
 //Mission 4
 sit2_mis4_1=MISSION 4:
 sit2_mis4_2=Check that your partner is making good use of the products. 
-sit2_mis4_3=What's up man, I just applied the water repellent. 
-sit2_mis4_4=Can you help me with the antifungal?
-sit2_mis4_5=Great! Just pour the product into the basin there.  
-sit2_mis4_6=It's the one I used before for the water repellent. 
+sit2_mis4_3="What's up man, I just applied the water repellent. 
+sit2_mis4_4=Can you help me with the antifungal?"
+sit2_mis4_5="Great! Just pour the product into the basin there.  
+sit2_mis4_6=It's the one I used before for the water repellent." 
 sit2_mis4_quiz1_fact=What is the next step you should take?
 sit2_mis4_quiz1_option1=Listen to the worker and start immediately with the application of the antifungal.  
 sit2_mis4_quiz1_option2=Clean the paint container and brush first so as not to mix products.
-sit2_mis4_quiz1_res=That's not a secure practice!
 sit2_mis4_7=It is important to clean beforehand so that nanoproduct residues do not get mixed up.
 sit2_mis4_quiz2_fact=Select the errors you observe in the scene:
 sit2_mis4_quiz2_option1=The product should not be poured on the ground.
@@ -271,7 +269,7 @@ sit4_mis4_7=You have completed the SITUATION 4!
 //SITUATION 5
 //Title and description
 sit5=5.	Nanomaterial fixed in a solid matrix which is being drilled
-sit5_desc=...
+sit5_desc=In this scene, the work consists of preparing a construction environment for drilling into the coated stone surface to lay the electrical wiring for the outdoor lighting fixtures.  Focusing on the prevention of risks from the generation of nanomaterials.
 
 
 
@@ -282,7 +280,6 @@ sit5_desc=...
 //Title and description
 sit6=6.	Application of different products in factory (part II)
 sit6_desc=Prepare an indoor work area where the nanomaterials will be applied to the stone surfaces with a spray gun and paint roller. This will be done in the natural stone factory.
-
 
 /Intro
 sit6_intro1=Welcome to SITUATION 6.
@@ -301,7 +298,7 @@ sit6_mis2_quiz_option3=Sandpaper the surface.
 //Mission 3
 sit6_mis3_1=MISSION 3:
 sit6_mis3_2=Check that the room has the necessary ventilation conditions.
-sit6_mis3_3=Find the ventilation system. 
+sit6_mis3_3=Find some of the ventilation ducts. 
 sit6_mis3_4=Select it with the trigger of your index finger to continue. 
 sit6_mis3_quiz1_fact=The system seems to be shut down, what should be the next step?
 sit6_mis3_quiz1_option1=Keep it switched off, to avoid polluting the environment. 
@@ -325,7 +322,7 @@ sit6_mis4_3=You have completed the SITUATION 6!
 //SITUATION 7
 //Title and description
 sit7=7.	Dust-air mixtures in a factory  
-sit7_desc=...
+sit7_desc=This scene is set in a natural stone factory. Stones are asked to be cut to restore a church. The objective is to test decision-making to prevent nanomaterials from affecting the workers in the plant. 
 
 
 -----------------------------------------------------------------------------------------
@@ -334,7 +331,7 @@ sit7_desc=...
 //SITUATION 8
 //Title and description
 sit8=8.	Nano-waste management environmental protection
-sit8_desc=...
+sit8_desc=This scene will contain a series of missions aimed at air and waste management in a natural stone factory. In order to achieve a safe environment free of nanomaterials that could harm the workers.
 
 /Intro
 sit8_intro1=Welcome to SITUATION 8.
@@ -375,11 +372,10 @@ sit9_mis3_quiz_res=Are you sure?
 //Mission 4
 sit9_mis4_1=MISSION 4:
 sit9_mis4_2=The product has already been applied.
-sit9_mis4_quiz_fact=Your action is not in accordance with good working paractices!
+sit9_mis4_quiz_fact="Your action is not in accordance with good working paractices!"
 sit9_mis4_quiz_option1=No, it is ok, I can leave now.  I have finished with the application of the product!
 sit9_mis4_quiz_option2=Why, what I have done wrong? 
-sit9_mis4_quiz_res=No, you are wrong!
-sit9_mis4_3=The direct sunlight may overheat the cans and they could become missiles with the possibility to harm you. 
+sit9_mis4_3=The direct sunlight may overheat the cans and they could become missiles with the possibility to harm you.
 sit9_mis4_4=You must put them in the safety cage and carry it in the warehouse. 
 sit9_mis4_5_1=All right!
 sit9_mis4_5_2=Now, trained personell wearing appropriate personal protective equipemnt will perfom puncturing in a designated area for this activity and any remaining content will be removed and then can be recycled.
@@ -402,9 +398,9 @@ sit10_intro2=Waste cleaning or disposal after working hours
 //Mission 2
 sit10_mis2_1=MISSION 2:
 sit10_mis2_2=Select the correct way of disposing the dirty HEPA filters and the waste materials produced by the cleaning of the extraction and filter systems.
-sit10_mis2_3=Choose the correct waste bag that should be used in the right.
+sit10_mis2_3=Choose the correct waste bag that should be used.
 sit10_mis2_4=Touch the bag and use the middle finger trigger to do it.
-sit10_mis2_5=Now, choose the correct waste container that should be used in the left.
+sit10_mis2_5=Now, choose the correct waste container that should be used (go outside).
 
 //Mission 3
 sit10_mis3_1=MISSION 3:
