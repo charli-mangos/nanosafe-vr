@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: c1bdc9a069cf243d993c3cd30f3fa82f
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 9202224452514701382
+    second: Cube.016|Avalon_Tower1_down_geo|Take 001|BaseLayer
+  - first:
+      74: 6386493633601334733
+    second: Cube.016|Avalon_Tower1|Take 001|BaseLayer
+  - first:
+      74: 5264915922339320715
+    second: Cube.016|Avalon_Tower|Take 001|BaseLayer
+  - first:
+      74: -6337040950180724014
+    second: Cube.016|building-3-B|Take 001|BaseLayer
+  - first:
+      74: -3444188076809571647
+    second: Cube.016|FuelTruck|Take 001|BaseLayer
+  - first:
+      74: 3087448186573804832
+    second: Cube.016|FuelVehicle|Take 001|BaseLayer
+  - first:
+      74: 1177614344557743256
+    second: Cube.016|Logo001|Take 001|BaseLayer
+  - first:
+      74: -5344684069219063347
+    second: Cube.016|Logo002|Take 001|BaseLayer
+  - first:
+      74: -82113777013470965
+    second: Cube.016|Logo|Take 001|BaseLayer
+  - first:
+      74: 7485341442567360140
+    second: Cube.016|null_wheel_b_l_2|Take 001|BaseLayer
+  - first:
+      74: 6572561928782593269
+    second: Cube.016|null_wheel_b_l|Take 001|BaseLayer
+  - first:
+      74: 5381421537640040161
+    second: Cube.016|null_wheel_b_r_2|Take 001|BaseLayer
+  - first:
+      74: -5983578049659723499
+    second: Cube.016|null_wheel_b_r|Take 001|BaseLayer
+  - first:
+      74: 7347852404772009078
+    second: Cube.016|null_wheel_f_l|Take 001|BaseLayer
+  - first:
+      74: -1777434300731522392
+    second: Cube.016|null_wheel_f_r|Take 001|BaseLayer
+  - first:
+      74: 445695814086921954
+    second: Cube.016|Object01|Take 001|BaseLayer
+  - first:
+      74: -1397151532674171496
+    second: Cube.016|Object05|Take 001|BaseLayer
+  - first:
+      74: -3207110683950405765
+    second: Cube.016|Object06|Take 001|BaseLayer
+  - first:
+      74: -3280743678964250767
+    second: Cube.016|Object07|Take 001|BaseLayer
+  - first:
+      74: 7870263760264489340
+    second: Cube.016|Object08|Take 001|BaseLayer
+  - first:
+      74: 8646201701337027262
+    second: Cube.016|Object09|Take 001|BaseLayer
+  - first:
+      74: 2067731788635015388
+    second: Cube.016|Object10|Take 001|BaseLayer
+  - first:
+      74: 8570928716024864649
+    second: Cube.016|platform|Take 001|BaseLayer
+  - first:
+      74: 2109352407106268203
+    second: Cube.016|pump|Take 001|BaseLayer
+  - first:
+      74: -2523034311627391323
+    second: Cube.016|truck|Take 001|BaseLayer
+  - first:
+      74: 733838667514600879
+    second: Cube.016|VRayPhysicalCamera07|Take 001|BaseLayer
+  - first:
+      74: 545662036776680548
+    second: Cube.016|VRayPhysicalCamera07|Take 001|BaseLayer.001
+  - first:
+      74: -6365019643225150773
+    second: Cube.016|VRayPhysicalCamera07|Take 001|BaseLayer.002
+  - first:
+      74: 1195387835675203376
+    second: Cube.016|VRayPhysicalCamera11|Take 001|BaseLayer
+  - first:
+      74: -5115879246178231172
+    second: Cube.016|VRayPhysicalCamera11|Take 001|BaseLayer.001
+  - first:
+      74: -8847556066264844627
+    second: Cube.016|VRayPhysicalCamera11|Take 001|BaseLayer.002
+  - first:
+      74: 4598006861881760980
+    second: Cube.016|VRayPhysicalCamera12|Take 001|BaseLayer
+  - first:
+      74: 4958749369311854808
+    second: Cube.016|VRayPhysicalCamera12|Take 001|BaseLayer.001
+  - first:
+      74: -8660003112172862669
+    second: Cube.016|VRayPhysicalCamera12|Take 001|BaseLayer.002
+  - first:
+      74: 313116973242028547
+    second: Cube.016|VRaySun01|Take 001|BaseLayer
+  - first:
+      74: 8362725220525023852
+    second: Cube.016|VRaySun01|Take 001|BaseLayer.001
+  - first:
+      74: -6568249185287680520
+    second: Cube.016|VRaySun01|Take 001|BaseLayer.002
+  - first:
+      74: -3430251645182456247
+    second: Cube.016|wheel_b_l_2|Take 001|BaseLayer
+  - first:
+      74: 6362625446170495687
+    second: Cube.016|wheel_b_l|Take 001|BaseLayer
+  - first:
+      74: 342319877473219461
+    second: Cube.016|wheel_b_r_2|Take 001|BaseLayer
+  - first:
+      74: -519553009878097743
+    second: Cube.016|wheel_b_r|Take 001|BaseLayer
+  - first:
+      74: -1834503152761364991
+    second: Cube.016|wheel_f_l|Take 001|BaseLayer
+  - first:
+      74: 4322945125767602365
+    second: Cube.016|wheel_f_r|Take 001|BaseLayer
+  - first:
+      74: -5666577962272999203
+    second: Cube.017|Avalon_Tower1_down_geo|Take 001|BaseLayer
+  - first:
+      74: -4322153589759338803
+    second: Cube.017|Avalon_Tower1|Take 001|BaseLayer
+  - first:
+      74: -3183102482671342566
+    second: Cube.017|Avalon_Tower|Take 001|BaseLayer
+  - first:
+      74: -4382028626719824644
+    second: Cube.017|building-3-B|Take 001|BaseLayer
+  - first:
+      74: 4728820796595960033
+    second: Cube.017|FuelTruck|Take 001|BaseLayer
+  - first:
+      74: -2722393165788340971
+    second: Cube.017|FuelVehicle|Take 001|BaseLayer
+  - first:
+      74: 3401250209734917327
+    second: Cube.017|Logo001|Take 001|BaseLayer
+  - first:
+      74: 1834002759254789843
+    second: Cube.017|Logo002|Take 001|BaseLayer
+  - first:
+      74: 5319979233933560537
+    second: Cube.017|Logo|Take 001|BaseLayer
+  - first:
+      74: -8891551989953531435
+    second: Cube.017|null_wheel_b_l_2|Take 001|BaseLayer
+  - first:
+      74: -6607665266445642792
+    second: Cube.017|null_wheel_b_l|Take 001|BaseLayer
+  - first:
+      74: -4564501167817475191
+    second: Cube.017|null_wheel_b_r_2|Take 001|BaseLayer
+  - first:
+      74: 2901847609724135958
+    second: Cube.017|null_wheel_b_r|Take 001|BaseLayer
+  - first:
+      74: 4921966272215104286
+    second: Cube.017|null_wheel_f_l|Take 001|BaseLayer
+  - first:
+      74: 3538711824517905990
+    second: Cube.017|null_wheel_f_r|Take 001|BaseLayer
+  - first:
+      74: 6890225438261062378
+    second: Cube.017|Object01|Take 001|BaseLayer
+  - first:
+      74: 8062232826788847894
+    second: Cube.017|Object05|Take 001|BaseLayer
+  - first:
+      74: 726546005612976491
+    second: Cube.017|Object06|Take 001|BaseLayer
+  - first:
+      74: 7975636144284260826
+    second: Cube.017|Object07|Take 001|BaseLayer
+  - first:
+      74: 4253765328926058722
+    second: Cube.017|Object08|Take 001|BaseLayer
+  - first:
+      74: 8171406642348506303
+    second: Cube.017|Object09|Take 001|BaseLayer
+  - first:
+      74: 5155982372743667253
+    second: Cube.017|Object10|Take 001|BaseLayer
+  - first:
+      74: 7644710533454043260
+    second: Cube.017|platform|Take 001|BaseLayer
+  - first:
+      74: -5357923615871516467
+    second: Cube.017|pump|Take 001|BaseLayer
+  - first:
+      74: -7534622610950235725
+    second: Cube.017|truck|Take 001|BaseLayer
+  - first:
+      74: 2689570022678685495
+    second: Cube.017|VRayPhysicalCamera07|Take 001|BaseLayer
+  - first:
+      74: 8054514260345062279
+    second: Cube.017|VRayPhysicalCamera07|Take 001|BaseLayer.001
+  - first:
+      74: 1917855490166490860
+    second: Cube.017|VRayPhysicalCamera07|Take 001|BaseLayer.002
+  - first:
+      74: -6742170918708548637
+    second: Cube.017|VRayPhysicalCamera11|Take 001|BaseLayer
+  - first:
+      74: 5527361617321398542
+    second: Cube.017|VRayPhysicalCamera11|Take 001|BaseLayer.001
+  - first:
+      74: 7698986630432074236
+    second: Cube.017|VRayPhysicalCamera11|Take 001|BaseLayer.002
+  - first:
+      74: -2668541056277941037
+    second: Cube.017|VRayPhysicalCamera12|Take 001|BaseLayer
+  - first:
+      74: -6280177850226954756
+    second: Cube.017|VRayPhysicalCamera12|Take 001|BaseLayer.001
+  - first:
+      74: 2968044261073743105
+    second: Cube.017|VRayPhysicalCamera12|Take 001|BaseLayer.002
+  - first:
+      74: 1390458482044883364
+    second: Cube.017|VRaySun01|Take 001|BaseLayer
+  - first:
+      74: -1177842245165803041
+    second: Cube.017|VRaySun01|Take 001|BaseLayer.001
+  - first:
+      74: -3815425002108619691
+    second: Cube.017|VRaySun01|Take 001|BaseLayer.002
+  - first:
+      74: -5819372459175155502
+    second: Cube.017|wheel_b_l_2|Take 001|BaseLayer
+  - first:
+      74: 6394164911682583614
+    second: Cube.017|wheel_b_l|Take 001|BaseLayer
+  - first:
+      74: -8526143291665056317
+    second: Cube.017|wheel_b_r_2|Take 001|BaseLayer
+  - first:
+      74: -7581857808247544475
+    second: Cube.017|wheel_b_r|Take 001|BaseLayer
+  - first:
+      74: 6975296268139290054
+    second: Cube.017|wheel_f_l|Take 001|BaseLayer
+  - first:
+      74: 5533736559807915975
+    second: Cube.017|wheel_f_r|Take 001|BaseLayer
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 2048dcf500d934843859ac439544b5c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal Viga
+    second: {fileID: 2100000, guid: 1e03a5f3245ee4c2d8d4821db2830d24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 2dc0d32b53694406ea514a1ba38e11d8, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_MetalGalvanized0053_3_L
+    second: {fileID: 2800000, guid: f6a6b70cdef6c4990a05a405ed67ff17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Wall_PlasterWeathered2_2x2_1K_albedo
+    second: {fileID: 2800000, guid: ff3aa0a77c6ac4f72abdea9ff55d6713, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Wall_PlasterWeathered2_2x2_1K_roughness
+    second: {fileID: 2800000, guid: df089f16af551468486c8f5456eeffb5, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
