@@ -9,6 +9,8 @@ public class SceneTranslator : MonoBehaviour
     public GameObject selectLanguagePanel;
     public GameObject chooseScene;
 
+    private Text[] allText;
+
     void Start()
     {
         string generalLang = PlayerPrefs.GetString("lang");
@@ -17,7 +19,6 @@ public class SceneTranslator : MonoBehaviour
         {
             SetDefault(generalLang);
         }
-
     }
 
     void SetDefault(string ISOCode)

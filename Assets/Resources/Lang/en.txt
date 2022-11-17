@@ -54,6 +54,7 @@ sit1_desc=In this situation an area of a house is to be paved. For this purpose,
 
 //Intro
 sit1_intro1=Welcome to SITUATION 1.
+sit1_intro2=Use of sawing machine with water cooling to reduce dust 
 
 //Mission 2
 sit1_mis2_1=MISSION 2:
@@ -271,7 +272,41 @@ sit4_mis4_7=You have completed the SITUATION 4!
 sit5=5.	Nanomaterial fixed in a solid matrix which is being drilled
 sit5_desc=In this scene, the work consists of preparing a construction environment for drilling into the coated stone surface to lay the electrical wiring for the outdoor lighting fixtures.  Focusing on the prevention of risks from the generation of nanomaterials.
 
+//Intro
+sit3_intro1=Welcome to SITUATION 5.
+sit3_intro2=Nanomaterial fixed in a solid matrix which is being drilled.
 
+//MISSION 2
+sit5_mis2_1=MISSION 2:
+sit5_mis2_2=Scaffold safety check.
+sit5_mis2_quiz1_fact=What is the first step to be able to use scaffolding safely?
+sit5_mis2_quiz1_option1=Check it for any faults  and that there is a  “Safe to Use" notice.
+sit5_mis2_quiz1_option2=Observe superficially and start work as soon as possible. 
+sit5_mis2_quiz2_fact="Hey man, It's time to work! Let's go up!"
+sit5_mis2_quiz2_option1=Ok, yes. Let's go!
+sit5_mis2_quiz2_option2=No, it is a mobile scaffold. The scaffold must never be accessed until allcastors are locked to prevent movements.
+sit5_mis2_3=Now, it's time to go up. 
+
+//MISSION 3
+sit5_mis3_1=MISSION 3:
+sit5_mis3_2=Prepare the working area.
+sit5_mis3_quiz1_fact=What should be the next task to be performed?
+sit5_mis3_quiz1_option1=Select the tools and start drilling holes in the wall.
+sit5_mis3_quiz1_option2=Protect the platfrom from contamination from debris with polyethylene sheeting and duct tape.
+sit5_mis3_3=Click the button to put the sheeting.
+
+//MISSION 4
+sit5_mis4_1=MISSION 4:
+sit5_mis4_2=Select the drilling tools. 
+sit5_mis4_3=Choose the tools you think you will need to drill holes in the wall.
+sit5_mis4_4=To do this, touch the object with your hand and press the trigger on your middle finger.
+
+//MISSION 5
+sit5_mis5_1=MISSION 5:
+sit5_mis5_2=The work is finished. 
+sit5_mis5_quiz1_fact=What should be done next?
+sit5_mis5_quiz1_option1=Lets go directly for lunch.
+sit5_mis5_quiz1_option2=Clean the working area. 
 
 -----------------------------------------------------------------------------------------
 
@@ -321,8 +356,46 @@ sit6_mis4_3=You have completed the SITUATION 6!
 
 //SITUATION 7
 //Title and description
-sit7=7.	Dust-air mixtures in a factory  
+sit7=7.	Dust-air mixtures in a factory.  
 sit7_desc=This scene is set in a natural stone factory. Stones are asked to be cut to restore a church. The objective is to test decision-making to prevent nanomaterials from affecting the workers in the plant. 
+
+/Intro
+sit7_intro1=Welcome to SITUATION 7.
+sit7_intro2=The target of this mission is to cut stone blocks for a church. 
+
+//Mission 2
+sit7_mis2_1=MISSION 2:
+sit7_mis2_2=You must provide the correct cutting characteristics to the cutting machine.
+sit7_mis2_3=You can check the block dimensions on the map in the whiteboard on the right. 
+sit7_mis2_4=After checking it, go to the machine room, to help your colleagues. 
+sit7_mis2_5=Enter the correct measurements into the computer. 
+sit7_mis2_quiz1_fact=What is the height value (in cm)?
+sit7_mis2_quiz2_fact=What is the length value (in cm)?
+sit7_mis2_quiz3_fact=What will be the width value for the upper part value (in cm)?
+sit7_mis2_quiz4_fact=What will be the width value for the bottom value (in cm)?
+sit7_mis2_quiz_option1=30
+sit7_mis2_quiz_option2=60
+sit7_mis2_quiz_option3=35
+sit7_mis2_quiz_option4=40
+
+//Mission 3
+sit7_mis3_1=MISSION 3:
+sit7_mis3_2=Decision-making in a dangerous situation.
+sit7_mis3_3=A dangerous aerosol mixture of stone dust and oxygen is produced.
+sit7_mis3_4=COOLING SYSTEM ALERT! EXTRACTION SYSTEM ALERT!
+sit7_mis3_quiz_fact=What to do in this case?
+sit7_mis3_quiz_option1=Open the windows and doors and continue working to deliver the material on time
+sit7_mis3_quiz_option2=Continue cutting pieces while you go and see what happens 
+sit7_mis3_quiz_option3=Stop the saw and try to solve the problem
+
+//Mission 4
+sit7_mis4_1=MISSION 4:
+sit7_mis4_2=The cut stones can already be seen on a pallet. And they have to receive a protective coating due to contamination caused by fine dust.
+sit7_mis4_quiz_fact=What is the first step in this situation?
+sit7_mis4_quiz_option1=Apply the product
+sit7_mis4_quiz_option2=Smell the product to see if it is out of date
+sit7_mis4_quiz_option3=Read the technical and safety data sheet
+sit7_mis4_quiz_option4=Spray all the stones on the pallet
 
 
 -----------------------------------------------------------------------------------------
@@ -330,12 +403,38 @@ sit7_desc=This scene is set in a natural stone factory. Stones are asked to be c
 
 //SITUATION 8
 //Title and description
-sit8=8.	Nano-waste management environmental protection
-sit8_desc=This scene will contain a series of missions aimed at air and waste management in a natural stone factory. In order to achieve a safe environment free of nanomaterials that could harm the workers.
+sit8=8.	Nano-waste management, environmental protection
+sit8_desc=This mission will take place in the stone factory. The user will have to check that the working environment is safe and that all safety systems are in good working order. 
 
 /Intro
 sit8_intro1=Welcome to SITUATION 8.
-sit8_intro2=Nano-waste management, enviromental protection. 
+sit8_intro2=Nano-waste management, environmental protection. 
+
+//Mission 2
+sit8_mis2_1=MISSION 2:
+sit8_mis2_2=Check the dust extraction system. 
+sit8_mis2_3=There are still several hours left until the next maintenance. 
+sit8_mis2_4=But the filter is full. 
+sit8_mis2_quiz1_fact=Should a filter change be carried out?
+sit8_mis2_quiz1_option1=Yes, the filter is full
+sit8_mis2_quiz1_option2=No, you should wait for the next maintenance
+sit8_mis2_quiz2_fact=Select the correct order of steps to be taken in the filter change:
+sit8_mis2_quiz2_option1=Inform factory management
+sit8_mis2_quiz2_option2=De-energise the system
+sit8_mis2_quiz2_option3=Secure the system against unintentional restart
+sit8_mis2_quiz2_option4=Order forklift with traverse
+sit8_mis2_quiz2_option5=Close filter bag
+sit8_mis2_quiz2_option6=Remove filter bag for final disposal (closed, dust-tight container)
+sit8_mis2_quiz2_option7=Installation of a new filter bag
+sit8_mis2_quiz2_option8=Restart the extraction system
+
+//Mission 3
+sit8_mis3_1=MISSION 3:
+sit8_mis3_2=Check the dust concentration in the air.
+sit8_mis3_3=There is too much dust in the air!
+sit8_mis3_quiz_fact=Is it necessary to measure the concentration of nanoparticles in the air at several locations in the factory?
+sit8_mis3_quiz_option1=No, the air and thus the concentration of nanoparticles is distributed homogeneously throughout the factory
+sit8_mis3_quiz_option2=Yes, it is necessary for the safety of workers and the environment 
 
 
 -----------------------------------------------------------------------------------------
@@ -413,7 +512,7 @@ sit10_mis3_quiz_option3=Hazardous liquid waste tank.
 //Mission 4
 sit10_mis4_1=MISSION 4:
 sit10_mis4_2=Select the correct treatment of used PPE.
-sit10_mis4_quiz_fact=Que debes hacer con ...?
+sit10_mis4_quiz_fact=What should you do with ...?
 sit10_mis4_quiz_option1=Disposed off.
 sit10_mis4_quiz_option2=Cleaned by vacuum system.
 sit10_mis4_quiz_option3=Washed.

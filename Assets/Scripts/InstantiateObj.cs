@@ -15,7 +15,7 @@ public class InstantiateObj : MonoBehaviour
     {
         if(instantiateOBJ == null && instantiatePrefab != null)
         {
-            instantiateOBJ = Instantiate(instantiatePrefab, obj.transform.position, Quaternion.identity) as GameObject;
+            instantiateOBJ = Instantiate(instantiatePrefab, obj.transform.position, obj.transform.rotation) as GameObject;
             instantiateOBJ.transform.parent = parentOBJ.transform;
         }
     }
