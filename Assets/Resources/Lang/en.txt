@@ -7,6 +7,7 @@ selected_lang=Selected language:
 //Buttons
 continue=Continue
 next=Next Mission
+apply=Apply
 clean=Clean
 move=Move
 check=Check
@@ -273,8 +274,8 @@ sit5=5.	Nanomaterial fixed in a solid matrix which is being drilled
 sit5_desc=In this scene, the work consists of preparing a construction environment for drilling into the coated stone surface to lay the electrical wiring for the outdoor lighting fixtures.  Focusing on the prevention of risks from the generation of nanomaterials.
 
 //Intro
-sit3_intro1=Welcome to SITUATION 5.
-sit3_intro2=Nanomaterial fixed in a solid matrix which is being drilled.
+sit5_intro1=Welcome to SITUATION 5.
+sit5_intro2=Nanomaterial fixed in a solid matrix which is being drilled.
 
 //MISSION 2
 sit5_mis2_1=MISSION 2:
