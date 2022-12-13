@@ -10,6 +10,7 @@ next=Next Mission
 apply=Apply
 clean=Clean
 move=Move
+protect=Protect
 check=Check
 start=Start
 restart=Restart
@@ -44,6 +45,15 @@ security5=Pull the trigger of your middle finger.
 security6=Select the objects and check if your selection is correct:
 security_check=Checking your security equipment...
 
+//Window Mission
+misW_1=MISSION 2:
+misW_2=Prepare the work area.
+misW_quiz1_fact=Should we start with the use of the machine?
+misW_quiz2_fact=Why?
+misW_quiz2_option2=Doors and windows should be protected from the possible impact of nanoparticles
+misW_quiz2_option1=You should eat something before starting work
+misW_quiz2_option3=There should be a seating area for a comfortable space.
+misW_3=Protect the window from droplets.
 
 ------------------------------------------------------------------------
 
@@ -57,24 +67,24 @@ sit1_desc=In this situation an area of a house is to be paved. For this purpose,
 sit1_intro1=Welcome to SITUATION 1.
 sit1_intro2=Use of sawing machine with water cooling to reduce dust 
 
-//Mission 2
-sit1_mis2_1=MISSION 2:
+//Mission 3
+sit1_mis2_1=MISSION 3:
 sit1_mis2_2=Prepare the sawing machine.
 sit1_mis2_3=Choose the right surface on which to place the machine.
 sit1_mis2_4=Select the surface with the trigger and check your answer...
 sit1_check=Checking the surface...
 sit1_surface=That surface is not optimal for the sawing machine.
 
-//Mission 3
-sit1_mis3_1=MISSION 3:
+//Mission 4
+sit1_mis3_1=MISSION 4:
 sit1_mis3_2=Choose the level of water the machine is using.
 sit1_mis3_quiz1_fact=Which level of water would you use to cut the stone?
 sit1_mis3_quiz1_option1=Low water quantity. 
 sit1_mis3_quiz1_option2=Medium water quantity.
 sit1_mis3_quiz1_option3=Large water quantity.
 
-//Mission 4
-sit1_mis4_1=MISSION 4:
+//Mission 5
+sit1_mis4_1=MISSION 5:
 sit1_mis4_2=The tank of water is full and it must be emptied.
 sit1_mis4_quiz1_fact=Where the water should be emptied?
 sit1_mis4_quiz1_option1=The floor. 
@@ -85,8 +95,8 @@ sit1_mis4_quiz2_option1=Run it through a filter system and dispose the grinding 
 sit1_mis4_quiz2_option2=Use it to water the lawn.
 sit1_mis4_quiz2_option3=Dump the water into the next canal.
 
-//Mission 5
-sit1_mis5_1=MISSION 5:
+//Mission 6
+sit1_mis5_1=MISSION 6:
 sit1_mis5_2=The sawing task is finished and the machine has to be cleaned.
 sit1_mis5_3=How the machine should be cleaned?
 sit1_mis5_4=Select one of the clean instruments in the right.
@@ -195,11 +205,12 @@ sit3_mis4_quiz1_fact=What step should be done next?
 sit3_mis4_quiz1_option1=Leave the place and start another situation. 
 sit3_mis4_quiz1_option2=Clean the objects used for the mixing. 
 sit3_mis4_quiz2_fact=Which objects should be cleaned?
-sit3_mis4_quiz2_option1=Stirring device.
-sit3_mis4_quiz2_option2=Shelves. 
-sit3_mis4_quiz2_option3=The floor. 
-sit3_mis4_quiz2_option4=Weighter containers.
-sit3_mis4_quiz2_option5=The scale.
+sit3_mis4_quiz2_option1=Stirring device
+sit3_mis4_quiz2_option2=Shelves
+sit3_mis4_quiz2_option3=The floor
+sit3_mis4_quiz2_option4=Weighter containers
+sit3_mis4_quiz2_option5=The scale
+sit3_mis4_3=Yo have completed SITUATION 3!
 
 
 ----------------------------------------------------------------------------------------------
@@ -308,6 +319,7 @@ sit5_mis5_2=The work is finished.
 sit5_mis5_quiz1_fact=What should be done next?
 sit5_mis5_quiz1_option1=Lets go directly for lunch.
 sit5_mis5_quiz1_option2=Clean the working area. 
+sit5_mis5_3=You have completed the SITUATION 5!
 
 -----------------------------------------------------------------------------------------
 
@@ -397,6 +409,7 @@ sit7_mis4_quiz_option1=Apply the product
 sit7_mis4_quiz_option2=Smell the product to see if it is out of date
 sit7_mis4_quiz_option3=Read the technical and safety data sheet
 sit7_mis4_quiz_option4=Spray all the stones on the pallet
+sit7_mis4_3=You have completed the SITUATION 7!
 
 
 -----------------------------------------------------------------------------------------
@@ -420,14 +433,14 @@ sit8_mis2_quiz1_fact=Should a filter change be carried out?
 sit8_mis2_quiz1_option1=Yes, the filter is full
 sit8_mis2_quiz1_option2=No, you should wait for the next maintenance
 sit8_mis2_quiz2_fact=Select the correct order of steps to be taken in the filter change:
-sit8_mis2_quiz2_option1=Inform factory management
-sit8_mis2_quiz2_option2=De-energise the system
-sit8_mis2_quiz2_option3=Secure the system against unintentional restart
-sit8_mis2_quiz2_option4=Order forklift with traverse
+sit8_mis2_quiz2_option2=Inform factory management
+sit8_mis2_quiz2_option6=De-energise the system
+sit8_mis2_quiz2_option8=Secure the system against unintentional restart
+sit8_mis2_quiz2_option7=Order forklift with traverse
 sit8_mis2_quiz2_option5=Close filter bag
-sit8_mis2_quiz2_option6=Remove filter bag for final disposal (closed, dust-tight container)
-sit8_mis2_quiz2_option7=Installation of a new filter bag
-sit8_mis2_quiz2_option8=Restart the extraction system
+sit8_mis2_quiz2_option4=Remove filter bag for final disposal (closed, dust-tight container)
+sit8_mis2_quiz2_option1=Installation of a new filter bag
+sit8_mis2_quiz2_option3=Restart the extraction system
 
 //Mission 3
 sit8_mis3_1=MISSION 3:
@@ -436,6 +449,7 @@ sit8_mis3_3=There is too much dust in the air!
 sit8_mis3_quiz_fact=Is it necessary to measure the concentration of nanoparticles in the air at several locations in the factory?
 sit8_mis3_quiz_option1=No, the air and thus the concentration of nanoparticles is distributed homogeneously throughout the factory
 sit8_mis3_quiz_option2=Yes, it is necessary for the safety of workers and the environment 
+sit8_mis4_4=You have completed the SITUATION 8!
 
 
 -----------------------------------------------------------------------------------------

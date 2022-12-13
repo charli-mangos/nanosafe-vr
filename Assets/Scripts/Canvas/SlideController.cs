@@ -23,6 +23,7 @@ public class SlideController : MonoBehaviour
     public Button startButton;
     public Text tittle;
     public Text description;
+    public Image img; 
 
     // Start is called before the first frame update
     void Start()
@@ -70,6 +71,8 @@ public class SlideController : MonoBehaviour
     public void setUIComponents()
     {
         description.text = "";
+
+        img.sprite = currentSlide.image;
 
         tittle.text = MainTranslate.Fields[currentSlide.tittle];
 
