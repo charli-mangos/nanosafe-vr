@@ -24,8 +24,6 @@ public class SceneTranslator : MonoBehaviour
     void SetDefault(string ISOCode)
     {
 
-        PlayerPrefs.SetString("lang", ISOCode);
-
         MainTranslate.SetLanguage(ISOCode);
 
     }

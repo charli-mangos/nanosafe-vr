@@ -75,8 +75,10 @@ public class MultipleSelectionQuiz : MonoBehaviour
         if (unanswered.Count > 0)
         {
             currentQuestion = unanswered[0];
+            Debug.Log(currentQuestion.fact);
 
             questFact.text = MainTranslate.Fields[currentQuestion.fact];
+
 
             if (imgComp)
             {

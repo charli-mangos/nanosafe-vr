@@ -73,6 +73,9 @@ public class MainTranslate : MonoBehaviour
     {
         lang = ISOCode;
 
+
+        PlayerPrefs.SetString("lang", ISOCode);
+
         LoadLanguage();
     }
 

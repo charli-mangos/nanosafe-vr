@@ -1,5 +1,531 @@
-sit=Lage
+//GENERAL
+sit=Situation
+scene=Wählen Sie bitte ein Situation aus: 
+lang=Select a language:
+selected_lang=Selected language:
 
-sit9_intro1_1=Welcome to SITUATION 9.
-sit9_intro1_2=In this scene you will have to fix the pool using spray.
-sit9_intro1_3=Try to perform the steps safely.
+//Buttons
+continue=Fortfahren
+next=Nächste Mission
+apply=Folie anbringen
+clean=Reinigen
+move=Betätigen
+protect=Schützen
+check=Überprüfen
+start=Start
+restart=Wiederholen
+retry=Wiederholen
+menu=Main Hauptmenü
+quiz_yes=Ja
+quiz_no=Nein
+
+//Phrases
+correct=Richtig!
+congrats=Glückwunsch!
+fail=You Sie haben den Missionsauftrag nicht erfüllt.
+completed=Missionsauftrag erfolgreich abgeschlossen!
+
+//MistakePanel
+mistake1=Zu viele vergebliche Versuche.
+mistake2=Bitte sehen Sie in den Lerninhalten nach oder beraten Sie sich mit Ihrem Trainer. versuchen Sie es anschließend erneut.
+
+//Init Info
+intro1=Versuchen Sie, die Schritte sicher auszuführen.
+intro2=Sie müssen einige Missionen erfüllen.
+intro3=Sie sind an folgendem Zeichen zu erkennen:
+intro4=Um sich auf der Ebene zu bewegen, verwenden Sie das Teleport-Werkzeug.
+intro5=Dies wird mit den Tasten A oder X aktiviert.
+
+//EPI Mission
+security1=MISSION 1:
+security2=Wählen Sie die Sicherheitsausrüstung für diese Aufgabe.
+security3=So wählen Sie ein Objekt aus:
+security4=Berühren Sie es mit der Hand.
+security5=Ziehen Sie das Objekt mit Hilfe Ihres Mittelfingers.
+security6=Wählen Sie die Objekte aus und überprüfen Sie, ob Ihre Auswahl korrekt ist:
+security_check=Überprüfen Sie Ihre Sicherheitsausrüstung...
+
+//Window Mission
+misW_1=MISSION 2:
+misW_2=Vorbereitung des Arbeitsbereiches.
+misW_quiz1_fact=Sollen wir mit der Benutzung der Säge beginnen?
+misW_quiz2_fact=Warum?
+misW_quiz2_option2=Türen und Fenster sollten wegen möglicher Exposition von Nanopartikeln geschlossen werden.
+misW_quiz2_option1=Sie sollten vor Arbeitsbeginn etwas essen.
+misW_quiz2_option3=Es sollte ein Sitzbereich für einen bequemen Arbeitsplatz vorhanden sein.
+misW_3=Schützen Sie die Fenster vor Tröpfchenbildung.  
+
+------------------------------------------------------------------------
+
+
+//SITUATION 1
+//Title and description
+sit1=1.	Verwendung einer Sägemaschine mit Wasserkühlung zur Staubreduktion  
+sit1_desc=In dieser Situation soll eine Fläche an einem Haus gepflastert werden. Für das Steineschneiden soll eine wassergekühlte Säge Verwendung finden, um den Staub zu reduzieren. Der Spieler muss die notwendigen Schritte durchführen, um dieses Werkzeug sicher zu benutzen.
+
+//Intro
+sit1_intro1=Willkommen zur SITUATION 1: 
+sit1_intro2=Einsatz von Sägemaschinen mit Wasserkühlung zur Staubreduzierung
+
+//Mission 3
+sit1_mis2_1=MISSION 3:
+sit1_mis2_2=Vorbereitung der Sägemaschine.
+sit1_mis2_3=Wählen Sie die richtige Aufstellfläche für das Gerät.
+sit1_mis2_4=Wählen Sie die Fläche mit dem Mittelfinger und überprüfen Sie Ihre Antwort...
+sit1_check=Überprüfen der Aufstellfläche...
+sit1_surface=Diese Aufstellfläche ist nicht optimal für die Sägemaschine.
+sit1_mis2_quiz_fact=Warum?
+sit1_mis2_option1=Denn die Wasserzufuhr befindet sich in diesem Bereich. Und es ist sehr wichtig, Wasser zu verwenden, um die Emission von Nanomaterialien zu reduzieren.
+sit1_mis2_option2=Weil es sonnig ist und die Sonne Nanomaterialien aufwirbeln und zur Explosion bringen kann.
+
+//Mission 4
+sit1_mis3_1=MISSION 4:
+sit1_mis3_2=Wählen Sie die Wassermenge, die die Maschine benötigt.
+sit1_mis3_quiz1_fact=Welche Wassermenge würden Sie verwenden, um den Stein zu schneiden?
+sit1_mis3_quiz1_option1=Geringe Wassermenge. 
+sit1_mis3_quiz1_option2=Mittlere Wassermenge.
+sit1_mis3_quiz1_option3=Große Wassermenge.
+
+//Mission 5
+sit1_mis4_1=MISSION 5:
+sit1_mis4_2=Der Wassertank ist voll und muss geleert werden.
+sit1_mis4_quiz1_fact=Wohin das Wasser entleert werden soll?
+sit1_mis4_quiz1_option1=Auf den Boden.  
+sit1_mis4_quiz1_option2=In einen Sammelbehälter für flüssige Abfälle.
+sit1_mis4_3=Nehmen Sie den Eimer und stellen Sie ihn an die richtige Stelle, um das Wasser hineinzugießen.
+sit1_mis4_quiz2_fact=Was machen Sie mit dem Sammelbehälter?
+sit1_mis4_quiz2_option1=Ich lassen das Wasser durch ein Filtersystem laufen und entsorge das Sägemehl und -staub der Steine.
+sit1_mis4_quiz2_option2=Ich verwende das Wasser zum Bewässern des Rasens.
+sit1_mis4_quiz2_option3=Ich schütte das Wasser in den nächsten Kanal.
+
+//Mission 6
+sit1_mis5_1=MISSION 6:
+sit1_mis5_2=Die Sägearbeit ist beendet und die Maschine muss gereinigt werden.
+sit1_mis5_3=Wie sollte das Gerät gereinigt werden?
+sit1_mis5_4=Wählen Sie eines der Reinigungsgeräte auf der rechten Seite.
+sit1_mis5_5=Sie haben die SITUATION 1 erfolgreich beendet!
+
+
+------------------------------------------------------------------------------------
+
+
+//SITUATION 2
+//Title and description
+sit2=2.	Verwendung verschiedener Produkte in einer Fabrik (Teil I)
+sit2_desc=In dieser Situation werden in der Fabrik verschiedene Produkte auf den Naturstein aufgetragen. Sie müssen die richtigen Maßnahmen treffen, um eine Gefährdung des Produkts und der Gesundheit zu vermeiden.
+
+//Intro
+sit2_intro1=Willkommen zur SITUATION 2: 
+sit2_intro2=Verwendung verschiedener Produkte in einer Fabrik (Teil I).
+
+//Mission 2
+sit2_mis2_1=MISSION 2:
+sit2_mis2_2=Ordnung im Chemikalienlager schaffen.
+sit2_mis2_3=Sehen Sie sich das Regal auf der rechten Seite an und stellen Sie die Behälter in der gleichen Reihenfolge wie auf der rechten Seite auf.
+sit2_mis2_4=Benutzen Sie Ihren Mittelfinger, um einen Gegenstand zu greifen.
+sit2_check=Überprüfen des Lagers... 
+sit2_tidy=So bringt man keine Ordnung in ein Lager mit gefährlichen Produkten.
+sit2_correct=Jetzt ist es ein Vergnügen, das Lager zu anzuschauen!
+sit2_mis2_quiz1_fact=Unternehmen Sie die nächsten Schritte, um die Aufgabe zu erledigen:
+sit2_mis2_quiz1_option1=Wischen Sie den Boden und geben Sie etwas Lufterfrischer darauf, damit er gut riecht.
+sit2_mis2_quiz1_option2=Legen Sie einen Ordner mit den Sicherheitsdatenblättern der Produkte an bzw. beauftragen Sie dies.
+sit2_mis2_quiz1_option3=Bringen Sie die Produkte in alphabetische Reihenfolge, um sie leichter zu finden.
+sit2_mis2_quiz1_option4=Werfen Sie Produkte weg, die in schlechtem Zustand sind.
+sit2_mis2_quiz1_option5=Benachrichtigen Sie den Abfallbeauftragten, um Produkte in schlechtem Zustand zu entfernen.
+
+//Mission 3
+sit2_mis3_1=MISSION 3:
+sit2_mis3_2=Lassen Sie uns Ihr Wissen über die zu verwendenden Produkte testen.
+sit2_mis3_quiz1_fact=Wählen Sie die Bedeutung der Abbildung:   
+sit2_mis3_quiz1_option1=Schädlich/Reizend
+sit2_mis3_quiz1_option2=Entflammbar
+sit2_mis3_quiz1_option3=Komprimiertes Gas
+sit2_mis3_quiz1_option4=Giftig
+sit2_mis3_quiz1_option5=Gesundheitsgefährdend
+sit2_mis3_quiz1_option6=Ätzend
+sit2_mis3_quiz1_option7=Gefährlich für die Umwelt
+sit2_mis3_quiz1_option8=Explosionsgefährlich
+sit2_mis3_quiz1_option9=Brandfördernd
+
+//Mission 4
+sit2_mis4_1=MISSION 4:
+sit2_mis4_2=Vergewissern Sie sich, dass Ihr Partner die Produkte auch richtig einsetzt.
+sit2_mis4_3="Was ist los, Mann, ich habe gerade das wasserabweisende Mittel aufgetragen.
+sit2_mis4_4=Können Sie mir mit dem Anti-Pilzmittel helfen?"
+sit2_mis4_5=" Prima! Gießen Sie das Produkt einfach in das Becken dort. 
+sit2_mis4_6=Genau das habe ich vorher auch für die wasserabweisende Substanz verwendet."
+sit2_mis4_quiz1_fact=Welchen Schritt sollten Sie als nächstes unternehmen?
+sit2_mis4_quiz1_option1=Folgen Sie dem Arbeiter und beginnen Sie sofort mit der Anwendung des Pilzschutzmittels. 
+sit2_mis4_quiz1_option2=Reinigen Sie zuerst den Farbbehälter und den Pinsel, um das Produkt nicht zu vermischen.
+sit2_mis4_7=Es ist wichtig, dass vorher gereinigt wird, damit sich die Rückstände der Nanoprodukte nicht vermengen.
+sit2_mis4_quiz2_fact=Welche Fehler haben Sie in der Szene beobachtet? Was ist ein richtiges bzw. falsches Verhalten?
+sit2_mis4_quiz2_option1=Das Produkt darf nicht auf den Boden geschüttet werden 
+sit2_mis4_quiz2_option2=Der Partner sollte gleichzeitig mit dem Auftragen des Produkts essen, um Zeit zu sparen.
+sit2_mis4_quiz2_option3=Die Produkte sollten gemischt aufgetragen werden, um am wirksamsten zu sein.
+sit2_mis4_quiz2_option4=Der Kollege sollte eine Maske und Handschuhe tragen.
+sit2_mis4_8=Sie haben die SITUATION 2 erfolgreich abgeschlossen!
+
+
+----------------------------------------------------------------------------------------------
+
+
+//SITUATION 3
+//Title and description
+sit3=3.	Mischen von Nanomaterial-Pulver mit einer flüssige Matrix
+sit3_desc=In diesem Szenario muss eine Pulvermischung in eine flüssige Matrix eingearbeitet warden. Das Gemisch soll auf einer Baustelle verwendet werden.
+
+//Intro
+sit3_intro1=Willkommen zur SITUATION 3: 
+sit3_intro2=Herstellen einer Mischung aus Nanomaterial-Pulver und einer flüssigen Matrix
+
+//Mission 2
+sit3_mis2_1=MISSION 2:
+sit3_mis2_2=Wählen Sie eine zweckmäßige Stelle für diese Mischaufgabe.
+sit3_mis2_quiz1_fact=Prüfen Sie das Wetter und entscheiden Sie, wo die Aufgabe durchgeführt werden soll:
+sit3_mis2_quiz1_option1=Genau hier ist es gut.
+sit3_mis2_quiz1_option2=Es ist windig, es ist sicherer, es drinnen zu machen.
+
+//Mission 3
+sit3_mis3_1=MISSION 3:
+sit3_mis3_2=Einmischen des Pulvers in die flüssige Matrix.
+sit3_mis3_quiz1_fact=Welches Produkt sollte zuerst eingesetzt werden?
+sit3_mis3_quiz1_option1=Flüssige Matrix. 
+sit3_mis3_quiz1_option2=Pulver.
+sit3_mis3_quiz2_fact=Wie wird das Rührwerk richtig bedient?
+sit3_mis3_quiz2_option1=Das Rührwerk an einer konstanten Stelle im Behälter halten.
+sit3_mis3_quiz2_option2=Das Rührwerk auf verschiedenen Höhen im Behälter kreisförmig bewegen, um die Zuschlagstoffe effektiv zu verteilen.
+sit3_mis3_quiz2_option3=Das Rührwerk in konstanter Höhe im Behälter kreisförmig bewegen.
+sit3_mis3_quiz3_fact=Welche Geschwindigkeitsstufe sollte verwendet werden, um die Zuschlagstoffe zu verbinden?
+sit3_mis3_quiz3_option1=1
+sit3_mis3_quiz3_option2=2
+sit3_mis3_quiz3_option3=3
+sit3_mis3_quiz4_fact=Und wenn die Zuschlagstoffe verteilt sind und die Mischung homogener aussieht?
+
+//Mission 4
+sit3_mis4_1=MISSION 4:
+sit3_mis4_2=Der Mischvorgang ist beendet.
+sit3_mis4_quiz1_fact=Welcher Schritt sollte als nächstes getan werden?
+sit3_mis4_quiz1_option1=Den Arbeitsplatz verlassen und eine andere Aufgabe übernehmen.
+sit3_mis4_quiz1_option2=Reinigen aller zum Mischen verwendeten Geräte. 
+sit3_mis4_quiz2_fact=Welche Geräte müssen gereinigt werden?
+sit3_mis4_quiz2_option1=Das Rührwerk.
+sit3_mis4_quiz2_option2=Regale.
+sit3_mis4_quiz2_option3=Der Fußboden.
+sit3_mis4_quiz2_option4=Der Mischbehälter.
+sit3_mis4_quiz2_option5=Die Waage.
+sit3_mis4_3=Sie haben die SITUATION 3 erfolgreich abgeschlossen!
+
+
+----------------------------------------------------------------------------------------------
+
+
+//SITUATION 4
+//Title and description
+sit4=4.	Auftrag von Nanomaterial auf eine Steinmaterialoberfläche mit einer Spritzpistole
+sit4_desc=In diesem Szenario soll ein Arbeitsbereich im Freien vorbereitet werden, an dem die Nanomaterialien mit einer Spritzpistole auf die Steinoberflächen aufgetragen werden. Die Anwendung wird in einem Schwimmbad stattfinden und die Umgebungsbedingungen werden nicht optimal sein.
+
+//Intro
+sit4_intro1=Willkommen zur SITUATION 4: 
+sit4_intro2=Mit einer Spritzpistole aufgetragenes Nanomaterial auf einer Steinoberfläche.
+
+//Mission 3
+sit4_mis2_1=MISSION 3:
+sit4_mis2_2=Prüfen Sie die Umgebung und das Wetter. Legen Sie fest, wo die Aufgabe durchgeführt werden soll.
+sit4_mis2_3=Schauen Sie sich um.
+sit4_mis2_quiz1_fact=Was sollten Sie als nächstes tun?
+sit4_mis2_quiz1_option1=Sagen Sie dem Fahrer, dass er das Fahrzeug vor dem Auftragen des Nanoprodukts entfernen muss.
+sit4_mis2_quiz1_option2=Tragen Sie das Produkt auf. Es wird nichts passieren, wenn es auf das Auto gelangt.
+sit4_mis2_quiz2_fact=Warum?
+sit4_mis2_quiz2_option1=Das Fahrzeug ist neu und wir wollen nicht, dass es schmutzig wird.   
+sit4_mis2_quiz2_option2=Kleine Produkttröpfchen, die später nicht mehr entfernt werden könnten, können an der Oberfläche der Scheiben und des Lacks haften.
+sit4_mis2_quiz2_option3=Wenn das Produkt mit den Rädern des Fahrzeugs in Berührung kommt, können diese durch den entstehenden Überdruck explodieren.
+sit4_mis2_4=Das Fahrzeug muss geschützt werden! 
+sit4_mis2_5=Betätigen Sie die Schaltfläche, um es zu tun.
+sit4_mis2_6=Bewegen des Fahrzeugs...
+sit4_mis2_7=Das Fahrzeug ist nun gut geparkt.
+
+//Mission 4
+sit4_mis3_1=MISSION 4:
+sit4_mis3_2=Nun müssen Sie das Produkt auftragen. 
+sit4_mis3_3=Aber zuerst möchte Ihr Partner Ihnen noch etwas mitteilen.
+sit4_mis3_quiz1_fact=" Hey, hast du schon die Brille gesehen, die ich letzte Woche gekauft habe?"
+sit4_mis3_quiz1_option1=Wow, die ist cool!
+sit4_mis3_quiz1_option2=Die solltest du auf keinen Fall tragen.
+sit4_mis3_quiz2_fact=" Und warum nicht? Wir sollten sie tragen, damit die Sonne nicht blendet.
+sit4_mis3_quiz2_option1=Ja, stimmt. Ich werde sie sofort holen.
+sit4_mis3_quiz2_option2=Wir müssen zu unserer Sicherheit richtige Schutzbrillen tragen.
+sit4_mis3_4=Nanoprodukte können in Ihre Augen gelangen und dort schweren Schaden anrichten.
+
+//Mission 5
+sit4_mis4_1=MISSION 5:
+sit4_mis4_2=Das Nanoprodukt wurde bereits angewendet.  
+sit4_mis4_3=Es wird Zeit, etwas zu essen.
+sit4_mis4_quiz1_fact="Cheers für eine gute Arbeit!"
+sit4_mis4_quiz1_option1=Cheers!
+sit4_mis4_quiz1_option2=Wir sollten auf keinen Fall mit den Handschuhen essen, die mit dem Nanoprodukt in Berührung gekommen sind. Das ist gefährlich!
+sit4_mis4_4=Jetzt können Sie essen.
+sit4_mis4_5=Etwas essen... 
+sit4_mis4_6=Es ist Zeit, wieder an die Arbeit zu gehen."
+sit4_mis4_quiz2_fact=Was sollten wir tun, um alles richtig zu machen?
+sit4_mis4_quiz2_option1=Nehmen wir unsere Masken ab. Es ist sehr heiß und wir könnten an Lipotymie leiden.  
+sit4_mis4_quiz2_option2=Wir tragen eine Maske, um uns vor dem Einatmen von Nanoprodukten zu schützen.
+sit4_mis4_quiz2_res=Not really!
+sit4_mis4_8=" Mmmm... Lecker und ungefährlich!
+sit4_mis4_7=Sie haben die SITUATION 4 erfolgreich abgeschlossen!
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 5
+//Title and description
+sit5=5.	Bohren in festes Nanomaterial
+sit5_desc=In diesem Szenario besteht die Aufgabe darin, auf einer Baustelle die Nano-beschichtete Steinoberfläche für Bohrungen vorzubereiten. Darin sollen die elektrischen Leitungen für die Außenbeleuchtungsarmaturen verlegt werden. Der Schwerpunkt liegt auf der Risikovermeidung durch die Freisetzung von Nanomaterialien.
+
+//Intro
+sit5_intro1=Willkommen zur SITUATION 5: 
+sit5_intro2=Bohrungen in festen Bauteilen, die mit Nanomaterial versehen sind.
+
+//MISSION 2
+sit5_mis2_1=MISSION 2:
+sit5_mis2_2=Sicherheit von Gerüsten.
+sit5_mis2_quiz1_fact=Was ist der erste Schritt, um ein Gerüst sicher zu benutzen?
+sit5_mis2_quiz1_option1=Überprüfen Sie das Gerüst auf eventuelle Fehler und den Hinweis des Aufstellers "Freigabe, betriebssicher".
+sit5_mis2_quiz1_option2=Oberflächlich begutachten und so schnell wie möglich mit der Arbeit beginnen.
+sit5_mis2_quiz2_fact="Hey Mann, es ist Zeit zu arbeiten! Lass uns rauf gehen!"
+sit5_mis2_quiz2_option1=Ok, auf geht’s!
+sit5_mis2_quiz2_option2=Nein, es handelt sich um ein Fahrgerüst. Das Gerüst darf niemals betreten werden, solange nicht alle Rollen gegen Wegrollen gesichert sind.
+sit5_mis2_3=Jetzt ist es an der Zeit, nach oben zu steigen.
+
+//MISSION 3
+sit5_mis3_1=MISSION 3:
+sit5_mis3_2=Vorbereitung des Arbeitsplatzes.
+sit5_mis3_quiz1_fact=Welche Aufgabe sollte als nächstes ausgeführt werden?
+sit5_mis3_quiz1_option1=Die Werkzeuge auswählen und anfangen, Löchern in die Wand zu bohren.
+sit5_mis3_quiz1_option2=Schützen Sie das Gerüst vor Verunreinigungen und Schutt, indem Sie den Arbeitsbereich mit Polyethylenfolie und Klebeband isolieren.
+sit5_mis3_3=Klicken Sie auf die Schaltfläche, um die Folie anzubringen.
+
+//MISSION 4
+sit5_mis4_1=MISSION 4:
+sit5_mis4_2=Auswahl der Bohrwerkzeuge. 
+sit5_mis4_3=Wählen Sie die Werkzeuge aus, die Sie zum Bohren in die Wand benötigen.
+sit5_mis4_4=Dazu berühren Sie das betreffende Werkzeug mit Ihrer Hand und benutzen Ihren Mittelfinger als Auslöser.
+
+//MISSION 5
+sit5_mis5_1=MISSION 5:
+sit5_mis5_2=Die Aufgabe ist erledigt.  
+sit5_mis5_quiz1_fact=Was sollte als nächstes getan werden?
+sit5_mis5_quiz1_option1=Wir gehen direkt zum Mittagessen.
+sit5_mis5_quiz1_option2=Wir reinigen zuerst den Arbeitsbereich.
+sit5_mis5_3=Sie haben die SITUATION 5 erfolgreich abgeschlossen!
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 6
+//Title and description
+sit6=6.	Verwendung verschiedener Produkte in einer Fabrik (Teil II)
+sit6_desc=Bereiten Sie in diesem Szenario einen Arbeitsbereich in einem Natursteinwerk vor.  Hier sollen Nanomaterialien mit einer Spritzpistole und einem Farbroller auf die Steinoberflächen aufgetragen werden.
+
+/Intro
+sit6_intro1=Willkommen zur SITUATION 6: 
+sit6_intro2=Einsatz von verschiedenen Nanoprodukten in der Fabrik (Teil II).
+
+//Mission 2
+sit6_mis2_1=MISSION 2:
+sit6_mis2_2=Bereiten Sie die Oberfläche für das Auftragen des Nanoprodukts vor. 
+sit6_mis2_quiz1_fact=Was ist der erste Schritt zur Oberflächenvorbereitung?
+sit6_mis2_quiz2_fact=Was ist als nächstes zu tun?
+sit6_mis2_quiz3_fact=Und um die Oberflächenvorbereitung abzuschließen?
+sit6_mis2_quiz_option1=Reinigen der Oberfläche mit Wasser oder Azeton.
+sit6_mis2_quiz_option2=Maske gegen den Staub anlegen und Nitril-oder Latex-Handschuhe anziehen.
+sit6_mis2_quiz_option3=Oberfläche anschleifen.
+
+//Mission 3
+sit6_mis3_1=MISSION 3:
+sit6_mis3_2=Sicherstellen, dass der Raum die erforderlichen Belüftungsbedingungen aufweist.
+sit6_mis3_3=Finden Sie das Belüftungssystem. 
+sit6_mis3_4=Wählen Sie es mit Ihrem Zeigefingers aus, um fortzufahren. 
+sit6_mis3_quiz1_fact=Das System scheint abgeschaltet zu sein. Was ist der nächste Schritt?
+sit6_mis3_quiz1_option1=Lassen Sie das System ausgeschaltet, um die Umwelt nicht zu belasten.
+sit6_mis3_quiz1_option2=Schalten Sie es ein, der Kontakt mit Nanomaterialien kann gesundheitsgefährdend sein. 
+
+//Mission 4
+sit6_mis4_1=MISSION 4:
+sit6_mis4_2=Organisation des Arbeitsbereichs nach Beendigung der Aufgabe.
+sit6_mis4_quiz1_fact=Die Beschichtung ist bereits erfolgt, was ist nun zu tun?
+sit6_mis4_quiz1_option1=Den Arbeitsplatz aufräumen und die verwendeten Geräte reinigen.
+sit6_mis4_quiz1_option2=Alles stehen und liegen und zum Mittagessen gehen, es ist schon spät. Irgend jemand wird sich schon kümmern.
+sit6_mis4_quiz2_fact=Wohin sollten diese Abfälle entsorgt werden?
+sit6_mis4_quiz2_option1=In eine Mülltonne oder einen Müllcontainer.
+sit6_mis4_quiz2_option2=In einen speziellen Behälter für gebrauchte Lösungsmittel.
+sit6_mis4_3=Sie haben die SITUATION 6 erfolgreich abgeschlossen!
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 7
+//Title and description
+sit7=7.	Staub-Luft-Gemische in einer Fabrik 
+sit7_desc=Dieses Szenario spielt in einem Natursteinwerk. Es sollen Steine für die Restaurierung einer Kirche geschnitten werden. Ziel ist die Entscheidungsfindung, um eine Gefährdung der Beschäftigten mit Nanomaterialien in der Fabrik zu verhindern.
+
+/Intro
+sit7_intro1=Willkommen zur SITUATION 7: 
+sit7_intro2=Das Hauptziel dieser Aufgabe besteht darin, Steinblöcke für eine Kirche zu schneiden.
+
+//Mission 2
+sit7_mis2_1=MISSION 2:
+sit7_mis2_2=Sie müssen die Schneidemaschine auf die erforderlichen Schneidparameter einstellen.
+sit7_mis2_3=Sie können die Abmessungen der Blöcke rechts auf dem Whiteboard einsehen und überprüfen.
+sit7_mis2_4=Nach der Überprüfung gehen Sie in den Maschinenraum, um Ihren Kollegen zu helfen.
+sit7_mis2_5=Geben Sie die richtigen Maße in den Computer ein.
+sit7_mis2_quiz1_fact=Wie hoch ist der Wert für die Höhe (in cm)?
+sit7_mis2_quiz2_fact=Wie hoch ist der Wert für die Länge (in cm)?
+sit7_mis2_quiz3_fact=Welcher Wert gilt für die Breite des oberen Teils (in cm)?
+sit7_mis2_quiz4_fact=Welcher Wert gilt für die Breite des unteren Teils (in cm)?
+sit7_mis2_quiz_option1=30
+sit7_mis2_quiz_option2=60
+sit7_mis2_quiz_option3=35
+sit7_mis2_quiz_option4=40
+
+//Mission 3
+sit7_mis3_1=MISSION 3:
+sit7_mis3_2=Entscheidungsfindung in einer gefährlichen Situation.
+sit7_mis3_3=Es entsteht ein gefährliches Aerosolgemisch aus Steinstaub und Sauerstoff.
+sit7_mis3_4=KÜHLSYSTEM-ALARM! ABSAUGANLAGEN-ALARM!
+sit7_mis3_quiz_fact=Was ist in diesem Fall zu tun?
+sit7_mis3_quiz_option1=Fenster und Türen öffnen und weiterarbeiten, um das Material pünktlich zu liefern.
+sit7_mis3_quiz_option2=Die Steinsäge weiterlaufen lassen und nachschauen, was passiert ist.
+sit7_mis3_quiz_option3=Die Säge sofort anhalten und versuchen, das Problem zu lösen.
+
+//Mission 4
+sit7_mis4_1=MISSION 4:
+sit7_mis4_2=Die geschnittenen Steine sind bereits auf einer Palette gestapelt. Für die spätere Verwendung müüssen Sie aber noch eine Beschichtung gegen Feinstaub erhalten.
+sit7_mis4_quiz_fact=Was ist der erste Schritt in dieser Situation?
+sit7_mis4_quiz_option1=Beschichtung schnellstens auftragen
+sit7_mis4_quiz_option2=Am Produkt riechen, um festzustellen, ob es abgelaufen ist
+sit7_mis4_quiz_option3=Das technische Datenblatt und das Sicherheitsdatenblatt lesen und verstehen
+sit7_mis4_quiz_option4=Gleichmäßiges, sattes Besprühen aller Steine auf der Palette
+sit7_mis4_3=Sie haben die SITUATION 7 erfolgreich abgeschlossen!
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 8
+//Title and description
+sit8=8.	Nano-Abfallwirtschaft und Umweltschutz
+sit8_desc=Dieses Szenario enthält eine Reihe von Aufträgen, die sich mit der Luftreinhaltung und Abfallwirtschaft in einem Natursteinwerk befassen. Ziel ist es, eine sichere Umgebung zu schaffen, die frei von schädigenden Nanomaterialien ist.
+
+/Intro
+sit8_intro1=Willkommen zur SITUATION 8: 
+sit8_intro2=Nano-Abfallwirtschaft und Umweltschutz.
+
+//Mission 2
+sit8_mis2_1=MISSION 2:
+sit8_mis2_2=Überprüfen Sie das Staubabsaugsystem. 
+sit8_mis2_3=Bis zur nächsten Wartung verbleiben noch einige Betriebsstunden. 
+sit8_mis2_4=Der Filter ist jedoch schon voll.
+sit8_mis2_quiz1_fact=Sollte ein Filterwechsel vorgenommen werden?
+sit8_mis2_quiz1_option1=Auf jeden Fall, der Filter ist voll und wirkungslos
+sit8_mis2_quiz1_option2=Nein, das wird bei der nächsten Wartung erledigt
+sit8_mis2_quiz2_fact=Select the correct order of steps to be taken in the filter change:
+sit8_mis2_quiz2_option2=Information an die Betriebsleitung
+sit8_mis2_quiz2_option6=Abschaltung des Systems
+sit8_mis2_quiz2_option8=Sichern der Anlage gegen unbeabsichtigtes Wiedereinschalten
+sit8_mis2_quiz2_option7=Gabelstapler mit Traverse bestellen
+sit8_mis2_quiz2_option5=Filtersack schließen
+sit8_mis2_quiz2_option4=Filtersack zur endgültigen Entsorgung entnehmen (geschlossener, staubdichter Behälter)
+sit8_mis2_quiz2_option1=Einsetzen eines neuen Filtersacks
+sit8_mis2_quiz2_option3=Wiederinbetriebnahme der Absauganlage
+
+//Mission 3
+sit8_mis3_1=MISSION 3:
+sit8_mis3_2=Überprüfen Sie die Staubkonzentration in der Luft.
+sit8_mis3_3=Es ist zu viel Staub in der Luft!
+sit8_mis3_quiz_fact=Ist es notwendig, die Konzentration von Nanopartikeln in der Luft an mehreren Stellen in der Fabrik zu messen?
+sit8_mis3_quiz_option1=Nein, die Luft und damit die Konzentration von Nanopartikeln ist gleichmäßig in der Fabrik verteilt
+sit8_mis3_quiz_option2=Ja, es ist notwendig, um die Sicherheit der Beschäftigten und der Umwelt zu gewährleisten
+sit8_mis4_4=Sie haben die SITUATION 8 erfolgreich abgeschlossen!
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 9
+//Title and description
+sit9=9.	Auftrag von Nanomaterial als Aerosol
+sit9_desc=In diesem Szenario soll der Swimmingpool mit einem Anti-Rutsch-Spray bearbeitet werden. Sie müssen die richtigen Schritte ausführen, um niemandes Gesundheit zu gefährden.
+
+//Intro
+sit9_intro1=Willkommen zur SITUATION 9: 
+sit9_intro2=Als Aerosol aufgebrachtes Nanomaterial.
+
+//Mission 3
+sit9_mis2_1=MISSION 3:
+sit9_mis2_2=Überprüfen Sie das Becken vor dem Applizieren des Nanoprodukts.
+sit9_mis2_quiz_fact=Kann das Anti-Rutsch-Aerosol auch bei verschmutzten Steinen aufgebracht werden?
+sit9_mis2_3=Sehen Sie sich um.
+sit9_mis2_4=Der Pool muss zunächst gereinigt werden.
+sit9_mis2_5=Betätigen Sie den Button, um den Pool zu reinigen.
+sit9_mis2_6=Reinigungsvorgang...
+sit9_mis2_7=Der Pool ist sauber und bereit.
+
+//Mission 4
+sit9_mis3_1=MISSION 4:
+sit9_mis3_2=Sie müssen nun das Nanoprodukt auftragen, um die rutschhemmenden Eigenschaften der Bodenfläche zu verbessern.   
+sit9_mis3_quiz_fact=Die Anwendung des Naoprodukts muss...
+sit9_mis3_quiz_option1=... am Rand des Pools beginnen und dann systematisch fortgesetzt werden.
+sit9_mis3_quiz_option2=... nach dem Zufallsprinzip erfolgen.
+
+//Mission 5
+sit9_mis4_1=MISSION 5:
+sit9_mis4_2=Das Nanoprodukt wurde bereits angewendet.
+sit9_mis4_quiz_fact=Ihr Vorgehen steht nicht im Einklang mit geltenden Arbeitsrichtlinien!
+sit9_mis4_quiz_option1=Doch, schon okay, ich kann jetzt gehen. Ich bin mit der Anwendung des Produkts fertig!
+sit9_mis4_quiz_option2=Warum, was habe ich falsch gemacht?
+sit9_mis4_3=Die direkte Sonneneinstrahlung kann die Behälter überhitzen und sie könnten zu gefährlichen Geschossen werden.
+sit9_mis4_4=Sie müssen sie in einem Sicherheitsbehälter deponieren legen und im Lager aufbewahren.
+sit9_mis4_5_1=Gut gemacht!
+sit9_mis4_5_2=Nun kann geschultes Personal mit entsprechender Schutzausrüstung in einem geeigneten und zugelassenen Bereich eine Stichprobe durchführen, den restlichen Inhalt entfernen und dem Recycling zuführen.
+sit9_mis4_6=Sie haben die SITUATION 9 erfolgreich abgeschlossen!
+sit9_mis4_7=Greifen Sie mit dem Mittelfinger und lassen Sie los, um die einzelnen Behälter in den Sicherheitebehälter zu legen.
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 10
+//Title and description
+sit10=10. Reinigung und Entsorgung von Abfällen nach der Arbeitszeit
+sit10_desc=In diesem Szenario treffen Sie Entscheidungen über den in einem Natursteinwerk anfallenden Abfall.
+
+//Intro
+sit10_intro1=Willkommen zur SITUATION 10: 
+sit10_intro2=Reinigung oder Entsorgung von Abfällen zum Ende der Arbeitszeit
+
+//Mission 2
+sit10_mis2_1=MISSION 2:
+sit10_mis2_2=Wählen Sie die richtige Art, verschmutzten Feinstaubfilter und Stäube aus Absaug- und Filteranlagen zu entsorgen
+sit10_mis2_3=Wählen Sie auf der rechten Seite den richtigen, zweckmäßigen Abfallsack.
+sit10_mis2_4=Berühren Sie den Abfallsack und benutzen Sie dazu den Mittelfinger.
+sit10_mis2_5=Wählen Sie nun den richtigen Abfallbehälter, der verwendet werden soll (gehen Sie nach draußen)
+
+//Mission 3
+sit10_mis3_1=MISSION 3:
+sit10_mis3_2=Reinigen Sie danach das Wasserreinigungs- und aufbereitungssystem.
+sit10_mis3_quiz_fact=Was ist der richtige Ort für die Entsorgung von Klärschlamm?
+sit10_mis3_quiz_option1=Abwasserkanäle.
+sit10_mis3_quiz_option2=Gewöhnliche Mülltonnen für Mischabfälle.
+sit10_mis3_quiz_option3=Behälter für gefährliche flüssige Abfälle.
+
+//Mission 4
+sit10_mis4_1=MISSION 4:
+sit10_mis4_2=Auswahl der richtigen Behandlung von gebrauchter Persönlicher Schutzausrüstung (PSA).
+sit10_mis4_quiz_fact=Was ist zu tun mit...? 
+sit10_mis4_quiz_option1=Entsorgen.
+sit10_mis4_quiz_option2=Mit einem Vakuumsystem reinigen.
+sit10_mis4_quiz_option3=Waschen.
+sit10_mis4_quiz_option4=Mit einem feuchten Tuch reinigen.
+sit10_mis4_3=Sie haben die SITUATION 10 erfolgreich abgeschlossen!

@@ -74,6 +74,9 @@ sit1_mis2_3=Choose the right surface on which to place the machine.
 sit1_mis2_4=Select the surface with the trigger and check your answer...
 sit1_check=Checking the surface...
 sit1_surface=That surface is not optimal for the sawing machine.
+sit1_mis2_quiz_fact=Why?
+sit1_mis2_option1=Because the water intake is in that area. And it is very important to use water to reduce the emission of nanomaterials
+sit1_mis2_option2=Because it's sunny, and the sun can cause nanomaterials to agitate and explode
 
 //Mission 4
 sit1_mis3_1=MISSION 4:
@@ -225,8 +228,8 @@ sit4_desc=This situation aims to prepare an outdoor working area where the nanom
 sit4_intro1=Welcome to SITUATION 4.
 sit4_intro2=Prepare an outdoor work area where the nanomaterials are to be applied to the stone surfaces with a spray gun.
 
-//Mission 2
-sit4_mis2_1=MISSION 2:
+//Mission 3
+sit4_mis2_1=MISSION 3:
 sit4_mis2_2=Check the scene and weather conditions before applying the product.
 sit4_mis2_3=Take a look.
 sit4_mis2_quiz1_fact=What should you do next?
@@ -243,8 +246,8 @@ sit4_mis2_5=Trigger the button to do it.
 sit4_mis2_6=Moving the car...
 sit4_mis2_7=The car is moved.
 
-//Mission 3
-sit4_mis3_1=MISSION 3:
+//Mission 4
+sit4_mis3_1=MISSION 4:
 sit4_mis3_2=You must apply the product. 
 sit4_mis3_3=Your partner has something to say to you. 
 sit4_mis3_quiz1_fact=Hey, did you see what glasses I bought last week?
@@ -257,8 +260,8 @@ sit4_mis3_quiz2_option2=We should wear the goggles, for our security.
 sit4_mis3_quiz2_res=Nope, you are working!
 sit4_mis3_4=Nanoproducts can get into your eyes and damage them.
 
-//Mission 4
-sit4_mis4_1=MISSION 4:
+//Mission 5
+sit4_mis4_1=MISSION 5:
 sit4_mis4_2=The product has already been applied.  
 sit4_mis4_3=It's time to eat something. 
 sit4_mis4_quiz1_fact=Cheers for a job well done! 
@@ -464,8 +467,8 @@ sit9_desc=In this scene the pool will have to be finished using anti-slip spray.
 sit9_intro1=Welcome to SITUATION 9.
 sit9_intro2=In this scene you will have to fix the pool using aerosol.
 
-//Mission 2
-sit9_mis2_1=MISSION 2:
+//Mission 3
+sit9_mis2_1=MISSION 3:
 sit9_mis2_2=Check the pool before applying the product.
 sit9_mis2_quiz_fact=Can the anti-slip aerosol product  be applied with the dirt present on the stone?
 sit9_mis2_quiz_res=Take a better look!
@@ -475,16 +478,16 @@ sit9_mis2_5=Trigger the button to do it.
 sit9_mis2_6=Cleaning...
 sit9_mis2_7=The pool is clean and ready.
 
-//Mission 3
-sit9_mis3_1=MISSION 3:
+//Mission 4
+sit9_mis3_1=MISSION 4:
 sit9_mis3_2=You must apply the product to enhance the anti-slip properties of the surface. 
 sit9_mis3_quiz_fact=The application of the product must...
 sit9_mis3_quiz_option1=...start from the perifery of the edge of the pool deck and then the application should continie bakwards.
 sit9_mis3_quiz_option2=...be done in a random way.
 sit9_mis3_quiz_res=Are you sure?
 
-//Mission 4
-sit9_mis4_1=MISSION 4:
+//Mission 5
+sit9_mis4_1=MISSION 5:
 sit9_mis4_2=The product has already been applied.
 sit9_mis4_quiz_fact="Your action is not in accordance with good working paractices!"
 sit9_mis4_quiz_option1=No, it is ok, I can leave now.  I have finished with the application of the product!
@@ -532,3 +535,4 @@ sit10_mis4_quiz_option1=Disposed off.
 sit10_mis4_quiz_option2=Cleaned by vacuum system.
 sit10_mis4_quiz_option3=Washed.
 sit10_mis4_quiz_option4=Cleaned by a damp cloth.
+sit10_mis4_3=You have completed the SITUATION 10!

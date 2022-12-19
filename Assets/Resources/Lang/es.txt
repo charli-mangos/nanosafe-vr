@@ -1,74 +1,529 @@
 //GENERAL
 sit=Situación
-scene=Selecciona un escenario:
-lang=Selecciona un idioma:
-selected_lang=Idioma seleccionado:
+scene=Selecciona una situación:
+lang=Select a language:
+selected_lang=Selected language:
 
 //Buttons
 continue=Continuar
-next=Siguiente Misión
+next=Siguiente misión
+apply=Aplicar
 clean=Limpiar
+move=Mover
+protect=Proteger
 check=Comprobar
 start=Empezar
-restart=Reiniciar
-menu=Menú Principal
-quiz_yes=Sí
+restart=Reintentar
+retry=Reintentar
+menu=Menu principal
+quiz_yes=Si
 quiz_no=No
 
 //Phrases
 correct=¡Correcto!
 congrats=¡Felicidades!
-fail=Has fallado la misión. 
-completed=¡Misión completada!
+fail=Has fallado la misión.
+completed=Misión completada!
 
-//SITUATION 9
+//MistakePanel
+mistake1=Has fallado demasiadas veces.
+mistake2=Por favor, lee el manual o las instrucciones de tu profesor de nuevo.
+
+//Init Info
+intro1=Intenta realizar los pasos con seguridad.
+intro2=Tienes que completar algunas misiones.
+intro3=Para encontrarlas necesitas buscar la siguiente señal:
+intro4=Para moverte por el escenario usa la herramienta de teletransporte. 
+intro5=Esta se activa con el botón principal (A or X).
+
+//EPI Mission
+security1=MISIÓN 1:
+security2=Selecciona el equipo de seguridad necesario. 
+security3=Para seleccionar un objeto:
+security4=Tócalo con tu mano.
+security5=Presiona el gatillo de tu dedo corazón.
+security6=Seleccione los objetos y compruebe si su selección es correcta:
+security_check=Comprobando de su equipo de seguridad...
+
+//Window Mission
+misW_1=MISIÓN 2:
+misW_2=Prepare la zona de trabajo.
+misW_quiz1_fact=¿Empezamos a usar la máquina?
+misW_quiz2_fact=¿Por qué?
+misW_quiz2_option2=Las puertas y ventanas deben protegerse del posible impacto de las nanopartículas.
+misW_quiz2_option1=Debes comer algo antes de empezar a trabajar.
+misW_quiz2_option3=Debe haber una zona de asientos para disfrutar de un espacio confortable.
+misW_3=Proteja la ventana.
+
+------------------------------------------------------------------------
+
+
+//SITUATION 1
+//Title and description
+sit1=1.	Uso de sierra con refrigeración por agua para reducir el polvo 
+sit1_desc=En esta situación se va a pavimentar una zona de una casa. Para ello, se va a utilizar una sierra refrigerada por agua para reducir el polvo. El jugador debe realizar los pasos necesarios para utilizar esta herramienta con seguridad.
+
 //Intro
-sit9_intro1_1=Bienvenido a la SITUACIÓN 9.
-sit9_intro1_2=En esta escena tendrás que arreglar la piscina usando un spray.
-sit9_intro1_3=Intenta realizar los pasos de manera segura.
-sit9_intro2_1=El objetivo es completar una serie de misiones.
-sit9_intro2_2=Para encontrarlas tendrás que buscar la señal:
-sit9_intro3_1=Para moverte por la escena puedes utilizar la herramienta de teletransporte. 
-sit9_intro3_2=Esta se activa mediante el botón principal (A o X).
+sit1_intro1=Bienvenido a la SITUACIÓN 1.
+sit1_intro2=Uso de sierra con refrigeración por agua para reducir el polvo 
 
-//Mission 1
-sit9_mis1_1=MISIÓN 1:
-sit9_mis1_2=Elige el equipo necesario para la siguiente misión.
-sit9_mis1_3=Para seleccionar un objeto:
-sit9_mis1_4=Tócalo con la mano.
-sit9_mis1_5=Pulsa el gatillo de tu dedo corazón.
-sit9_mis1_6=Selecciona los objetos que creas convenientes y comprueba que la selección es correcta mediante el siguiente botón:
-sit9_mis1_check=Comprobando su equipo de seguridad...
+//Mission 3
+sit1_mis2_1=MISIÓN 3:
+sit1_mis2_2=Prepare la sierra.
+sit1_mis2_3=Elija la superficie adecuada para colocar la máquina.
+sit1_mis2_4=Selecciona la superficie con el gatillo y comprueba tu respuesta...
+sit1_check=Comprobando la superficie...
+sit1_surface=Esa superficie no es óptima para la sierra.
+sit1_mis2_quiz_fact=¿Por qué?
+sit1_mis2_option1=Porque la toma de agua está en esa zona. Y es muy importante utilizar el agua para reducir la emisión de nanomateriales
+sit1_mis2_option2=Porque hace sol, y el sol puede hacer que los nanomateriales se agiten y exploten.
+
+//Mission 4
+sit1_mis3_1=MISIÓN 4:
+sit1_mis3_2=Elija el nivel de agua que utiliza la máquina.
+sit1_mis3_quiz1_fact=¿Qué nivel de agua utilizaría para cortar la piedra?
+sit1_mis3_quiz1_option1=Poca cantidad de agua. 
+sit1_mis3_quiz1_option2=Cantidad de agua media.
+sit1_mis3_quiz1_option3=Gran cantidad de agua.
+
+//Mission 5
+sit1_mis4_1=MISIÓN 5:
+sit1_mis4_2=El depósito de agua está lleno y hay que vaciarlo.
+sit1_mis4_quiz1_fact=¿Dónde debe vaciarse el agua?
+sit1_mis4_quiz1_option1=El suelo. 
+sit1_mis4_quiz1_option2=En un contenedor de residuos.
+sit1_mis4_3=Coge el cubo y colócalo en el lugar adecuado para verter el agua en él.
+sit1_mis4_quiz2_fact=¿Qué se hace con el contenedor de residuos?
+sit1_mis4_quiz2_option1=Páselo por un sistema de filtrado y deseche.
+sit1_mis4_quiz2_option2=Úsalo para regar el césped.
+sit1_mis4_quiz2_option3=Vierte el agua en el siguiente canal.
+
+//Mission 6
+sit1_mis5_1=MISIÓN 6:
+sit1_mis5_2=La tarea de serrado ha terminado y hay que limpiar la máquina.
+sit1_mis5_3=¿Cómo debe limpiarse la máquina?
+sit1_mis5_4=Seleccione uno de los instrumentos limpios de la derecha.
+sit1_mis5_5=¡Ha completado la SITUACIÓN 1!
+
+
+------------------------------------------------------------------------------------
+
+
+//SITUATION 2
+//Title and description
+sit2=2.	Aplicación en función del nanoproducto en una fábrica
+sit2_desc=En esta situación, se aplicarán diferentes productos a la piedra natural en la fábrica. Deben tomarse las medidas correctas para evitar poner en peligro el producto y nuestra salud.
+
+//Intro
+sit2_intro1=Bienvenido a la SITUACIÓN 2.
+sit2_intro2=Aplicación en función del nanoproducto en una fábrica
 
 //Mission 2
-sit9_mis2_1=MISIÓN 2:
-sit9_mis2_2=Comprueba la piscina antes de aplicar el producto.
-sit9_mis2_quiz_fact=¿Se puede aplicar el producto antideslizante en aerosol con la suciedad presente en la piedra?
-sit9_mis2_quiz_res=¡Mira mejor!
+sit2_mis2_1=MISIÓN 2:
+sit2_mis2_2=Mantenga ordenados los estantes de productos químicos. 
+sit2_mis2_3=Mira la estantería de la derecha y coloca los tarros en el mismo orden de la derecha.
+sit2_mis2_4=Para agarrar un objeto utiliza el gatillo del dedo corazón.
+sit2_check=Comprobando la estantería...
+sit2_tidy=Así no se ordena una estantería de productos peligrosos. 
+sit2_correct=¡Ahora es un placer mirar la estantería!
+sit2_mis2_quiz1_fact=Seleccione los pasos siguientes para completar la tarea:
+sit2_mis2_quiz1_option1=Friega el suelo y pon un poco de ambientador para que huela bien.
+sit2_mis2_quiz1_option2=Colocar en orden un dossier con las fichas de datos de seguridad de los productos.
+sit2_mis2_quiz1_option3=Coloque los productos por orden alfabético para que sea más fácil encontrarlos.
+sit2_mis2_quiz1_option4=Deseche los productos que estén en mal estado.
+sit2_mis2_quiz1_option5=Llame al gestor de residuos para retirar los productos que estén en mal estado.
+
+//Mission 3
+sit2_mis3_1=MISIÓN 3:
+sit2_mis3_2=Pongamos a prueba sus conocimientos sobre los productos a utilizar.
+sit2_mis3_quiz1_fact=Selecciona el significado de la foto: 
+sit2_mis3_quiz1_option1=Nocivo/Irritante
+sit2_mis3_quiz1_option2=Inflamable
+sit2_mis3_quiz1_option3=Gas comprimido
+sit2_mis3_quiz1_option4=Tóxico
+sit2_mis3_quiz1_option5=Peligro para la salud
+sit2_mis3_quiz1_option6=Corrosivo
+sit2_mis3_quiz1_option7=Peligroso para el medio ambiente
+sit2_mis3_quiz1_option8=Explosivo
+sit2_mis3_quiz1_option9=Oxidante
+
+//Mission 4
+sit2_mis4_1=MISIÓN 4:
+sit2_mis4_2=Comprueba que tu pareja hace un buen uso de los productos. 
+sit2_mis4_3="Qué pasa hombre, acabo de aplicar el repelente de agua. 
+sit2_mis4_4=¿Puedes ayudarme con el antifúngico?"
+sit2_mis4_5="¡Genial! Simplemente vierta el producto en la cuenca allí.  
+sit2_mis4_6=Es el que usé antes para el repelente al agua". 
+sit2_mis4_quiz1_fact=¿Cuál es el siguiente paso que debe dar?
+sit2_mis4_quiz1_option1=Escuche al trabajador y comience inmediatamente con la aplicación del antifúngico.  
+sit2_mis4_quiz1_option2=Limpie primero el recipiente de pintura y la brocha para no mezclar los productos.
+sit2_mis4_7=Es importante limpiar previamente para que los residuos de nanoproductos no se mezclen.
+sit2_mis4_quiz2_fact=Selecciona los errores que observes en la escena:
+sit2_mis4_quiz2_option1=El producto no debe verterse en el suelo.
+sit2_mis4_quiz2_option2=La pareja debe comer al mismo tiempo que se aplica el producto, para ahorrar tiempo.
+sit2_mis4_quiz2_option3=Los productos deben aplicarse mezclados para que sean más eficaces. 
+sit2_mis4_quiz2_option4=El colega debe llevar mascarilla y guantes.
+sit2_mis4_8=¡Ha completado la SITUACIÓN 2!
+
+
+----------------------------------------------------------------------------------------------
+
+
+//SITUATION 3
+//Title and description
+sit3=3.	Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla
+sit3_desc=En esta situación, el usuario tendrá que hacer una mezcla de polvo en una matriz líquida para aplicarla en un entorno de construcción.
+
+//Intro
+sit3_intro1=Bienvenido a la SITUACIÓN 3.
+sit3_intro2=Vertido de polvo de nanomaterial en una matriz líquida para crear una mezcla.
+
+//Mission 2
+sit3_mis2_1=MISIÓN 2:
+sit3_mis2_2=Elija la ubicación de la tarea de mezcla.
+sit3_mis2_quiz1_fact=Compruebe las condiciones meteorológicas y decida dónde debe realizarse la tarea:
+sit3_mis2_quiz1_option1=Aquí está bien.
+sit3_mis2_quiz1_option2=Hace viento, es más seguro hacerlo bajo techo.
+
+//Mission 3
+sit3_mis3_1=MISIÓN 3:
+sit3_mis3_2=Mezcla del polvo en la matriz líquida.
+sit3_mis3_quiz1_fact=¿Qué producto debe introducirse primero?
+sit3_mis3_quiz1_option1=Matriz líquida. 
+sit3_mis3_quiz1_option2=Polvo.
+sit3_mis3_quiz2_fact=¿Cuál es el movimiento adecuado del agitador?
+sit3_mis3_quiz2_option1=Mantenga el agitador en un punto constante dentro del recipiente.
+sit3_mis3_quiz2_option2=Mueva el agitador en todas las alturas del recipiente con una trayectoria circular, para romper eficazmente los agregados.
+sit3_mis3_quiz2_option3=Mueva el agitador en círculos a una altura constante en el recipiente.
+sit3_mis3_quiz3_fact=Cuando se forman agregados, ¿qué nivel de velocidad debe utilizarse?
+sit3_mis3_quiz3_option1=1
+sit3_mis3_quiz3_option2=2
+sit3_mis3_quiz3_option3=3
+sit3_mis3_quiz4_fact=¿Y cuando los agregados se rompen y la mezcla parece más homogénea?
+
+//Mission 4
+sit3_mis4_1=MISIÓN 4:
+sit3_mis4_2=La mezcla ha terminado.
+sit3_mis4_quiz1_fact=¿Qué paso hay que dar a continuación?
+sit3_mis4_quiz1_option1=Abandona el lugar y comienza otra situación. 
+sit3_mis4_quiz1_option2=Limpiar los objetos utilizados para la mezcla. 
+sit3_mis4_quiz2_fact=¿Qué objetos deben limpiarse?
+sit3_mis4_quiz2_option1=Dispositivo de agitación.
+sit3_mis4_quiz2_option2=Estanterías.
+sit3_mis4_quiz2_option3=El suelo.
+sit3_mis4_quiz2_option4=Contenedores más ligeros.
+sit3_mis4_quiz2_option5=La escala.
+sit3_mis4_3=Has completado la SITUACIÓN 3.
+
+
+----------------------------------------------------------------------------------------------
+
+
+//SITUATION 4
+//Title and description
+sit4=4.	Nanomaterial aplicado con pistola pulverizadora sobre una superficie de piedra natural
+sit4_desc=Se trata de preparar una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora. La aplicación tendrá lugar en una piscina y las condiciones ambientales no serán óptimas.
+
+//Intro
+sit4_intro1=Welcome to SITUATION 4.
+sit4_intro2=Prepare una zona de trabajo al aire libre donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora.
+
+//Mission 3
+sit4_mis2_1=MISIÓN 3:
+sit4_mis2_2=Compruebe el lugar y las condiciones meteorológicas antes de aplicar el producto.
+sit4_mis2_3=Echa un vistazo.
+sit4_mis2_quiz1_fact=¿Qué debe hacer ahora?
+sit4_mis2_quiz1_option1=Dígale al dueño que debe mover el coche para aplicar el producto. 
+sit4_mis2_quiz1_option2=Aplique el producto. No pasará nada si cae sobre el coche.
+sit4_mis2_quiz2_fact=¿Por qué?
+sit4_mis2_quiz2_option1=El coche es nuevo y no queremos que se ensucie.  
+sit4_mis2_quiz2_option2=Las pequeñas gotas de producto podrían adherirse a la superficie del cristal y no eliminarse posteriormente. 
+sit4_mis2_quiz2_option3=Si el producto entra en contacto con las ruedas del coche, éstas podrían explotar debido a la sobrepresión causada.
+sit4_mis2_4=¡Hay que proteger el coche!
+sit4_mis2_5=Acciona el botón para hacerlo. 
+sit4_mis2_6=Mover el coche...
+sit4_mis2_7=El coche se movió correctamente.
+
+//Mission 4
+sit4_mis3_1=MISIÓN 4:
+sit4_mis3_2=Debe aplicar el producto. 
+sit4_mis3_3=Tu pareja tiene algo que decirte. 
+sit4_mis3_quiz1_fact=Oye, ¿has visto qué gafas me compré la semana pasada?
+sit4_mis3_quiz1_option1=¡Qué chulos son!
+sit4_mis3_quiz1_option2=No deberías usar eso. 
+sit4_mis3_quiz2_fact=¿Por qué? Deberías llevar las tuyas, así no te molestará el sol. 
+sit4_mis3_quiz2_option1=Sí, tienes razón. Las traeré ahora mismo.
+sit4_mis3_quiz2_option2=Deberíamos llevar las gafas de trabajo, por nuestra seguridad. 
+sit4_mis3_4=Los nanoproductos pueden entrar en los ojos y dañarlos.
+
+//Mission 5
+sit4_mis4_1=MISIÓN 5:
+sit4_mis4_2=El producto ya se ha aplicado.  
+sit4_mis4_3=Es hora de comer algo. 
+sit4_mis4_quiz1_fact=¡Salud por un trabajo bien hecho! 
+sit4_mis4_quiz1_option1=¡Brindemos!
+sit4_mis4_quiz1_option2=No se debe comer con los guantes que han entrado en contacto con el producto. Es peligroso. 
+sit4_mis4_4=Ahora puedes comer.
+sit4_mis4_5=Toma algo de comer... 
+sit4_mis4_6=Es hora de volver al trabajo.
+sit4_mis4_quiz2_fact=¿Qué debemos hacer para poner todo en orden?
+sit4_mis4_quiz2_option1=Quitarnos la mascarilla. Hace mucho calor y podríamos sufrir lipotimia.  
+sit4_mis4_quiz2_option2=Debes llevar una mascarilla para protegerte de los productos que se aplican. Y no lo dejes en el suelo, podría haber insectos u otras sustancias en el suelo. 
+sit4_mis4_8=Mmmm... ¡Riquísimo y seguro!
+sit4_mis4_7=¡Has completado la SITUACIÓN 4!
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 5
+//Title and description
+sit5=5.	Nanomaterial fijado en una matriz sólida que se perfora
+sit5_desc=En esta escena, el trabajo consiste en preparar un entorno de construcción para perforar la superficie de piedra revestida con el fin de colocar el cableado eléctrico de las luminarias exteriores.  Centrados en la prevención de riesgos derivados de la generación de nanomateriales.
+
+//Intro
+sit5_intro1=Bienvenido a la SITUACIÓN 5.
+sit5_intro2=Nanomaterial fijado en una matriz sólida que se perfora.
+
+//MISSION 2
+sit5_mis2_1=MISIÓN 2:
+sit5_mis2_2=Comprobación de la seguridad del andamio.
+sit5_mis2_quiz1_fact=¿Cuál es el primer paso para poder utilizar un andamio con seguridad?
+sit5_mis2_quiz1_option1=Comprueba que no tenga ningún fallo y que aparezca el aviso "Seguro de usar".
+sit5_mis2_quiz1_option2=Observar superficialmente y empezar a trabajar lo antes posible. 
+sit5_mis2_quiz2_fact="¡Hey tío, es hora de trabajar! ¡Vamos arriba!"
+sit5_mis2_quiz2_option1=Vale, sí. Vámonos.
+sit5_mis2_quiz2_option2=No, se trata de un andamio móvil. Nunca se debe acceder al andamio hasta que todas las ruedas estén bloqueadas para evitar movimientos.
+sit5_mis2_3=Ahora, es el momento de subir. 
+
+//MISSION 3
+sit5_mis3_1=MISIÓN 3:
+sit5_mis3_2=Prepare la zona de trabajo.
+sit5_mis3_quiz1_fact=¿Cuál debería ser la siguiente tarea a realizar?
+sit5_mis3_quiz1_option1=Selecciona las herramientas y empieza a taladrar agujeros en la pared.
+sit5_mis3_quiz1_option2=Proteja la placa de la contaminación por residuos con láminas de polietileno y cinta aislante.
+sit5_mis3_3=Haga clic en el botón para colocar la lámina.
+
+//MISSION 4
+sit5_mis4_1=MISIÓN 4:
+sit5_mis4_2=Seleccione las herramientas de perforación. 
+sit5_mis4_3=Elige las herramientas que creas que vas a necesitar para taladrar agujeros en la pared.
+sit5_mis4_4=Para ello, toque el objeto con la mano y pulse el gatillo del dedo corazón.
+
+//MISSION 5
+sit5_mis5_1=MISIÓN 5:
+sit5_mis5_2=El trabajo está terminado. 
+sit5_mis5_quiz1_fact=¿Qué hacer a continuación?
+sit5_mis5_quiz1_option1=Vamos directamente a comer.
+sit5_mis5_quiz1_option2=Limpie la zona de trabajo. 
+sit5_mis5_3=¡Has completado la SITUACIÓN 5!
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 6
+//Title and description
+sit6=6.	Aplicación de diferentes productos en fábrica (parte II)
+sit6_desc=Prepare un área de trabajo interior donde se aplicarán los nanomateriales a las superficies de piedra con una pistola pulverizadora y un rodillo de pintura. Esto se hará en la fábrica de piedra natural.
+
+/Intro
+sit6_intro1=Bienvenido a la SITUACIÓN 6.
+sit6_intro2=Prepare una zona de trabajo interior donde se vayan a aplicar los nanomateriales a las superficies de piedra con una pistola pulverizadora.
+
+//Mission 2
+sit6_mis2_1=MISIÓN 2:
+sit6_mis2_2=Preparar la superficie para la aplicación del producto. 
+sit6_mis2_quiz1_fact=¿Cuál es el primer paso en la preparación de la superficie?
+sit6_mis2_quiz2_fact=¿Qué hacer a continuación?
+sit6_mis2_quiz3_fact=¿Y para terminar la preparación de la superficie?
+sit6_mis2_quiz_option1=Limpie la superficie con agua o acetona.
+sit6_mis2_quiz_option2=Ponte la mascarilla para el polvo y guantes de nitrilo o látex.
+sit6_mis2_quiz_option3=Lije la superficie.
+
+//Mission 3
+sit6_mis3_1=MISIÓN 3:
+sit6_mis3_2=Compruebe que la sala dispone de las condiciones de ventilación necesarias.
+sit6_mis3_3=Encuentra algunos de los conductos de ventilación.
+sit6_mis3_4=Select it with the trigger of your index finger to continue. 
+sit6_mis3_quiz1_fact=El sistema parece estar apagado, ¿cuál debe ser el siguiente paso?
+sit6_mis3_quiz1_option1=Mantenlo apagado para no contaminar el medio ambiente. 
+sit6_mis3_quiz1_option2=Enciéndelo, la exposición a los nanomateriales puede ser peligrosa para la salud. 
+
+//Mission 4
+sit6_mis4_1=MISIÓN 4:
+sit6_mis4_2=Gestión del espacio de trabajo una vez finalizada la tarea.
+sit6_mis4_quiz1_fact=Ya se ha aplicado la pintura, ¿qué hay que hacer a continuación?
+sit6_mis4_quiz1_option1=Limpia y ordena el espacio y los materiales utilizados.   
+sit6_mis4_quiz1_option2=Déjalo todo y vete a comer, que se hace tarde. 
+sit6_mis4_quiz2_fact=¿Dónde deben depositarse estos residuos?
+sit6_mis4_quiz2_option1=En una papelera o un contenedor.
+sit6_mis4_quiz2_option2=Contenedor especial para disolventes usados. 
+sit6_mis4_3=¡Has completado la SITUACIÓN 6!
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 7
+//Title and description
+sit7=7.	Mezclas de polvo y aire en una fábrica.  
+sit7_desc=Esta escena se desarrolla en una fábrica de piedra natural. Se pide que se corten piedras para restaurar una iglesia. El objetivo es probar la toma de decisiones para evitar que los nanomateriales afecten a los trabajadores de la fábrica. 
+
+/Intro
+sit7_intro1=Bienvenidos a la SITUACIÓN 7.
+sit7_intro2=El objetivo de esta misión es cortar bloques de piedra para una iglesia. 
+
+//Mission 2
+sit7_mis2_1=MISIÓN 2:
+sit7_mis2_2=Debe proporcionar las características de corte correctas a la máquina de corte.
+sit7_mis2_3=Puede comprobar las dimensiones de los bloques en el mapa de la pizarra de la derecha. 
+sit7_mis2_4=Después de comprobarlo, ve a la sala de máquinas, para ayudar a tus compañeros. 
+sit7_mis2_5=Introduzca las medidas correctas en el ordenador. 
+sit7_mis2_quiz1_fact=¿Cuál es el valor de la altura (en cm)?
+sit7_mis2_quiz2_fact=¿Cuál es el valor de la longitud (en cm)?
+sit7_mis2_quiz3_fact=¿Cuál será el valor de la anchura de la parte superior (en cm)?
+sit7_mis2_quiz4_fact=¿Cuál será el valor de la anchura del valor inferior (en cm)?
+sit7_mis2_quiz_option1=30
+sit7_mis2_quiz_option2=60
+sit7_mis2_quiz_option3=35
+sit7_mis2_quiz_option4=40
+
+//Mission 3
+sit7_mis3_1=MISIÓN 3:
+sit7_mis3_2=Toma de decisiones en una situación peligrosa.
+sit7_mis3_3=Se produce una peligrosa mezcla en aerosol de polvo de piedra y oxígeno.
+sit7_mis3_4=SISTEMA DE REFRIGERACIÓN ¡ALERTA! ¡ALERTA DEL SISTEMA DE EXTRACCIÓN!
+sit7_mis3_quiz_fact=¿Qué hacer en este caso?
+sit7_mis3_quiz_option1=Abre las ventanas y las puertas y sigue trabajando para entregar el material a tiempo.
+sit7_mis3_quiz_option2=Siga cortando piezas mientras avanza y vea qué pasa.
+sit7_mis3_quiz_option3=Detener la sierra y tratar de resolver el problema.
+
+//Mission 4
+sit7_mis4_1=MISIÓN 4:
+sit7_mis4_2=Las piedras talladas ya se pueden ver en un palé. Y tienen que recibir una capa protectora debido a la contaminación causada por el polvo fino.
+sit7_mis4_quiz_fact=¿Cuál es el primer paso en esta situación?
+sit7_mis4_quiz_option1=Aplicar el producto.
+sit7_mis4_quiz_option2=Oler el producto para ver si está caducado.
+sit7_mis4_quiz_option3=Lea la ficha técnica y de seguridad.
+sit7_mis4_quiz_option4=Rocíe todas las piedras en la paleta
+sit7_mis4_3=¡Has completado la SITUACIÓN 7!
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 8
+//Title and description
+sit8=8.	Gestión de nanoresiduos, protección del medio ambiente.
+sit8_desc=Esta misión tendrá lugar en la fábrica de piedra. El usuario tendrá que comprobar que el entorno de trabajo es seguro y que todos los sistemas de seguridad funcionan correctamente. 
+
+/Intro
+sit8_intro1=Bienvenidos a la SITUACIÓN 8.
+sit8_intro2=Gestión de nanoresiduos, protección del medio ambiente. 
+
+//Mission 2
+sit8_mis2_1=MISIÓN 2:
+sit8_mis2_2=Compruebe el sistema de extracción de polvo. 
+sit8_mis2_3=Aún quedan varias horas hasta el próximo mantenimiento. 
+sit8_mis2_4=Pero el filtro está lleno. 
+sit8_mis2_quiz1_fact=¿Hay que cambiar el filtro?
+sit8_mis2_quiz1_option1=Sí, el filtro está lleno.
+sit8_mis2_quiz1_option2=No, debe esperar al próximo mantenimiento.
+sit8_mis2_quiz2_fact=Seleccione el orden correcto de los pasos a seguir en el cambio de filtro:
+sit8_mis2_quiz2_option2=Informar a la dirección de la fábrica
+sit8_mis2_quiz2_option6=Desactivar el sistema
+sit8_mis2_quiz2_option8=Asegure el sistema contra el reinicio involuntario
+sit8_mis2_quiz2_option7=Carretilla elevadora de pedidos con travesaño
+sit8_mis2_quiz2_option5=Cerrar la bolsa del filtro
+sit8_mis2_quiz2_option4=Retire la bolsa filtrante para su eliminación final (contenedor cerrado y hermético al polvo)
+sit8_mis2_quiz2_option1=Instalación de una nueva bolsa filtrante
+sit8_mis2_quiz2_option3=Reiniciar el sistema de extracción
+
+//Mission 3
+sit8_mis3_1=MISIÓN 3:
+sit8_mis3_2=Compruebe la concentración de polvo en el aire.
+sit8_mis3_3=Hay demasiado polvo en el aire.
+sit8_mis3_quiz_fact=¿Es necesario medir la concentración de nanopartículas en el aire en varios puntos de la fábrica?
+sit8_mis3_quiz_option1=No, el aire y, por tanto, la concentración de nanopartículas se distribuye homogéneamente por toda la fábrica.
+sit8_mis3_quiz_option2=Sí, es necesario para la seguridad de los trabajadores y el medio ambiente.
+sit8_mis4_4=¡Has completado la SITUACIÓN 8!
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 9
+//Title and description
+sit9=9.	Nanomaterial aplicado como aerosol
+sit9_desc=En esta escena habrá que terminar la piscina con spray antideslizante. Esto se hará en la escena en la que se está terminando la construcción de una casa. Tendremos que realizar los pasos correctos para no dañar nuestra salud.
+
+//Intro
+sit9_intro1=Bienvenidos a la SITUACIÓN 9.
+sit9_intro2=En esta escena tendrás que arreglar la piscina usando aerosol.
+
+//Mission 3
+sit9_mis2_1=MISIÓN 3:
+sit9_mis2_2=Compruebe la piscina antes de aplicar el producto.
+sit9_mis2_quiz_fact=¿Puede aplicarse el producto antideslizante en aerosol con la suciedad presente en la piedra?
 sit9_mis2_3=Echa un vistazo.
-sit9_mis2_4=La piscina tiene que ser limpiada previamente.
-sit9_mis2_5=Pulsa el botón para conseguirlo. 
+sit9_mis2_4=Hay que limpiar la piscina.
+sit9_mis2_5=Acciona el botón para hacerlo. 
 sit9_mis2_6=Limpiando...
 sit9_mis2_7=La piscina está limpia y preparada.
 
-
-//Mission 3
-sit9_mis3_1=MISIÓN 3:
+//Mission 4
+sit9_mis3_1=MISIÓN 4:
 sit9_mis3_2=Debe aplicar el producto para mejorar las propiedades antideslizantes de la superficie. 
 sit9_mis3_quiz_fact=La aplicación del producto debe...
-sit9_mis3_quiz_option1=...empezar desde la periferia del borde de la cubierta de la piscina y luego la aplicación debe continuar hacia arriba.
+sit9_mis3_quiz_option1=...empezar desde el borde de la cubierta de la piscina y continuar hacia arriba.
 sit9_mis3_quiz_option2=...hacerse de forma aleatoria.
-sit9_mis3_quiz_res=¿Estás seguro?
+
+//Mission 5
+sit9_mis4_1=MISIÓN 5:
+sit9_mis4_2=El producto ya se ha aplicado.
+sit9_mis4_quiz_fact="¡Tu acción no se ajusta a las buenas prácticas de trabajo!"
+sit9_mis4_quiz_option1=No, está bien, ya puedo irme.  ¡He terminado con la aplicación del producto!
+sit9_mis4_quiz_option2=¿Por qué, qué he hecho mal? 
+sit9_mis4_3=La luz solar directa puede sobrecalentar las latas y podrían convertirse en misiles con la posibilidad de hacerle daño.
+sit9_mis4_4=Debe meterlos en la jaula de seguridad y llevarla al almacén. 
+sit9_mis4_5_1=¡Muy bien!
+sit9_mis4_5_2=Ahora, personal formado y con el equipo de protección personal adecuado realizará la punción en una zona designada para esta actividad y se retirará todo el contenido restante para luego poder reciclarlo.
+sit9_mis4_6=¡Has completado la SITUACIÓN 9!
+sit9_mis4_7=Agarre con el gatillo del dedo corazón y suelte para colocar las latas en la cesta.
+
+
+-----------------------------------------------------------------------------------------
+
+
+//SITUATION 10
+//Title and description
+sit10=10. Limpieza o eliminación de residuos fuera del horario laboral
+sit10_desc=En esta escena, el usuario tendrá que tomar decisiones sobre los residuos generados en una fábrica de piedra natural.
+
+//Intro
+sit10_intro1=Bienvenidos a SITUACIÓN 10.
+sit10_intro2=Limpieza o eliminación de residuos fuera del horario laboral
+
+//Mission 2
+sit10_mis2_1=MISIÓN 2:
+sit10_mis2_2=Seleccione la forma correcta de eliminar los filtros HEPA sucios y los materiales de desecho producidos por la limpieza de los sistemas de extracción y filtrado.
+sit10_mis2_3=Elija la bolsa de basura correcta que debe utilizarse.
+sit10_mis2_4=Toca la bolsa y utiliza el gatillo del dedo corazón para hacerlo.
+sit10_mis2_5=Ahora, elija correctamente el contenedor de residuos que debe utilizar (salga al exterior).
+
+//Mission 3
+sit10_mis3_1=MISIÓN 3:
+sit10_mis3_2=Limpiar el sistema de tratamiento y depuración del agua. 
+sit10_mis3_quiz_fact=¿Cuál es el lugar adecuado para eliminar los lodos de depuradora?
+sit10_mis3_quiz_option1=Alcantarillado.
+sit10_mis3_quiz_option2=Un cubo de basura normal.
+sit10_mis3_quiz_option3=Depósito de residuos líquidos peligrosos.
 
 //Mission 4
-sit9_mis4_1=MISIÓN 4:
-sit9_mis4_2=El producto ha sido aplicado.
-sit9_mis4_quiz_fact=¡Su acción no se ajusta a las buenas prácticas de trabajo!
-sit9_mis4_quiz_option1=No, está bien, ya puedo irme. ¡He terminado con la aplicación del producto!
-sit9_mis4_quiz_option2=¿Por qué, qué he hecho mal? 
-sit9_mis4_quiz_res=No, te equivocas.
-sit9_mis4_3=La luz solar directa puede sobrecalentar las latas y éstas podrían convertirse en misiles con la posibilidad de hacerle daño. 
-sit9_mis4_4=Debe ponerlos en la jaula de seguridad y llevarla en el almacén. 
-sit9_mis4_5=A continuación, personal capacitado y con el equipo de protección personal adecuado realizará la punción en una zona designada para esta actividad y se retirará el contenido restante para que pueda ser reciclado.
-sit9_mis4_6=¡Has completado la SITUACIÓN 9!
-sit9_mis4_7=Agarra con el gatillo de tu dedo corazón y suelta para dejar los productos en la cesta.
+sit10_mis4_1=MISIÓN 4:
+sit10_mis4_2=Seleccionar el tratamiento correcto de los EPI usados.
+sit10_mis4_quiz_fact=¿Qué debe hacer con ...?
+sit10_mis4_quiz_option1=Desechado.
+sit10_mis4_quiz_option2=Limpiado por sistema de aspiración.
+sit10_mis4_quiz_option3=Lavado.
+sit10_mis4_quiz_option4=Se limpia con un paño húmedo.

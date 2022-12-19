@@ -1671,7 +1671,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: EN
+          m_StringArgument: DE
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2065383477}
@@ -1704,14 +1704,14 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: English
+          m_StringArgument: Deutsch
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1957833514}
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 5bb4b539994f31546975b2b2bbeb05a4,
+          m_ObjectArgument: {fileID: 21300000, guid: 9e64a2853ac48384aa3db30892e920a3,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
@@ -3188,7 +3188,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: EN
+          m_StringArgument: ES
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2065383477}
@@ -3221,14 +3221,14 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: English
+          m_StringArgument: "Espa\xF1ol"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1957833514}
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 5bb4b539994f31546975b2b2bbeb05a4,
+          m_ObjectArgument: {fileID: 21300000, guid: c04d48ef435e6224b91218d8de22b29f,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
@@ -3438,7 +3438,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: EN
+          m_StringArgument: EL
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2065383477}
@@ -3471,14 +3471,14 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: English
+          m_StringArgument: "\u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC"
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1957833514}
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 5bb4b539994f31546975b2b2bbeb05a4,
+          m_ObjectArgument: {fileID: 21300000, guid: bdaf286c099f7584f8faca2d46763c90,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
@@ -7069,7 +7069,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: EN
+          m_StringArgument: IT
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2065383477}
@@ -7102,14 +7102,14 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: English
+          m_StringArgument: Italiano
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1957833514}
         m_MethodName: set_sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 5bb4b539994f31546975b2b2bbeb05a4,
+          m_ObjectArgument: {fileID: 21300000, guid: 14b2618ae71774143a506007800357f6,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
