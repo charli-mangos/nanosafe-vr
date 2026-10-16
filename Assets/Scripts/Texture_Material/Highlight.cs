@@ -79,7 +79,7 @@ public class Highlight : XRSimpleInteractable
     {
         if(col.gameObject.tag == "GameController")
         {
-            PlayerPrefs.SetString("actualHighLight", "None");
+            PlayerPrefs.SetString("actual_HighLight", "None");
             isHover = false;
         }
     }
