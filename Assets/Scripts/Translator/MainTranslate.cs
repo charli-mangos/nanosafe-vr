@@ -32,32 +32,35 @@ public class MainTranslate : MonoBehaviour
 
         Fields.Clear();
 
-        var textAsset = Resources.Load(@"Lang/" + lang); //no .txt needed
+        var textAsset = Resources.Load<TextAsset>(@"Lang/" + lang); //no .txt needed
 
-        string allTexts = "";
         if (textAsset == null)
         {
-            textAsset = Resources.Load(@"Lang/en") as TextAsset; //no .txt needed
+            textAsset = Resources.Load<TextAsset>(@"Lang/en"); //no .txt needed
         }
 
         if (textAsset == null)
         {
             Debug.LogError("File not found for I18n: Assets/Resources/Lang/" + lang + ".txt");
+            return;
         }
 
-        allTexts = (textAsset as TextAsset).text;
-
-        string[] lines = allTexts.Split(new string[] { "\r\n", "\n" }, StringSplitOptions.None);
+        string[] lines = textAsset.text.Split(new string[] { "\r\n", "\n" }, StringSplitOptions.None);
 
         string key, value;
         for (int i = 0; i < lines.Length; i++)
         {
-            if (lines[i].IndexOf("=") >= 0 && !lines[i].StartsWith("#"))
+            if (lines[i].IndexOf("=") >= 0 && !lines[i].StartsWith("#") && !lines[i].StartsWith("//"))
             {
                 key = lines[i].Substring(0, lines[i].IndexOf("="));
                 value = lines[i].Substring(lines[i].IndexOf("=") + 1, lines[i].Length - lines[i].IndexOf("=") - 1).Replace("\\n", Environment.NewLine);
 
-                Fields.Add(key, value);
+                if (Fields.ContainsKey(key))
+                {
+                    Debug.LogWarning("Duplicate I18n key '" + key + "' in Lang/" + lang + ".txt; keeping the last value");
+                }
+
+                Fields[key] = value;
             }
         }
     }
