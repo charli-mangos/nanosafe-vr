@@ -21,7 +21,6 @@ public class HideOnBack : MonoBehaviour
     void Update()
     {
         float angle = Vector3.Angle((transform.position - camera.transform.position), transform.forward);
-        Debug.Log("Angle: " + angle);
 
         renderer.enabled = angle < 90;
     }

@@ -33,12 +33,6 @@ public class Mission : MonoBehaviour
         }
 
         canvas.SetActive(true);
-
-        /*if (canvas.GetComponent<Instructions>())
-        {
-            canvas.GetComponent<Instructions>().startInstructions = true;
-            canvas.GetComponent<Instructions>().setNextInstructions();
-        }*/
     }
 
     // Update is called once per frame

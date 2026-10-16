@@ -21,11 +21,6 @@ public class FinishAnimation : MonoBehaviour
     {
         if (col.gameObject.GetComponent<Animator>())
         {
-            /*if (animationName != null)
-            {
-                col.gameObject.GetComponent<Animator>().Play(animationName);
-            }*/
-
             if (instrManager)
             {
                 if (instrManager.GetComponent<ChangeTexture>())

@@ -68,8 +68,6 @@ public class GameController : MonoBehaviour
     public void addMistake()
     {
         mistakes += 1;
-
-        //Debug.Log(mistakes);
     }
 
     public void setNextMission()

@@ -66,35 +66,19 @@ public class MultipleSelectionQuiz : MonoBehaviour
 
     void SetNextQuestion()
     {
-        //Randomizer
-        //currentQuestion = questions[Random.Range(0, questions.Count)];
-
         correctResponse = new List<string>();
         selected = new List<string>();
 
         if (unanswered.Count > 0)
         {
             currentQuestion = unanswered[0];
-            Debug.Log(currentQuestion.fact);
 
             questFact.text = MainTranslate.Fields[currentQuestion.fact];
-
 
             if (imgComp)
             {
                 imgComp.sprite = currentQuestion.imageFact;
             }
-
-            //If there is extra data update it
-            /*if (extraText)
-            {
-                extraText.text = "";
-
-                foreach (string dataID in currentQuest.extraData)
-                {
-                    extraText.text += "- " + MainTranslate.Fields[dataID] + Environment.NewLine;
-                }
-            }*/
 
             SetAnswerOptions();
         }

@@ -193,14 +193,4 @@ public class SelectItem : MonoBehaviour
             this.gameObject.GetComponent<InstantiateObj>().AddObj(obj);
         }
     }
-
-    /*IEnumerator RemoveObj()
-    {
-        yield return new WaitForSeconds(0.05f);
-
-        if (this.gameObject.GetComponent<InstantiateObj>())
-        {
-            this.gameObject.GetComponent<InstantiateObj>().RemoveObj();
-        }
-    }*/
 }

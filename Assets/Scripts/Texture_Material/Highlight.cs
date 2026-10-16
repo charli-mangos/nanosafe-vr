@@ -33,11 +33,6 @@ public class Highlight : XRSimpleInteractable
 
         if (isHover && actual == this.gameObject.name)
         {
-            //if (LayerMask.NameToLayer(m_Layer) == LayerMask.NameToLayer("FarHighlight"))
-            //{
-            //    this.gameObject.GetComponent<ChangeMaterial>().ReverseMaterial();
-            //}
-
             this.gameObject.layer = LayerMask.NameToLayer(m_Layer);
 
             foreach (var col in this.colliders)

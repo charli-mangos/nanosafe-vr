@@ -182,14 +182,6 @@ public class QuizController : MonoBehaviour
         }
 
         gameController.addMistake();
-
-        /*if (this.transform.parent.name == "FinalTest")
-        {
-            EventSystem.current.SetSelectedGameObject(null);
-            unanswered.Remove(currentQuest);
-
-            SetNextQuestion();
-        }*/
     }
 
     void CorrectAnswer(GameObject button)
@@ -208,11 +200,6 @@ public class QuizController : MonoBehaviour
         if (nextPanel)
         {
             nextPanel.SetActive(true);
-
-            /*if (nextPanel.GetComponent<Instructions>())
-            {
-                nextPanel.GetComponent<Instructions>().finishInstruction();
-            }*/
 
             this.gameObject.SetActive(false);
         }
