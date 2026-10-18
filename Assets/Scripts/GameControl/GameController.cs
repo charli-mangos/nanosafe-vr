@@ -6,7 +6,7 @@ using System.Linq;
 public class GameController : MonoBehaviour
 {
     public Mission[] missions;
-    private static List<Mission> uncompleted;
+    private List<Mission> uncompleted;
 
     //Current mission active
     private Mission currentMission;
