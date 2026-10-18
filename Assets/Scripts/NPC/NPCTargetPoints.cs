@@ -15,5 +15,4 @@ public class NPCTargetPoints
     public string stopAnimation;
 
     //Check if position is reached
-    //public bool isReached = false;
 }

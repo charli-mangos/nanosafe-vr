@@ -15,7 +15,6 @@ public class CameraFollow : MonoBehaviour
         target = Camera2Follow.transform;
     }
 
-
     void Update()
     {
         // Define my target position in front of the camera ->
@@ -25,7 +24,6 @@ public class CameraFollow : MonoBehaviour
         Quaternion LookAtRotation = Quaternion.LookRotation(-dir);
 
         // version 1: my object's rotation is always facing to camera with no dampening  ->
-        //transform.LookAt(transform.position + Camera2Follow.transform.rotation * Vector3.forward, Camera2Follow.transform.rotation * Vector3.up);
 
         // version 2 : my object's rotation isn't finished synchronously with the position smooth.damp ->
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, LookAtRotation.eulerAngles.y, transform.rotation.eulerAngles.z);

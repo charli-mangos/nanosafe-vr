@@ -56,7 +56,6 @@ public class NPCTargetPath : MonoBehaviour
         {
             this.gameObject.GetComponent<Animator>().Play(currentPoint.stopAnimation);
 
-            //currentPoint.isReached = true;
             notReached.Remove(currentPoint);
         }
     }
