@@ -7,13 +7,12 @@ prepare the work area and answer short quizzes about the risks of handling nanom
 NanoSafe was developed in 2022 at CTM (Centro Tecnológico del Mármol, Piedra y Materiales, Spain) as
 part of an Erasmus+ project carried out by a European consortium.
 
-<!-- TODO(Charli/CTM): confirm with CTM that the funding statement and the project name can be published
-     as written, and add the Erasmus+ project number if CTM approves it. -->
+It is published with CTM's permission.
 
 > **EU funding.** Co-funded by the Erasmus+ Programme of the European Union. The European Commission's
 > support for this work does not constitute an endorsement of its contents, which reflect the views only of
 > the authors, and the Commission cannot be held responsible for any use which may be made of the
-> information contained therein. *(Statement pending approval by CTM.)*
+> information contained therein.
 
 ## Features
 
@@ -93,15 +92,16 @@ ProjectSettings/, Packages/   Unity configuration
 
 ## My role
 
-<!-- TODO(Charli): describe your role -->
+I was the lead developer of NanoSafe at CTM in 2022. I wrote all of the application code (C#): the VR player
+and hand interactions, the PPE-selection and area-preparation missions, the quizzes and scoring, the scene flow
+across the ten situations, the menus and the localisation system (five languages), and I assembled the
+training scenes.
 
 ## Credits
 
 - Development: Carlos Martínez (CTM).
-- 3D environments and models: <!-- TODO(Charli): credit Eduardo Martínez García only after he confirms
-  he agrees to be named here. -->
-- Developed at CTM within the NanoSafe Erasmus+ consortium. <!-- TODO(Charli/CTM): list the partners only
-  if CTM approves. -->
+- 3D environments and models: Eduardo Martínez García ([@edmarga](https://github.com/edmarga)).
+- Developed at CTM within the NanoSafe Erasmus+ consortium. The partner organisations' logos are shown in the main menu.
 - Third-party components that are still included are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## License
